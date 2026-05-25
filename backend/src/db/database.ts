@@ -1,7 +1,10 @@
 import fs from 'fs';
 import path from 'path';
 
-const DB_FILE = path.join(__dirname, '../../dim-data.json');
+const SOURCE_FILE = path.join(__dirname, '../../dim-data.json');
+const IS_VERCEL = !!process.env.VERCEL;
+const TMP_FILE = '/tmp/dim-data.json';
+const DB_FILE = IS_VERCEL ? TMP_FILE : SOURCE_FILE;
 
 export interface SpecialtyRow {
   id: string;
@@ -77,6 +80,10 @@ interface DBData {
 // ── read / write ──────────────────────────────────────────────
 export function readDB(): DBData {
   try {
+    // On Vercel: copy source file to /tmp on first read
+    if (IS_VERCEL && !fs.existsSync(TMP_FILE) && fs.existsSync(SOURCE_FILE)) {
+      fs.copyFileSync(SOURCE_FILE, TMP_FILE);
+    }
     const data = JSON.parse(fs.readFileSync(DB_FILE, 'utf-8'));
     if (!data.universities) data.universities = [];
     if (!data.colleges) data.colleges = [];
