@@ -27,6 +27,17 @@ app.use('/admin', express.static(adminDir));
 app.get('/admin/*', (_, res) => res.sendFile(path.join(adminDir, 'admin.html')));
 
 app.get('/', (_, res) => res.json({ name: 'DİM Qəbul Köməkçisi API', status: 'ok', admin: '/admin' }));
+app.get('/debug', (_, res) => {
+  const fs = require('fs');
+  const adminDir2 = path.join(__dirname, '../public/admin');
+  res.json({
+    dirname: __dirname,
+    adminDir: adminDir2,
+    adminExists: fs.existsSync(adminDir2),
+    adminFiles: fs.existsSync(adminDir2) ? fs.readdirSync(adminDir2).slice(0,5) : [],
+    cwd: process.cwd(),
+  });
+});
 app.get('/api/health', (_, res) => res.json({ status: 'ok', time: new Date().toISOString() }));
 
 initDB();
