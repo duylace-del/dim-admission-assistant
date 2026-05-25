@@ -1,3 +1,5 @@
 module.exports = function(req, res) {
-  res.json({ pong: true, url: req.url });
+  res.setHeader('Content-Type', 'application/json');
+  res.statusCode = 200;
+  res.end(JSON.stringify({ pong: true, url: req.url }));
 };
