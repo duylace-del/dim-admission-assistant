@@ -1,0 +1,416 @@
+<!DOCTYPE>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="keywords" content="SDU - Sumqayıt Dövlət Universitetinin rəsmi portalı" />
+<meta name="description" content="SDU - Sumqayıt Dövlət Universitetinin rəsmi portalı" />
+<meta name="robots" content="FOLLOW,INDEX"/>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta property="og:title" content="" />
+<meta property="og:description" content="" /> 
+<title>SDU - Sumqayıt Dövlət Universitetinin rəsmi portalı</title>
+<link rel="stylesheet" href="/css/style.css?s=1" />
+<link rel="shortcut icon" href="/images/favicon.jpg" />
+<script src="/js/jquery-1.6.1.min.js"></script>
+<script src="/js/jquery.prettyPhoto.js" type="text/javascript" charset="utf-8"></script>
+<script src="/js/nicescroll.js"></script>
+<script src="/js/slide.js"></script>
+<script src="/js/main.js"></script>
+<script>
+$(document).ready(function(){
+	$("html").niceScroll();
+});
+</script>
+</head>
+<body>
+<section class="top_container">
+	<section class="top_wrapper">
+    	<div class="sdu_logo_section">
+				<a href="/az/"><div class="logo">
+				</div></a><a href="https://www.sdu.edu.az/az/203">
+                <div class="second_image">
+                    <img src="https://sdu.edu.az/images/yuxari_logo1.png">
+                </div>
+             </a><a href="https://www.sdu.edu.az/az/203">
+             <div class="second_image">
+                 <img src="https://sdu.edu.az/images/yuxari_logo2.png">
+             </div>
+          </a></div>        <div class="top_right">
+        	<div class="">
+            	<div class="search_block">
+			<form method="post" action="/az/search" autocomplete="off">
+                <div class="search_field">
+					<input type="text" name="search_word" placeholder="Axtarmaq istədiyiniz sözü daxil edin" value="" />
+					<div class="top_search_results"></div>
+				</div>
+                <div class="search_btn"><input type="submit" title="Axtar" value="" /></div>
+			</form>
+            </div>            	<div class="langs">
+				<form method="post">
+					<a href="/az"><input type="button" value="az" class="active" /></a>
+					<a href="/en"><input type="button" value="en" /></a>
+				</form>
+            </div>             
+            </div>
+            <div class="navs">
+                <ul>
+					<li><a href="/az/" class="home active" title="Əsas səhifə"></a></li>
+                    <li data-id="102"><a href="#">Haqqımızda</a><ul class="submenu" data-id="submenu_102"><li data-id="103"><a href="/az/103">Nizamnamə</a></li><li data-id="107"><a href="#">Strategiya</a><ul class="sub_submenu" data-id="submenu_107"><li data-id="115"><a href="/az/financing">Maliyyələşdirmə</a></li></ul></li><li data-id="8"><a href="/az/about_us">Tariximiz</a></li><li data-id="104"><a href="/az/Strategic_development_plan">Strateji inkişaf planı</a></li><li data-id="6509"><a href="/az/e_t_s">Elmi-tədqiqat strategiyası</a></li><li data-id="109"><a href="#">Kampus</a><ul class="sub_submenu" data-id="submenu_109"><li data-id="110"><a href="/az/educational_building ">Tədris korpusları</a></li><li data-id="113"><a href="/az/house_of_student">Tələbə evi</a></li></ul></li><li data-id="203"><a href="/az/203">Reytinq məlumatları</a></li></ul></li><li data-id="117"><a href="#">Struktur</a><ul class="submenu" data-id="submenu_117"><li data-id="1"><a href="#">Rəhbərlik</a><ul class="sub_submenu" data-id="submenu_1"><li data-id="11"><a href="/az/rector">Rektor</a></li><li data-id="12"><a href="/az/science_and_innovation">Elm və İnnovasiyalar üzrə prorektor </a></li><li data-id="14"><a href="/az/humanitarian_affairs">Sosial məsələlər və ictimaiyyətlə əlaqələr üzrə prorektor</a></li><li data-id="46"><a href="/az/academic_council">Elmi şura</a></li></ul></li><li data-id="2"><a href="#">Fakültələr</a><ul class="sub_submenu" data-id="submenu_2"><li data-id="22"><a href="/az/mathematics">Riyaziyyat</a></li><li data-id="23"><a href="/az/chemics">Təbiət Elmləri</a></li><li data-id="17"><a href="/az/economics">İqtisadiyyat və İdarəetmə</a></li><li data-id="21"><a href="/az/engineering">Mühəndislik</a></li><li data-id="19"><a href="/az/history">Tarix və coğrafiya</a></li><li data-id="20"><a href="/az/philology">Filologiya</a></li></ul></li><li data-id="3"><a href="#">Şöbələr</a><ul class="sub_submenu" data-id="submenu_3"><li data-id="32"><a href="/az/doctoral_and_masters">Magistratura şöbəsi</a></li><li data-id="31"><a href="/az/information_technology_center">İnformasiya Texnologiyaları şöbəsi</a></li><li data-id="27"><a href="/az/international_cooperation">Beynəlxalq əməkdaşlıq və strateji layihələr şöbəsi </a></li><li data-id="6517"><a href="/az/6517">İnsan resursları şöbəsi</a></li><li data-id="34"><a href="/az/agricultural">Təsərrüfat şöbəsi</a></li><li data-id="35"><a href="/az/civil_defense_and_fire_protection">Mülki Müdafiə, əməyin təhlükəsizliyi və yanğından mühafizə qərargahı</a></li><li data-id="6541"><a href="/az/6541">  Sənədlərlə iş şöbəsi</a></li><li data-id="24"><a href="/az/publishing">Redaksiya və nəşr işləri</a></li><li data-id="81"><a href="/az/81">Keyfiyyət təminatı və strategiya şöbəsi</a></li></ul></li><li data-id="184"><a href="#">Tərəfdaş institutlar</a><ul class="sub_submenu" data-id="submenu_184"><li data-id="185"><a href="/az/pmi_065">Polimer Materialları İnstitutu</a></li><li data-id="186"><a href="/az/nkpi_065">Y.H.Məmmədəliyev adına Neft-Kimya Prosesləri İnstitutu</a></li></ul></li><li data-id="98"><a href="#">Mərkəzlər</a><ul class="sub_submenu" data-id="submenu_98"><li data-id="159"><a href="/az/Heydar_Aliyev_Center">Heydər Əliyev Mərkəzi</a></li><li data-id="28"><a href="/az/curriculum">Tədris Metodiki Mərkəzi</a></li><li data-id="29"><a href="/az/scientific_library">Kitabxana İnformasiya Mərkəzi</a></li><li data-id="58"><a href="/az/career_center">Karyera və Məzunlarla İş Mərkəzi</a></li><li data-id="61"><a href="/az/61">Əlavə Təhsil Mərkəzi</a></li><li data-id="80"><a href="/az/80">İnklüziv Təhsil Mərkəzi</a></li><li data-id="216"><a href="/az/216">Dayanıqlı İnkişaf Mərkəzi</a></li><li data-id="6529"><a href="/az/Innovation_creativity_center">İnnovasiya Yaradıcılıq Mərkəzi</a></li></ul></li><li data-id="187"><a href="#">Xidmətlər</a><ul class="sub_submenu" data-id="submenu_187"><li data-id="189"><a href="/az/189">Psixoloji xidmət</a></li><li data-id="193"><a href="/az/medical_service">Tibb xidməti</a></li></ul></li><li data-id="76"><a href="#">Kollec</a><ul class="sub_submenu" data-id="submenu_76"><li data-id="77"><a href="/az/about_Col">Haqqımızda</a></li><li data-id="78"><a href="/az/College_Facul">Şöbələr</a></li></ul></li></ul></li><li data-id="118"><a href="#">Elm</a><ul class="submenu" data-id="submenu_118"><li data-id="60"><a href="#">Nəşrlər</a><ul class="sub_submenu" data-id="submenu_60"><li data-id="100"><a href="/az/scientific_publications">Elmi xəbərlər jurnalı</a></li><li data-id="101"><a href="/az/conference_materials">Konfrans materialları</a></li><li data-id="119"><a href="/az/textbooks">Dərsliklər</a></li><li data-id="120"><a href="/az/textbooks_aids">Dərs vəsaitləri</a></li><li data-id="121"><a href="/az/methodical_work">Metodik vəsait</a></li></ul></li><li data-id="123"><a href="#">Fəaliyyət</a><ul class="sub_submenu" data-id="submenu_123"><li data-id="139"><a href="/az/2021_2025">Kafedralar üzrə 2021-2025-ci illər üçün elmi-tədqiqat işlərinin planı</a></li><li data-id="141"><a href="/az/current_year_">Kafedralar üzrə cari ilin elmi-fəaliyyəti haqqında hesabatı</a></li></ul></li><li data-id="89"><a href="/az/dissertation_councils">Dissertasiya şuraları</a></li><li data-id="125"><a href="/az/council_of_young_scientists">Gənc alimlər şurası</a></li><li data-id="39"><a href="/az/student_scientific_society">Tələbə elmi cəmiyyəti</a></li><li data-id="7"><a href="/az/announcements">Elanlar</a></li></ul></li><li data-id="128"><a href="#">Təhsil</a><ul class="submenu" data-id="submenu_128"><li data-id="129"><a href="#">Bakalavr</a><ul class="sub_submenu" data-id="submenu_129"><li data-id="142"><a href="/az/annual_admission_forecasts">İllik qəbul proqnozu</a></li><li data-id="166"><a href="/az/Group_of_educational_specialties">Yeni Tədris Planları</a></li><li data-id="146"><a href="/az/program_of_studies">Tədris planları</a></li></ul></li><li data-id="130"><a href="#">Magistr</a><ul class="sub_submenu" data-id="submenu_130"><li data-id="143"><a href="/az/annual_admission_forecast">İllik qəbul proqnozu</a></li><li data-id="147"><a href="/az/program_of_studies_">Tədris planları</a></li></ul></li><li data-id="131"><a href="#">Doktorantura</a><ul class="sub_submenu" data-id="submenu_131"><li data-id="148"><a href="/az/doctor_of_philosophy">Fəlsəfə doktoru</a></li><li data-id="6505"><a href="/az/illik_qebul_">İllik qəbul proqnozu</a></li><li data-id="149"><a href="/az/doctor_of_sciences">Elmlər doktoru</a></li></ul></li><li data-id="133"><a href="/az/academic_calendar">Akademik təqvim</a></li><li data-id="165"><a href="/az/nha">Normativ Hüquqi Aktlar</a></li></ul></li><li data-id="67"><a href="#">Beynəlxalq</a><ul class="submenu" data-id="submenu_67"><li data-id="160"><a href="#">Tərəfdaşlar</a><ul class="sub_submenu" data-id="submenu_160"><li data-id="161"><a href="/az/information_about_universities">Universitetlər haqqında məlumat</a></li><li data-id="162"><a href="/az/organizations">Təşkilatlar</a></li></ul></li><li data-id="106"><a href="#">Layihələr</a><ul class="sub_submenu" data-id="submenu_106"><li data-id="6514"><a href="/az/6514">İqlim Dəyişikliyi</a></li><li data-id="6515"><a href="/az/6515">Erasmus+REFRESH</a></li><li data-id="6516"><a href="/az/6516">Erasmus+Be-OPEN</a></li></ul></li><li data-id="95"><a href="#">Assosiasiyalar</a><ul class="sub_submenu" data-id="submenu_95"><li data-id="68"><a href="/az/aorau">Rusiya - Azərbaycan Universitetləri Assosiasiyası</a></li><li data-id="69"><a href="/az/aouocs">Xəzəryanı Dövlət Universitetlərinin Assosiasiyası</a></li></ul></li><li data-id="96"><a href="#">Əcnəbi tələbələr</a><ul class="sub_submenu" data-id="submenu_96"><li data-id="64"><a href="/az/courses_step">Hazırlıq kursu mərhələsi</a></li><li data-id="105"><a href="/az/foreign_t">Təqaüd imkanları</a></li><li data-id="6540"><a href="/az/_admission_ruless">Qəbul qaydaları</a></li><li data-id="6539"><a href="/az/6539">İxtisaslar və təhsil haqqı</a></li></ul></li><li data-id="134"><a href="#">Tələbə həyatı</a><ul class="sub_submenu" data-id="submenu_134"><li data-id="156"><a href="/az/Discover_Azerbaijan">Azərbaycanı kəşf et</a></li><li data-id="157"><a href="/az/canteen">Yeməkxana</a></li><li data-id="155"><a href="/az/Blog_of_leisure_time">Asudə vaxt bloqu</a></li></ul></li></ul></li><li data-id="135"><a href="#">İctimai</a><ul class="submenu" data-id="submenu_135"><li data-id="43"><a href="/az/Free_Trade_Union_Committee">Həmkarlar İttifaqı Komitəsi</a></li><li data-id="38"><a href="/az/student_colleague_union">Tələbə Həmkarlar İttifaqı Komitəsi</a></li><li data-id="37"><a href="/az/syo">Tələbə Gənclər Təşkilatı</a></li><li data-id="137"><a href="#">Klub</a><ul class="sub_submenu" data-id="submenu_137"><li data-id="192"><a href="/az/192">Ekoklub</a></li><li data-id="36"><a href="/az/student-youth_club">Klub</a></li><li data-id="62"><a href="/az/sport_club">İdman klubu</a></li></ul></li></ul></li><li data-id="194"><a href="#">Davamlı İnkişaf</a><ul class="submenu" data-id="submenu_194"><li data-id="6500"><a href="/az/sdc">Dayanıqlı İnkişaf Mərkəzi</a></li><li data-id="206"><a href="/az/e_p_o_s">Davamlı İnkişaf Komitəsi</a></li><li data-id="197"><a href="/az/inquiry">Sorğu</a></li><li data-id="195"><a href="/az/195">Siyasət sənədləri</a></li><li data-id="6549"><a href="/az/sustan">Sustainability</a></li></ul></li>
+                </ul>
+            </div>        </div>
+    </section>
+</section>
+<section class="middle_container">
+	<section class="middle_wrapper">
+        	<div class="speedbar_block">
+					<div class="speedbar_left">Əsas səhifə</div>
+										<div class="speedbar_right">
+						<a href="https://www.linkedin.com/school/sumgayit-state-university-sdu/mycompany/" target="_blank"><div class="linkedin" title="linkedin"></div></a>
+					    <a href="https://m.youtube.com/channel/UCzEpw_YVUS0U_L7PdfD8tEw/" target="_blank" title="youtube"><div class="youtube"></div></a>
+					    <a href="https://t.me/sdueduaz1962" target="_blank"><div class="telegram" title="telegram"></div></a>
+						<a href="https://twitter.com/sdueduaz" target="_blank"><div class="twitter" title="twitter"></div></a>
+						<a href="https://www.instagram.com/sdueduaz/" target="_blank"><div class="instagram" title="instagram"></div></a>
+						<a href="https://www.facebook.com/sdueduaz1962/" target="_blank" title="facebook"><div class="facebook"></div></a>
+						
+					</div>
+				</div>
+				<div class="slide_block">
+				<div class="slide_navigations" data-max-id="5">
+					<div class="slide_navigation active" id="slide_1"></div><div class="slide_navigation" id="slide_2"></div><div class="slide_navigation" id="slide_3"></div><div class="slide_navigation" id="slide_4"></div><div class="slide_navigation" id="slide_5"></div>
+				</div>
+				<div class="slide_arrows">
+					<div class="slide_prev"></div>
+					<div class="slide_next"></div>
+				</div>
+				<div class="slide_visible">
+					<div class="slides">
+						<div class="slide">
+						<div class="slide_text">
+							<div class="slide_title">SDU və SOCAR-dan enerji strategiyası və rəqəmsal transformas...</div>
+							<div class="slide_content">Mayın 18-də Sumqayıt D&ouml;vlət Universitetində (SDU) universitet və SOCAR-ın birgə təşkilat&ccedil;ılığı ilə &Uuml;mummilli Lider Heydər Əliyevin anadan olmasının 103-c&uuml; ild&ouml;n&uuml;m...</div>
+							<div class="slide_button"><a href="/az/news/3854"><input type="button" value="Davamını oxu" /></a> <a href="/az/news"><input type="button" value="Arxiv xəbərlər" /></a></div>
+						</div>
+						<div class="slide_img"><img src="/userfiles/image/news/news_3854_slide.jpg" /></div>
+					</div><div class="slide">
+						<div class="slide_text">
+							<div class="slide_title">SDU-da Magistrantların XXVI Respublika elmi konfransı keçiri...</div>
+							<div class="slide_content">Mayın 14-də Sumqayıt D&ouml;vlət Universitetində (SDU) Azərbaycan xalqının &Uuml;mummilli Lideri Heydər Əliyevin anadan olmasının 103-c&uuml; ild&ouml;n&uuml;m&uuml;nə həsr olunmuş Magistrantları...</div>
+							<div class="slide_button"><a href="/az/news/3850"><input type="button" value="Davamını oxu" /></a> <a href="/az/news"><input type="button" value="Arxiv xəbərlər" /></a></div>
+						</div>
+						<div class="slide_img"><img src="/userfiles/image/news/22.22.2026 (1).jpg" /></div>
+					</div><div class="slide">
+						<div class="slide_text">
+							<div class="slide_title">SDU-da açıq havada "Yeni mənin kəşfi:Adaptasiya" mövzusunda ...</div>
+							<div class="slide_content">&nbsp;Mayın 13-də Sumqayıt D&ouml;vlət Universitetində (SDU) Psixoloji Xidmət Mərkəzinin təşkilat&ccedil;ılığı ilə &quot;Yeni mənin kəşfi:Adaptasiya&quot;adlı tədbir ke&ccedil;irilib. A&ccedil;ıq...</div>
+							<div class="slide_button"><a href="/az/news/3846"><input type="button" value="Davamını oxu" /></a> <a href="/az/news"><input type="button" value="Arxiv xəbərlər" /></a></div>
+						</div>
+						<div class="slide_img"><img src="/userfiles/image/news/22.22.2026 (2).jpg" /></div>
+					</div><div class="slide">
+						<div class="slide_text">
+							<div class="slide_title">SDU-da universitetin struktur rəhbərləri ilə görüş keçirilib</div>
+							<div class="slide_content">Sumqayıt D&ouml;vlət Universitetində universitetin struktur rəhbərləri ilə g&ouml;r&uuml;ş ke&ccedil;irilib. G&ouml;r&uuml;ş universitetin idarəetmə mexanizmləri, fəaliyyət istiqamətləri və kolle...</div>
+							<div class="slide_button"><a href="/az/news/3829"><input type="button" value="Davamını oxu" /></a> <a href="/az/news"><input type="button" value="Arxiv xəbərlər" /></a></div>
+						</div>
+						<div class="slide_img"><img src="/userfiles/image/news/2122212121.jpg" /></div>
+					</div><div class="slide">
+						<div class="slide_text">
+							<div class="slide_title">Sumqayıt Dövlət Universitetinin yeni rektoru kollektivə təqd...</div>
+							<div class="slide_content">Mayın 6-da Sumqayıt D&ouml;vlət Universitetinin (SDU) yeni təyin olunmuş rektoru,texnika elmləri doktoru, professor&nbsp;Nurəli Yusifbəyli universitet kollektivinə təqdim edilib. Təqdimat mərasim...</div>
+							<div class="slide_button"><a href="/az/news/3821"><input type="button" value="Davamını oxu" /></a> <a href="/az/news"><input type="button" value="Arxiv xəbərlər" /></a></div>
+						</div>
+						<div class="slide_img"><img src="/userfiles/image/news/1212121.jpg" /></div>
+					</div>
+					</div>
+				</div>
+			</div>
+				<div class="info_block">
+				<div class="info_block_text">Təhsilimizin məqsədi gənc nəslə, uşaqlara təhsil verib onları gələcəyə hazırlamaqdır. Hər bir insan gərək, eyni zamanda vətəndaş olsun. Mütləq vətəndaş olsun. Dövlətinə sadiq, millətinə sadiq, ənənələrinə sadiq, xalqına sadiq vətəndaş olsun.
+					<div class="info_block_text_header">Heydər Əliyev</div>
+				</div>
+				<div class="info_block_btn"><a href="/az/contacts">BİZİMLƏ ƏLAQƏ</a></div>
+			</div>
+				<div class="content_blocks">
+					<a href ="http://sdu.edu.az/az/ssu_video"><div class="video_block">
+				<div class="video_block_title">Universitetin tanıtım video çarxı</div>
+			</div></a><div class="news_blocks">
+            	<div class="news_blocks_title"><a href="/az/news">SON XƏBƏRLƏR</a></div>
+                <div class="news_blocks_content"><div class="news_block">
+							<div class="news_block_title"><a href="/az/news/3862">SDU-DA GƏNC YAZIÇI İLƏ GÖRÜŞ KEÇİRİLİB</a></div>
+							<div class="news_block_date">20 May 2026 17:12</div>
+							<div class="news_block_content">
+								<div class="news_block_image_cell">
+									<div class="news_block_image"><img src="/userfiles/image/news/20.05.2026 (4).jpg" /></div>
+								</div>
+								<div class="news_block_text_cell">
+									<div class="news_block_text">Mayın 19-da Sumqayıt D&ouml;vlət Universitetinin Kitabxana İnformasiya Mərkəzində yazı&ccedil;ı Dilşad Talıbova ilə g&ouml;r&uuml;ş təşkil olunub. Tədbiri giriş s... <a href="/az/news/3862">DAVAMI</a></div>
+								</div>
+							</div>
+						</div><div class="news_block">
+							<div class="news_block_title"><a href="/az/news/3861">TƏLƏBƏLƏR ÜÇÜN İMTAHAN ÖNCƏSİ PSİXOLOJİ HAZIRLIQ TƏLİMİ KEÇİRİLİB</a></div>
+							<div class="news_block_date">20 May 2026 16:17</div>
+							<div class="news_block_content">
+								<div class="news_block_image_cell">
+									<div class="news_block_image"><img src="/userfiles/image/news/20.5.2026 (6).jpg" /></div>
+								</div>
+								<div class="news_block_text_cell">
+									<div class="news_block_text">Mayın 20-də Sumqayıt D&ouml;vlət Universitetində Tələbə Həmkarlar İttifaqı Komitəsi, Psixoloji xidmət və Q&uuml;sursuz Nitq Mərkəzinin birgə təşkilat&ccedil;ılığı il... <a href="/az/news/3861">DAVAMI</a></div>
+								</div>
+							</div>
+						</div><div class="news_block">
+							<div class="news_block_title"><a href="/az/news/3860">“STEAM TƏHSİLİNİN NƏZƏRİ VƏ METODİK ƏSASLARI” MÖVZUSUNDA SEMİNAR</a></div>
+							<div class="news_block_date">19 May 2026 17:30</div>
+							<div class="news_block_content">
+								<div class="news_block_image_cell">
+									<div class="news_block_image"><img src="/userfiles/image/news/99.5.2026 (7).JPG" /></div>
+								</div>
+								<div class="news_block_text_cell">
+									<div class="news_block_text">Mayın 19-da Riyaziyyat və İnformatikanın Tədrisi Texnologiyası kafedrasının təşəbb&uuml;s&uuml; ilə &ldquo;STEAM təhsilinin nəzəri və metodik əsasları&rdquo; m&ouml;... <a href="/az/news/3860">DAVAMI</a></div>
+								</div>
+							</div>
+						</div><div class="news_block">
+							<div class="news_block_title"><a href="/az/news/3859">MÜHƏNDİSLİK FAKÜLTƏSİNDƏ ELEKTROENERGETİKA SİSTEMİNİN LİBERALLAŞDIRILMASINA DAİR İNFOSESSİYA KEÇİRİLİB</a></div>
+							<div class="news_block_date">19 May 2026 17:17</div>
+							<div class="news_block_content">
+								<div class="news_block_image_cell">
+									<div class="news_block_image"><img src="/userfiles/image/news/19.5.5.2026 (10).jpg" /></div>
+								</div>
+								<div class="news_block_text_cell">
+									<div class="news_block_text">Mayın 19-da Sumqayıt D&ouml;vlət Universitetində M&uuml;həndislik fak&uuml;ltəsi və &ldquo;Azərişıq&rdquo; ASC-nin birgə təşkilat&ccedil;ılığı ilə &ldquo;Azərbaycand... <a href="/az/news/3859">DAVAMI</a></div>
+								</div>
+							</div>
+						</div><div class="news_block">
+							<div class="news_block_title"><a href="/az/news/3858">GƏLƏCƏYİN MÜƏLLİMLƏRİ ÜÇÜN SDU-DA PEŞƏKAR İNKİŞAF TƏLİMİ KEÇİRİLİB</a></div>
+							<div class="news_block_date">19 May 2026 17:05</div>
+							<div class="news_block_content">
+								<div class="news_block_image_cell">
+									<div class="news_block_image"><img src="/userfiles/image/news/19.5.2026 (8).jpg" /></div>
+								</div>
+								<div class="news_block_text_cell">
+									<div class="news_block_text">Mayın 19-da Sumqayıt D&ouml;vlət Universitetində Tarix və coğrafiya fak&uuml;ltəsinin və Karyera və Məzunlarla İş Mərkəzinin birgə təşkilat&ccedil;ılığı ilə IV kurs ... <a href="/az/news/3858">DAVAMI</a></div>
+								</div>
+							</div>
+						</div></div>
+            </div>
+					<div class="news_blocks">
+            	<div class="news_blocks_title"><a href="/az/news_society">CƏMİYYƏT XƏBƏRLƏRİ</a></div>
+                <div class="news_blocks_content"><div class="news_block">
+							<div class="news_block_title"><a href="/az/news_society/208">İLHAM ƏLİYEVİN TÜRKİYƏYƏ İŞGÜZAR SƏFƏRİ</a></div>
+							<div class="news_block_date">20 Aprel 2026 13:26</div>
+							<div class="news_block_content">
+								<div class="news_block_image_cell">
+									<div class="news_block_image"><img src="/userfiles/image/news/20.20.6.2026.jpg" /></div>
+								</div>
+								<div class="news_block_text_cell">
+									<div class="news_block_text">&nbsp;İlham Əliyev T&uuml;rkiyəyə işg&uuml;zar səfərə gəlib
+İlham Əliyevin Antalyada Suriyanın ke&ccedil;id d&ouml;vr&uuml; Prezidenti ilə g&ouml;r&uuml;ş&uuml; olu... <a href="/az/news_society/208">DAVAMI</a></div>
+								</div>
+							</div>
+						</div><div class="news_block">
+							<div class="news_block_title"><a href="/az/news_society/207">İLHAM ƏLİYEVİN GÜRCÜSTANIN PREZİDENTİ MİXEİL KAVELAŞVİLİ İLƏ TƏKBƏTƏK GÖRÜŞÜ OLUB</a></div>
+							<div class="news_block_date">08 Aprel 2026 16:20</div>
+							<div class="news_block_content">
+								<div class="news_block_image_cell">
+									<div class="news_block_image"><img src="/userfiles/image/news/008.04.2026 (4).jpg" /></div>
+								</div>
+								<div class="news_block_text_cell">
+									<div class="news_block_text">Aprelin 6-da Tbilisidə Azərbaycan Respublikasının Prezidenti İlham Əliyevin G&uuml;rc&uuml;stanın Prezidenti Mixeil Kavelaşvili ilə təkbətək g&ouml;r&uuml;ş&uuml; ol... <a href="/az/news_society/207">DAVAMI</a></div>
+								</div>
+							</div>
+						</div><div class="news_block">
+							<div class="news_block_title"><a href="/az/news_society/206">İLHAM ƏLİYEV İRANIN YOL VƏ ŞƏHƏRSALMA NAZİRİNİN BAŞÇILIQ ETDİYİ NÜMAYƏNDƏ HEYƏTİNİ QƏBUL EDİB</a></div>
+							<div class="news_block_date">24 Fevral 2026 12:34</div>
+							<div class="news_block_content">
+								<div class="news_block_image_cell">
+									<div class="news_block_image"><img src="/userfiles/image/news/23.23.02.2026 (1).jpg" /></div>
+								</div>
+								<div class="news_block_text_cell">
+									<div class="news_block_text">&nbsp;Azərbaycan Respublikasının Prezidenti İlham Əliyev fevralın 23-də İran İslam Respublikasının yol və şəhərsalma naziri, Azərbaycan-İran İqtisadi Əməkdaşlıq ... <a href="/az/news_society/206">DAVAMI</a></div>
+								</div>
+							</div>
+						</div><div class="news_block">
+							<div class="news_block_title"><a href="/az/news_society/205">İLHAM ƏLİYEV VƏ SERBİYA PREZİDENTİ ALEKSANDAR VUÇİÇ MƏTBUATA BƏYANATLARLA ÇIXIŞ EDİBLƏR</a></div>
+							<div class="news_block_date">16 Fevral 2026 10:45</div>
+							<div class="news_block_content">
+								<div class="news_block_image_cell">
+									<div class="news_block_image"><img src="/userfiles/image/news/15.15.02.2026 (6).jpg" /></div>
+								</div>
+								<div class="news_block_text_cell">
+									<div class="news_block_text">&nbsp;Fevralın 15-də Belqradda Azərbaycan Respublikasının Prezidenti İlham Əliyev və Serbiya Respublikasının Prezidenti Aleksandar Vu&ccedil;i&ccedil; mətbuata bəyan... <a href="/az/news_society/205">DAVAMI</a></div>
+								</div>
+							</div>
+						</div><div class="news_block">
+							<div class="news_block_title"><a href="/az/news_society/203">İLHAM ƏLİYEV VƏ ABŞ-IN VİTSE-PREZİDENTİ CEY. Dİ. VENS MƏTBUATA BƏYANATLARLA ÇIXIŞ EDİBLƏR</a></div>
+							<div class="news_block_date">11 Fevral 2026 13:13</div>
+							<div class="news_block_content">
+								<div class="news_block_image_cell">
+									<div class="news_block_image"><img src="/userfiles/image/news/11.11.02.2026 (1).jpg" /></div>
+								</div>
+								<div class="news_block_text_cell">
+									<div class="news_block_text">&nbsp;Fevralın 10-da Azərbaycan Respublikasının Prezidenti İlham Əliyev və Amerika Birləşmiş Ştatlarının Vitse-prezidenti Cey. Di. Vens mətbuata bəyanatlarla &ccedil... <a href="/az/news_society/203">DAVAMI</a></div>
+								</div>
+							</div>
+						</div></div>
+            </div>
+					<div class="other_blocks">
+            	<div class="other_blocks_title"></div>
+                <div class="other_blocks_content">
+                	<!--<div class="login_block">
+						<form method="post" action="az//login" target="_blank">
+							<div class="login_username"><input type="text" name="user_name" placeholder="" autocomplete="off" /></div>
+							<div class="login_password"><input type="password" name="user_password" placeholder="" autocomplete="off" /></div>
+							<div class="login_btn"><input type="hidden" name="login_from" value="site" /><input type="submit" value="" /></div>
+							<div class="login_note"></div>
+						</form>
+                    </div>-->
+                    <div class="link_blocks">
+<a href="/az/nizami_880">
+<div class="link_block konullulerili_block link-flex">
+<img class="link-img" src="https://www.sdu.edu.az/images/3Y.PNG">
+<span class="link-text">
+Şəhərsalma və Memarlıq İli
+</span>
+</div>
+</a>
+
+                        
+                        <a href="/az/vacancies"><div class="link_block c_block">
+                            <div class="link_block_title">VAKANSİYALAR</div>
+                            <div class="link_block_note"> </div>
+                            </div></a>
+                            
+                            <a href="/az/announcements"><div class="link_block a_block">
+                            <div class="link_block_title">ELANLAR</div>
+                            <div class="link_block_note">Yeni və köhnə elanlar arxivi</div>
+                        </div></a>     
+                        
+                        	<a href="/az/e_uni_"><div class="link_block mevlana_block">
+                            <div class="link_block_title">Elektron Universitet</div>
+                            <div class="link_block_note"></div>
+                        </div></a>
+					
+                        
+                        <a href='https://www.youtube.com/c/SumgaitStateUniversity/playlists' target='_blank'><div class="link_block b_block">
+                            <div class="link_block_title"> VİDEODƏRSLƏR </div>
+                        </div></a>                    
+            
+            <a href="https://sdu.digitaledu.az//"><div class="link_block application_form_block">
+                            <div class="link_block_title">Elektron Universitet</div>
+                            <div class="link_block_note"></div>
+                        </div></a>                    
+            
+                             <a href="/az/bloody_memory" target="_blank"><div class="link_block blood_memory_block">
+                            <div class="link_block_title">QANLI YADDAŞ</div>
+                            <div class="link_block_note">Azərbaycanın qanlı yaddaşı</div>
+                        </div></a>
+                        
+                        <a href="https://portal.edu.az/" target="_blank"><div class="link_block portal_block"></div></a>
+                        
+                        <a href="http://moodle.sdu.edu.az" target="_blank"><div class="link_block moodle_block">
+                        </div></a>
+                     
+                        
+                        <!--<a href="/az/vmk"><div class="link_block sdu60_block">
+                            <div class="link_block_title">Virtual məzun klubu</div>
+                        </div></a>-->
+                        
+                        <!--<a href="/az/sdu-60"><div class="link_block sdu60_block">
+                            <div class="link_block_title">SDU 60</div>
+                        </div></a>-->
+                     
+                
+                     
+                        
+                        
+          <!--<a href="/az/dissertation_councils" target="_blank"><div class="link_block dissertation_councils_block">
+                            <div class="link_block_title">DİSSERTASİYA ŞURALARI</div>
+                            <div class="link_block_note"></div>
+                        </div></a> -->             
+						<!--<div class="extra_link_block_top"></div>
+						<div class="extra_link_block">
+							<div class="extra_link_block_navs">
+								<ul></ul>
+							</div>
+						</div>-->
+						<a href="/az/summer_school"><div class="link_block summer_school">
+                            <div class="link_block_title">YAY MƏKTƏBİ</div>
+                            <div class="link_block_note"></div>
+                        </div></a>
+						<a hidden='' href="http://elibrary.sdu.edu.az" target="_blank"><div hidden='' class="link_block virtual_library_block">
+                            <div class="link_block_title">VİRTUAL KİTABXANA</div>
+                            <div class="link_block_note">Elektron kitablar</div>
+                        </div></a>
+                        
+                        
+                        
+						<a href="/az/erasmus_lpeb"><div class="link_block erasmus_block">
+                            <div class="link_block_title">ERASMUS+</div>
+                            <div class="link_block_note">ERASMUS proyekti</div>
+                        </div></a>
+					
+
+					
+                        </div></a>
+                        <a href='https://konullu.edu.az'><div class="birkonullu_block link_block">
+                            <div class="link_block_title"></div>
+                        </div></a>
+					</div>
+                </div>
+            </div>
+				</div>    </section>
+</section>
+<section class="bottom_blocks_container">
+	<section class="bottom_blocks_wrapper">
+    	<div class="bottom_blocks_content">
+        	<div class="bottom_map_block">
+            	<div class="bottom_map_block_title">ÜNVAN</div>
+                <div class="bottom_map_block_content">
+<iframe  class="map" src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d3030.4842863995423!2d49.6757417!3d40.5750645!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4030912b2cbbf477%3A0x6acc6600f49ba00e!2zU3VtcWF5xLF0IETDtnZsyZl0IFVuaXZlcnNpdGV0aQ!5e0!3m2!1saz!2saz!4v1710406916637!5m2!1saz!2sazaz!2s" height="110px" width="100%" frameborder="0" style="border:0" allowfullscreen></iframe>
+                	<!--<iframe width='100%' height='180px' frameBorder='0' src='https://a.tiles.mapbox.com/v4/vusaller.j9hd6p84/zoompan.html?access_token=pk.eyJ1IjoidnVzYWxsZXIiLCJhIjoiQ1hUS19BWSJ9.n7GSC5XBD5sLNy5OkRJL_Q'></iframe>-->
+                </div>
+            </div>
+            <div class="bottom_contacts_block">
+            	<div class="bottom_contacts_block_title">ƏLAQƏ VASİTƏLƏRİ</div>
+                <div class="bottom_contacts_block_content">
+                	<div class="bottom_contacts_title">SUMQAYIT DÖVLƏT UNİVERSİTETİ</div>
+                    <div class="bottom_contacts_address">
+                    	<div>Sumqayıt şəhəri</div>
+                        <div>Bakı Küçəsi 1, 43-cü məhəllə</div>
+                        <div>AZ5008</div>
+                    </div>
+                    <div class="bottom_contacts_contacts">
+                    	<div>Telefon: +994(018) 64 6 15 06</div>
+                        <div>E-Mail: <a href="/cdn-cgi/l/email-protection" class="__cf_email__" data-cfemail="81e8efe7eec1f2e5f4afe4e5f4afe0fb">[email&#160;protected]</a></div>
+                    </div>
+                </div>
+            </div>
+            <div class="bottom_links_block">
+            	<div class="bottom_links_block_title">KEÇİDLƏR</div>
+                <div class="bottom_links_block_content">
+                	<ul>
+                    	<li><a href="http://www.azerbaijan.az/" target="_blank">azerbaijan.az</a></li>
+                    	<li><a href="http://www.heydar-aliyev.org/" target="_blank">heydar-aliyev.org</a></li>
+                    	<li><a href="http://www.president.az/" target="_blank">president.az</a></li>
+                    	<li><a href="http://amea-pmi.az/" target="_blank">amea-pmi.az</a></li>
+                    	<li><a href="https://www.nkpi.az/" target="_blank">nkpi.az</a></li>
+                    	<li><a href="https://edu.e-cbar.az//" target="_blank">edu.e-cbar.az</a></li>
+                    	<li><a href="https://refresh-erasmus.com/" target="_blank">refresh-erasmus.com</a></li>
+                    	<li><a href="http://www.virtualkarabakh.az/" target="_blank">virtualkarabakh.az</a></li>
+                        <li><a href="http://www.sesremo.eu/" target="_blank">sesremo.eu</a></li>
+                        <li><a href="http://www.sws.bsu.by" target="_blank">sws.bsu.by</a></li>
+                    	
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
+    
+</section>
+<section class="bottom_container">
+	<section class="bottom_wrapper">
+    	<div class="copyright">© 2026 SUMQAYIT DÖVLƏT UNİVERSİTETİ</div>
+    </section>
+</section>
+
+<script data-cfasync="false" src="/cdn-cgi/scripts/5c5dd728/cloudflare-static/email-decode.min.js"></script></body>
+</html>

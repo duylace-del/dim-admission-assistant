@@ -1,0 +1,6644 @@
+[
+  {
+    "name": "Azərbaycan Dövlət İqtisad Universitetinin nəzdində Azərbaycan Maliyyə-İqtisad Kolleci",
+    "normalized": "azərbaycandövləti̇qtisaduniversitetininnəzdindəazərbaycanmaliyyəi̇qtisadkolleci",
+    "specialties": [
+      {
+        "code": "576118",
+        "name": "Bank işi",
+        "paymentType": "ödənişsiz",
+        "bal2425": 180.1,
+        "bal2526": 194,
+        "isSpecial": false
+      },
+      {
+        "code": "576126",
+        "name": "Maliyyə işi",
+        "paymentType": "ödənişsiz",
+        "bal2425": 197.8,
+        "bal2526": 205.9,
+        "isSpecial": false
+      },
+      {
+        "code": "576134",
+        "name": "Mühasibat uçotu",
+        "paymentType": "ödənişsiz",
+        "bal2425": 180.1,
+        "bal2526": 195.2,
+        "isSpecial": false
+      },
+      {
+        "code": "576142",
+        "name": "Vergi işi",
+        "paymentType": "ödənişsiz",
+        "bal2425": 164.5,
+        "bal2526": 175.8,
+        "isSpecial": false
+      },
+      {
+        "code": "576159",
+        "name": "Sosial iş",
+        "paymentType": "ödənişsiz",
+        "bal2425": 158.9,
+        "bal2526": 164.8,
+        "isSpecial": false
+      },
+      {
+        "code": "576167",
+        "name": "Bank işi",
+        "paymentType": "ödənişli",
+        "bal2425": 136.4,
+        "bal2526": 153.2,
+        "isSpecial": false
+      },
+      {
+        "code": "576175",
+        "name": "Maliyyə işi",
+        "paymentType": "ödənişli",
+        "bal2425": 148.3,
+        "bal2526": 162.7,
+        "isSpecial": false
+      },
+      {
+        "code": "576183",
+        "name": "Mühasibat uçotu",
+        "paymentType": "ödənişli",
+        "bal2425": 135,
+        "bal2526": 154.9,
+        "isSpecial": false
+      },
+      {
+        "code": "576191",
+        "name": "Vergi işi",
+        "paymentType": "ödənişli",
+        "bal2425": 126.6,
+        "bal2526": 148.9,
+        "isSpecial": false
+      },
+      {
+        "code": "576215",
+        "name": "Sosial iş",
+        "paymentType": "ödənişli",
+        "bal2425": 122.8,
+        "bal2526": 135,
+        "isSpecial": false
+      }
+    ]
+  },
+  {
+    "name": "Bakı Dövlət Universitetinin nəzdində İqtisadiyyat və Humanitar Kolleci",
+    "normalized": "bakıdövlətuniversitetininnəzdindəi̇qtisadiyyatvəhumanitarkolleci",
+    "specialties": [
+      {
+        "code": "576289",
+        "name": "Kargüzarlıq və arxiv işi",
+        "paymentType": "ödənişsiz",
+        "bal2425": 141.4,
+        "bal2526": 147.3,
+        "isSpecial": false
+      },
+      {
+        "code": "576297",
+        "name": "Kitabxana işi",
+        "paymentType": "ödənişsiz",
+        "bal2425": 133.8,
+        "bal2526": 148.6,
+        "isSpecial": false
+      },
+      {
+        "code": "576312",
+        "name": "Bank işi",
+        "paymentType": "ödənişsiz",
+        "bal2425": 165.4,
+        "bal2526": 175.4,
+        "isSpecial": false
+      },
+      {
+        "code": "576329",
+        "name": "Maliyyə işi",
+        "paymentType": "ödənişsiz",
+        "bal2425": 180.6,
+        "bal2526": 190.7,
+        "isSpecial": false
+      },
+      {
+        "code": "576337",
+        "name": "Mühasibat uçotu",
+        "paymentType": "ödənişsiz",
+        "bal2425": 119.2,
+        "bal2526": 175.2,
+        "isSpecial": false
+      },
+      {
+        "code": "576345",
+        "name": "Kargüzarlıq və arxiv işi",
+        "paymentType": "ödənişli",
+        "bal2425": 105.2,
+        "bal2526": 117.4,
+        "isSpecial": false
+      },
+      {
+        "code": "576353",
+        "name": "Kitabxana işi",
+        "paymentType": "ödənişli",
+        "bal2425": 103.2,
+        "bal2526": 112.6,
+        "isSpecial": false
+      },
+      {
+        "code": "576361",
+        "name": "Bank işi",
+        "paymentType": "ödənişli",
+        "bal2425": 129.6,
+        "bal2526": 142.6,
+        "isSpecial": false
+      },
+      {
+        "code": "576378",
+        "name": "Maliyyə işi",
+        "paymentType": "ödənişli",
+        "bal2425": 148,
+        "bal2526": 143.7,
+        "isSpecial": false
+      },
+      {
+        "code": "576386",
+        "name": "Mühasibat uçotu",
+        "paymentType": "ödənişli",
+        "bal2425": 133.9,
+        "bal2526": 138.1,
+        "isSpecial": false
+      }
+    ]
+  },
+  {
+    "name": "Azərbaycan Dövlət İqtisad Universitetinin nəzdində Qida Sənayesi Kolleci",
+    "normalized": "azərbaycandövləti̇qtisaduniversitetininnəzdindəqidasənayesikolleci",
+    "specialties": [
+      {
+        "code": "576661",
+        "name": "Çörək və unlu qənnadı məmulatlarının texnologiyası",
+        "paymentType": "ödənişsiz",
+        "bal2425": 124.7,
+        "bal2526": 139.6,
+        "isSpecial": false
+      },
+      {
+        "code": "576678",
+        "name": "Ət və ət məhsullarının texnologiyası",
+        "paymentType": "ödənişsiz",
+        "bal2425": 126.1,
+        "bal2526": 138.1,
+        "isSpecial": false
+      },
+      {
+        "code": "576686",
+        "name": "Ətraf mühitin mühafizəsi və bərpası",
+        "paymentType": "ödənişsiz",
+        "bal2425": 142.7,
+        "bal2526": 140.7,
+        "isSpecial": false
+      },
+      {
+        "code": "576694",
+        "name": "İstehlak mallarının ekspertizası",
+        "paymentType": "ödənişsiz",
+        "bal2425": 137.4,
+        "bal2526": 155,
+        "isSpecial": false
+      },
+      {
+        "code": "576718",
+        "name": "Konservləşdirmə və qida konsentratları texnologiyası",
+        "paymentType": "ödənişsiz",
+        "bal2425": 120.8,
+        "bal2526": 132.7,
+        "isSpecial": false
+      },
+      {
+        "code": "576726",
+        "name": "Qida məhsullarının təhlükəsizliyi",
+        "paymentType": "ödənişsiz",
+        "bal2425": 149.5,
+        "bal2526": 167.1,
+        "isSpecial": false
+      },
+      {
+        "code": "576734",
+        "name": "Şərabçılıq və qıcqırtma istehsalatının texnologiyası",
+        "paymentType": "ödənişsiz",
+        "bal2425": 88.3,
+        "bal2526": 121.8,
+        "isSpecial": false
+      },
+      {
+        "code": "576742",
+        "name": "İaşə müəssisələrinin servisi",
+        "paymentType": "ödənişsiz",
+        "bal2425": 110.1,
+        "bal2526": 126,
+        "isSpecial": false
+      },
+      {
+        "code": "576759",
+        "name": "Mehmanxana təsərrüfatının təşkili və idarə edilməsi",
+        "paymentType": "ödənişsiz",
+        "bal2425": 112.2,
+        "bal2526": 141.8,
+        "isSpecial": false
+      },
+      {
+        "code": "576767",
+        "name": "Çörək və unlu qənnadı məmulatlarının texnologiyası",
+        "paymentType": "ödənişsiz",
+        "bal2425": 95.5,
+        "bal2526": 121.2,
+        "isSpecial": false
+      },
+      {
+        "code": "576775",
+        "name": "Ət və ət məhsullarının texnologiyası",
+        "paymentType": "ödənişsiz",
+        "bal2425": 96.1,
+        "bal2526": 109.7,
+        "isSpecial": false
+      },
+      {
+        "code": "576783",
+        "name": "Ətraf mühitin mühafizəsi və bərpası",
+        "paymentType": "ödənişsiz",
+        "bal2425": 101.7,
+        "bal2526": 110,
+        "isSpecial": false
+      },
+      {
+        "code": "576791",
+        "name": "İstehlak mallarının ekspertizası",
+        "paymentType": "ödənişsiz",
+        "bal2425": 111.8,
+        "bal2526": 121.6,
+        "isSpecial": false
+      },
+      {
+        "code": "576815",
+        "name": "Konservləşdirmə və qida konsentratları texnologiyası",
+        "paymentType": "ödənişsiz",
+        "bal2425": 100.1,
+        "bal2526": 115.7,
+        "isSpecial": false
+      },
+      {
+        "code": "576823",
+        "name": "Qida məhsullarının təhlükəsizliyi",
+        "paymentType": "ödənişsiz",
+        "bal2425": 108.3,
+        "bal2526": 127.4,
+        "isSpecial": false
+      },
+      {
+        "code": "576831",
+        "name": "Şərabçılıq və qıcqırtma istehsalatının texnologiyası",
+        "paymentType": "ödənişli",
+        "bal2425": null,
+        "bal2526": 105.7,
+        "isSpecial": false
+      },
+      {
+        "code": "576848",
+        "name": "İaşə müəssisələrinin servisi",
+        "paymentType": "ödənişli",
+        "bal2425": 94.7,
+        "bal2526": 105.6,
+        "isSpecial": false
+      },
+      {
+        "code": "576856",
+        "name": "Mehmanxana təsərrüfatının təşkili və idarə edilməsi 108.2 Azərbaycan Dövlət İqtisad Universitetinin nəzdində Sosial-İqtisadi",
+        "paymentType": "ödənişli",
+        "bal2425": 112.2,
+        "bal2526": null,
+        "isSpecial": false
+      },
+      {
+        "code": "577114",
+        "name": "Bank işi",
+        "paymentType": "ödənişli",
+        "bal2425": 168.8,
+        "bal2526": 182.2,
+        "isSpecial": false
+      },
+      {
+        "code": "577122",
+        "name": "Maliyyə işi",
+        "paymentType": "ödənişli",
+        "bal2425": 179,
+        "bal2526": 192.2,
+        "isSpecial": false
+      },
+      {
+        "code": "577139",
+        "name": "Mühasibat uçotu",
+        "paymentType": "ödənişli",
+        "bal2425": 170.2,
+        "bal2526": 182.4,
+        "isSpecial": false
+      },
+      {
+        "code": "577147",
+        "name": "Vergi işi",
+        "paymentType": "ödənişli",
+        "bal2425": 162.1,
+        "bal2526": 174.3,
+        "isSpecial": false
+      },
+      {
+        "code": "577155",
+        "name": "Kompüter sistemlərində proqram təminatı",
+        "paymentType": "ödənişli",
+        "bal2425": 196.9,
+        "bal2526": 216.1,
+        "isSpecial": false
+      },
+      {
+        "code": "577163",
+        "name": "Sosial iş",
+        "paymentType": "ödənişli",
+        "bal2425": 155.1,
+        "bal2526": 164.4,
+        "isSpecial": false
+      },
+      {
+        "code": "577171",
+        "name": "Bank işi",
+        "paymentType": "ödənişli",
+        "bal2425": 124.7,
+        "bal2526": 141.4,
+        "isSpecial": false
+      },
+      {
+        "code": "577188",
+        "name": "Maliyyə işi",
+        "paymentType": "ödənişli",
+        "bal2425": 127.7,
+        "bal2526": 147.4,
+        "isSpecial": false
+      },
+      {
+        "code": "577196",
+        "name": "Mühasibat uçotu",
+        "paymentType": "ödənişli",
+        "bal2425": 122.6,
+        "bal2526": 140.1,
+        "isSpecial": false
+      },
+      {
+        "code": "577211",
+        "name": "Vergi işi",
+        "paymentType": "ödənişli",
+        "bal2425": 119.8,
+        "bal2526": 137.2,
+        "isSpecial": false
+      },
+      {
+        "code": "577228",
+        "name": "Kompüter sistemlərində proqram təminatı",
+        "paymentType": "ödənişli",
+        "bal2425": 138.6,
+        "bal2526": 154.2,
+        "isSpecial": false
+      },
+      {
+        "code": "577236",
+        "name": "Sosial iş",
+        "paymentType": "ödənişli",
+        "bal2425": 117.8,
+        "bal2526": 128.8,
+        "isSpecial": false
+      }
+    ]
+  },
+  {
+    "name": "Azərbaycan Dövlət Neft və Sənaye Universitetinin nəzdində Sənaye və Texnologiya Kolleci",
+    "normalized": "azərbaycandövlətneftvəsənayeuniversitetininnəzdindəsənayevətexnologiyakolleci",
+    "specialties": [
+      {
+        "code": "577414",
+        "name": "Kargüzarlıq və arxiv işi",
+        "paymentType": "ödənişsiz",
+        "bal2425": 141.7,
+        "bal2526": 146.5,
+        "isSpecial": false
+      },
+      {
+        "code": "577422",
+        "name": "Bələdiyyə işi",
+        "paymentType": "ödənişsiz",
+        "bal2425": 148.7,
+        "bal2526": 159,
+        "isSpecial": false
+      },
+      {
+        "code": "577439",
+        "name": "Marketinq (sənaye)",
+        "paymentType": "ödənişsiz",
+        "bal2425": 155.6,
+        "bal2526": 169.9,
+        "isSpecial": false
+      },
+      {
+        "code": "577447",
+        "name": "Mühasibat uçotu",
+        "paymentType": "ödənişsiz",
+        "bal2425": 168.4,
+        "bal2526": 181.3,
+        "isSpecial": false
+      },
+      {
+        "code": "577455",
+        "name": "Avtomatlaşdırılmış idarəetmə sistemlərinin istismarı",
+        "paymentType": "ödənişsiz",
+        "bal2425": 153.6,
+        "bal2526": 164.3,
+        "isSpecial": false
+      },
+      {
+        "code": "577463",
+        "name": "Ətraf mühitin mühafizəsi və bərpası",
+        "paymentType": "ödənişsiz",
+        "bal2425": 127.7,
+        "bal2526": 134.9,
+        "isSpecial": false
+      },
+      {
+        "code": "577471",
+        "name": "İnformasiyanın işlənməsinin və idarəetmənin avtomatlaşdırılmış sistemləri",
+        "paymentType": "ödənişsiz",
+        "bal2425": 151.2,
+        "bal2526": 177,
+        "isSpecial": false
+      },
+      {
+        "code": "577488",
+        "name": "İstehlak mallarının ekspertizası",
+        "paymentType": "ödənişsiz",
+        "bal2425": 139.8,
+        "bal2526": 152.7,
+        "isSpecial": false
+      },
+      {
+        "code": "577496",
+        "name": "Kompüter sistemləri və kompleksləri",
+        "paymentType": "ödənişsiz",
+        "bal2425": 200.8,
+        "bal2526": 211.5,
+        "isSpecial": false
+      },
+      {
+        "code": "577511",
+        "name": "Kompüter sistemlərində proqram təminatı",
+        "paymentType": "ödənişsiz",
+        "bal2425": 225.8,
+        "bal2526": 227.7,
+        "isSpecial": false
+      },
+      {
+        "code": "577528",
+        "name": "Kompüter sistemlərinin təmiri və servisi",
+        "paymentType": "ödənişsiz",
+        "bal2425": 170.3,
+        "bal2526": 177,
+        "isSpecial": false
+      },
+      {
+        "code": "577536",
+        "name": "Kompüter şəbəkələri və şəbəkə inzibatçılığı",
+        "paymentType": "ödənişsiz",
+        "bal2425": 175.2,
+        "bal2526": 191.8,
+        "isSpecial": false
+      },
+      {
+        "code": "577544",
+        "name": "Kompüter şəbəkəsi avadanlıqlarının təmiri və servisi",
+        "paymentType": "ödənişsiz",
+        "bal2425": 164.7,
+        "bal2526": 162.3,
+        "isSpecial": false
+      },
+      {
+        "code": "577552",
+        "name": "Poliqrafiya istehsalatının texnologiyası",
+        "paymentType": "ödənişsiz",
+        "bal2425": 125.6,
+        "bal2526": 135.8,
+        "isSpecial": false
+      },
+      {
+        "code": "577569",
+        "name": "Sənaye avadanlıqlarının quraşdırılması və texniki istismarı",
+        "paymentType": "ödənişsiz",
+        "bal2425": 116.3,
+        "bal2526": 131,
+        "isSpecial": false
+      },
+      {
+        "code": "577577",
+        "name": "Telekommunikasiya və kompüter sistemlərinin informasiya təhlükəsizliyi",
+        "paymentType": "ödənişsiz",
+        "bal2425": 174.7,
+        "bal2526": 187.5,
+        "isSpecial": false
+      },
+      {
+        "code": "577585",
+        "name": "Tikiş məmulatlarının və trikotaj istehsalı texnologiyası",
+        "paymentType": "ödənişsiz",
+        "bal2425": 120.9,
+        "bal2526": 130.7,
+        "isSpecial": false
+      },
+      {
+        "code": "577593",
+        "name": "Turizm işinin təşkili",
+        "paymentType": "ödənişsiz",
+        "bal2425": 163.9,
+        "bal2526": 169.4,
+        "isSpecial": false
+      },
+      {
+        "code": "577617",
+        "name": "Dekorativ-tətbiqi sənət (zərgərlik)",
+        "paymentType": "ödənişsiz",
+        "bal2425": 103.1,
+        "bal2526": 111.1,
+        "isSpecial": true
+      },
+      {
+        "code": "577625",
+        "name": "Dizayn (qrafik dizayn)",
+        "paymentType": "ödənişsiz",
+        "bal2425": 150.5,
+        "bal2526": 177.8,
+        "isSpecial": true
+      },
+      {
+        "code": "577633",
+        "name": "Kargüzarlıq və arxiv işi",
+        "paymentType": "ödənişli",
+        "bal2425": 104.4,
+        "bal2526": 120.1,
+        "isSpecial": false
+      },
+      {
+        "code": "577641",
+        "name": "Bələdiyyə işi",
+        "paymentType": "ödənişli",
+        "bal2425": 110.8,
+        "bal2526": 130.8,
+        "isSpecial": false
+      },
+      {
+        "code": "577658",
+        "name": "Marketinq (sənaye)",
+        "paymentType": "ödənişli",
+        "bal2425": 114.4,
+        "bal2526": 135.1,
+        "isSpecial": false
+      },
+      {
+        "code": "577666",
+        "name": "Mühasibat uçotu",
+        "paymentType": "ödənişli",
+        "bal2425": 123.2,
+        "bal2526": 141.2,
+        "isSpecial": false
+      },
+      {
+        "code": "577674",
+        "name": "Avtomatlaşdırılmış idarəetmə sistemlərinin istismarı",
+        "paymentType": "ödənişli",
+        "bal2425": 102.5,
+        "bal2526": 125.1,
+        "isSpecial": false
+      },
+      {
+        "code": "577682",
+        "name": "Ətraf mühitin mühafizəsi və bərpası",
+        "paymentType": "ödənişli",
+        "bal2425": 95.6,
+        "bal2526": 111.4,
+        "isSpecial": false
+      },
+      {
+        "code": "577699",
+        "name": "İnformasiyanın işlənməsinin və idarəetmənin avtomatlaşdırılmış sistemləri",
+        "paymentType": "ödənişli",
+        "bal2425": 109.4,
+        "bal2526": 131,
+        "isSpecial": false
+      },
+      {
+        "code": "577714",
+        "name": "İstehlak mallarının ekspertizası",
+        "paymentType": "ödənişli",
+        "bal2425": 100.1,
+        "bal2526": 118,
+        "isSpecial": false
+      },
+      {
+        "code": "577722",
+        "name": "Kompüter sistemləri və kompleksləri",
+        "paymentType": "ödənişli",
+        "bal2425": 128,
+        "bal2526": 148.5,
+        "isSpecial": false
+      },
+      {
+        "code": "577739",
+        "name": "Kompüter sistemlərində proqram təminatı",
+        "paymentType": "ödənişli",
+        "bal2425": 139,
+        "bal2526": 161.3,
+        "isSpecial": false
+      },
+      {
+        "code": "577747",
+        "name": "Kompüter sistemlərinin təmiri və servisi",
+        "paymentType": "ödənişli",
+        "bal2425": 106,
+        "bal2526": 128.3,
+        "isSpecial": false
+      },
+      {
+        "code": "577755",
+        "name": "Kompüter şəbəkələri və şəbəkə inzibatçılığı",
+        "paymentType": "ödənişli",
+        "bal2425": 113,
+        "bal2526": 143.6,
+        "isSpecial": false
+      },
+      {
+        "code": "577763",
+        "name": "Kompüter şəbəkəsi avadanlıqlarının təmiri və servisi",
+        "paymentType": "ödənişli",
+        "bal2425": 104.1,
+        "bal2526": 124.4,
+        "isSpecial": false
+      },
+      {
+        "code": "577771",
+        "name": "Poliqrafiya istehsalatının texnologiyası",
+        "paymentType": "ödənişli",
+        "bal2425": 95.3,
+        "bal2526": 104.6,
+        "isSpecial": false
+      },
+      {
+        "code": "577788",
+        "name": "Sənaye avadanlıqlarının quraşdırılması və texniki istismarı",
+        "paymentType": "ödənişli",
+        "bal2425": 90.2,
+        "bal2526": 109.3,
+        "isSpecial": false
+      },
+      {
+        "code": "577796",
+        "name": "Telekommunikasiya və kompüter sistemlərinin informasiya təhlükəsizliyi",
+        "paymentType": "ödənişli",
+        "bal2425": 113.5,
+        "bal2526": 140.9,
+        "isSpecial": false
+      },
+      {
+        "code": "577811",
+        "name": "Tikiş məmulatlarının və trikotaj istehsalı texnologiyası",
+        "paymentType": "ödənişli",
+        "bal2425": 87.8,
+        "bal2526": 105.8,
+        "isSpecial": false
+      },
+      {
+        "code": "577828",
+        "name": "Turizm işinin təşkili",
+        "paymentType": "ödənişli",
+        "bal2425": 110.3,
+        "bal2526": 128.6,
+        "isSpecial": false
+      },
+      {
+        "code": "577836",
+        "name": "Dekorativ-tətbiqi sənət (zərgərlik)",
+        "paymentType": "ödənişli",
+        "bal2425": 76.1,
+        "bal2526": 78.5,
+        "isSpecial": true
+      },
+      {
+        "code": "577844",
+        "name": "Dizayn (qrafik dizayn)",
+        "paymentType": "ödənişli",
+        "bal2425": 101.5,
+        "bal2526": 119.3,
+        "isSpecial": true
+      }
+    ]
+  },
+  {
+    "name": "Azərbaycan Dövlət Pedaqoji Universiteti nəzdində Azərbaycan Dövlət Pedaqoji Kolleci",
+    "normalized": "azərbaycandövlətpedaqojiuniversitetinəzdindəazərbaycandövlətpedaqojikolleci",
+    "specialties": [
+      {
+        "code": "577974",
+        "name": "Ailə və ev təhsili",
+        "paymentType": "ödənişsiz",
+        "bal2425": 129.5,
+        "bal2526": 136,
+        "isSpecial": false
+      },
+      {
+        "code": "577982",
+        "name": "İnklüziv təhsil",
+        "paymentType": "ödənişsiz",
+        "bal2425": 134,
+        "bal2526": 148.9,
+        "isSpecial": false
+      },
+      {
+        "code": "577999",
+        "name": "Məktəbəqədər təhsil",
+        "paymentType": "ödənişsiz",
+        "bal2425": 151.2,
+        "bal2526": 179.1,
+        "isSpecial": false
+      },
+      {
+        "code": "578119",
+        "name": "Mədəni kütləvi tədbirlərin təşkilatçısı",
+        "paymentType": "ödənişsiz",
+        "bal2425": 125.1,
+        "bal2526": 135.4,
+        "isSpecial": false
+      },
+      {
+        "code": "578127",
+        "name": "Kompüter şəbəkələri və şəbəkə inzibatçılığı",
+        "paymentType": "ödənişsiz",
+        "bal2425": 153.6,
+        "bal2526": 173,
+        "isSpecial": false
+      },
+      {
+        "code": "578135",
+        "name": "Kompüter şəbəkəsi avadanlıqlarının təmiri və servisi",
+        "paymentType": "ödənişsiz",
+        "bal2425": null,
+        "bal2526": 157.3,
+        "isSpecial": false
+      },
+      {
+        "code": "578143",
+        "name": "Sosial iş",
+        "paymentType": "ödənişsiz",
+        "bal2425": 149.7,
+        "bal2526": 155.5,
+        "isSpecial": false
+      },
+      {
+        "code": "578151",
+        "name": "Fiziki tərbiyə müəllimliyi",
+        "paymentType": "ödənişsiz",
+        "bal2425": 109.3,
+        "bal2526": 127.4,
+        "isSpecial": true
+      },
+      {
+        "code": "578168",
+        "name": "Dekorativ-tətbiqi sənət (bədii keramika, bədii şüşə)",
+        "paymentType": "ödənişsiz",
+        "bal2425": 111.9,
+        "bal2526": 122.4,
+        "isSpecial": true
+      },
+      {
+        "code": "578176",
+        "name": "Rəngkarlıq (dekorativ rəngkarlıq, teatr-dekor rəngkarlığı)",
+        "paymentType": "ödənişsiz",
+        "bal2425": 125,
+        "bal2526": 123.2,
+        "isSpecial": true
+      },
+      {
+        "code": "578184",
+        "name": "Ailə və ev təhsili",
+        "paymentType": "ödənişsiz",
+        "bal2425": 100.1,
+        "bal2526": 111.9,
+        "isSpecial": false
+      },
+      {
+        "code": "578192",
+        "name": "İnklüziv təhsil",
+        "paymentType": "ödənişli",
+        "bal2425": 99.6,
+        "bal2526": 108.3,
+        "isSpecial": false
+      },
+      {
+        "code": "578216",
+        "name": "Məktəbəqədər təhsil",
+        "paymentType": "ödənişli",
+        "bal2425": 125,
+        "bal2526": 140.1,
+        "isSpecial": false
+      },
+      {
+        "code": "578224",
+        "name": "Mədəni kütləvi tədbirlərin təşkilatçısı",
+        "paymentType": "ödənişli",
+        "bal2425": 98.7,
+        "bal2526": 105.7,
+        "isSpecial": false
+      },
+      {
+        "code": "578232",
+        "name": "Kompüter şəbəkələri və şəbəkə inzibatçılığı",
+        "paymentType": "ödənişli",
+        "bal2425": 106.5,
+        "bal2526": 128.7,
+        "isSpecial": false
+      },
+      {
+        "code": "578249",
+        "name": "Kompüter şəbəkəsi avadanlıqlarının təmiri və servisi",
+        "paymentType": "ödənişli",
+        "bal2425": null,
+        "bal2526": 113.7,
+        "isSpecial": false
+      },
+      {
+        "code": "578257",
+        "name": "Sosial iş",
+        "paymentType": "ödənişli",
+        "bal2425": 111.3,
+        "bal2526": 119.2,
+        "isSpecial": false
+      },
+      {
+        "code": "578265",
+        "name": "Fiziki tərbiyə müəllimliyi",
+        "paymentType": "ödənişli",
+        "bal2425": 89.4,
+        "bal2526": 97.8,
+        "isSpecial": true
+      },
+      {
+        "code": "578273",
+        "name": "Dekorativ-tətbiqi sənət (bədii keramika, bədii şüşə)",
+        "paymentType": "ödənişli",
+        "bal2425": 83.8,
+        "bal2526": 78.3,
+        "isSpecial": true
+      },
+      {
+        "code": "578281",
+        "name": "Dizayn (qrafik dizaynı, moda dizaynı, məhsul dizaynı)",
+        "paymentType": "ödənişli",
+        "bal2425": null,
+        "bal2526": 102.5,
+        "isSpecial": true
+      },
+      {
+        "code": "578298",
+        "name": "Rəngkarlıq (dekorativ rəngkarlıq, teatr-dekor rəngkarlığı)",
+        "paymentType": "ödənişli",
+        "bal2425": 95.6,
+        "bal2526": 92.6,
+        "isSpecial": true
+      }
+    ]
+  },
+  {
+    "name": "Azərbaycan Texniki Universitetinin nəzdində Bakı Dövlət Rabitə və Nəqliyyat Kolleci",
+    "normalized": "azərbaycantexnikiuniversitetininnəzdindəbakıdövlətrabitəvənəqliyyatkolleci",
+    "specialties": [
+      {
+        "code": "578419",
+        "name": "Marketinq (sahələr üzrə)",
+        "paymentType": "ödənişsiz",
+        "bal2425": 152.9,
+        "bal2526": 169.8,
+        "isSpecial": false
+      },
+      {
+        "code": "578427",
+        "name": "Mühasibat uçotu",
+        "paymentType": "ödənişsiz",
+        "bal2425": 166.9,
+        "bal2526": 174.7,
+        "isSpecial": false
+      },
+      {
+        "code": "578435",
+        "name": "Çoxkanallı telekommunikasiya sistemlərinin istismarı",
+        "paymentType": "ödənişsiz",
+        "bal2425": 131.6,
+        "bal2526": 157.8,
+        "isSpecial": false
+      },
+      {
+        "code": "578443",
+        "name": "Ətraf mühitin mühafizəsi və bərpası",
+        "paymentType": "ödənişsiz",
+        "bal2425": 126.2,
+        "bal2526": 135,
+        "isSpecial": false
+      },
+      {
+        "code": "578451",
+        "name": "Kompüter sistemləri və kompleksləri",
+        "paymentType": "ödənişsiz",
+        "bal2425": 167.1,
+        "bal2526": 187,
+        "isSpecial": false
+      },
+      {
+        "code": "578468",
+        "name": "Kompüter şəbəkələri və şəbəkə inzibatçılığı",
+        "paymentType": "ödənişsiz",
+        "bal2425": 161.9,
+        "bal2526": 178.7,
+        "isSpecial": false
+      },
+      {
+        "code": "578476",
+        "name": "Kompüter şəbəkəsi avadanlıqlarının təmiri və servisi",
+        "paymentType": "ödənişsiz",
+        "bal2425": 143.4,
+        "bal2526": 165.5,
+        "isSpecial": false
+      },
+      {
+        "code": "578484",
+        "name": "Mobil şəbəkə sistemləri və operatorluğu",
+        "paymentType": "ödənişsiz",
+        "bal2425": 140.4,
+        "bal2526": 153.5,
+        "isSpecial": false
+      },
+      {
+        "code": "578492",
+        "name": "Nəqliyyat vasitələrinin texniki istismarı",
+        "paymentType": "ödənişsiz",
+        "bal2425": 133.5,
+        "bal2526": 160.1,
+        "isSpecial": false
+      },
+      {
+        "code": "578516",
+        "name": "Nəqliyyatın logistikası",
+        "paymentType": "ödənişsiz",
+        "bal2425": 131.4,
+        "bal2526": 162.6,
+        "isSpecial": false
+      },
+      {
+        "code": "578524",
+        "name": "Poçt rabitəsi",
+        "paymentType": "ödənişsiz",
+        "bal2425": 140.2,
+        "bal2526": 147.2,
+        "isSpecial": false
+      },
+      {
+        "code": "578532",
+        "name": "Radio, televiziya vasitə və qurğuları",
+        "paymentType": "ödənişsiz",
+        "bal2425": 119.7,
+        "bal2526": 139.5,
+        "isSpecial": false
+      },
+      {
+        "code": "578549",
+        "name": "Telekommunikasiya şəbəkələri və xətləri",
+        "paymentType": "ödənişsiz",
+        "bal2425": 136.3,
+        "bal2526": 150.4,
+        "isSpecial": false
+      },
+      {
+        "code": "578557",
+        "name": "Vaqon və refrijerator təsərrüfatı",
+        "paymentType": "ödənişsiz",
+        "bal2425": 117.9,
+        "bal2526": 130.9,
+        "isSpecial": false
+      },
+      {
+        "code": "578565",
+        "name": "Marketinq (sahələr üzrə)",
+        "paymentType": "ödənişsiz",
+        "bal2425": 111,
+        "bal2526": 130.9,
+        "isSpecial": false
+      },
+      {
+        "code": "578573",
+        "name": "Mühasibat uçotu",
+        "paymentType": "ödənişsiz",
+        "bal2425": 117.9,
+        "bal2526": 137.3,
+        "isSpecial": false
+      },
+      {
+        "code": "578581",
+        "name": "Çoxkanallı telekommunikasiya sistemlərinin istismarı",
+        "paymentType": "ödənişsiz",
+        "bal2425": 83.8,
+        "bal2526": 110.9,
+        "isSpecial": false
+      },
+      {
+        "code": "578598",
+        "name": "Ətraf mühitin mühafizəsi və bərpası",
+        "paymentType": "ödənişsiz",
+        "bal2425": 93.2,
+        "bal2526": 108.4,
+        "isSpecial": false
+      },
+      {
+        "code": "578613",
+        "name": "Kompüter sistemləri və kompleksləri",
+        "paymentType": "ödənişsiz",
+        "bal2425": 107,
+        "bal2526": 130.2,
+        "isSpecial": false
+      },
+      {
+        "code": "578621",
+        "name": "Kompüter şəbəkələri və şəbəkə inzibatçılığı",
+        "paymentType": "ödənişsiz",
+        "bal2425": 109,
+        "bal2526": 133.9,
+        "isSpecial": false
+      },
+      {
+        "code": "578638",
+        "name": "Kompüter şəbəkəsi avadanlıqlarının təmiri və servisi",
+        "paymentType": "ödənişsiz",
+        "bal2425": 101.5,
+        "bal2526": 122.4,
+        "isSpecial": false
+      },
+      {
+        "code": "578646",
+        "name": "Mobil şəbəkə sistemləri və operatorluğu",
+        "paymentType": "ödənişsiz",
+        "bal2425": 100.1,
+        "bal2526": 120.1,
+        "isSpecial": false
+      },
+      {
+        "code": "578654",
+        "name": "Nəqliyyat vasitələrinin texniki istismarı",
+        "paymentType": "ödənişsiz",
+        "bal2425": 97.8,
+        "bal2526": 117.7,
+        "isSpecial": false
+      },
+      {
+        "code": "578662",
+        "name": "Nəqliyyatın logistikası",
+        "paymentType": "ödənişsiz",
+        "bal2425": 99.2,
+        "bal2526": 121.4,
+        "isSpecial": false
+      },
+      {
+        "code": "578679",
+        "name": "Poçt rabitəsi",
+        "paymentType": "ödənişsiz",
+        "bal2425": 100.1,
+        "bal2526": 114.8,
+        "isSpecial": false
+      },
+      {
+        "code": "578687",
+        "name": "Radio, televiziya vasitə və qurğuları",
+        "paymentType": "ödənişsiz",
+        "bal2425": 84.8,
+        "bal2526": 109.4,
+        "isSpecial": false
+      },
+      {
+        "code": "578695",
+        "name": "Telekommunikasiya şəbəkələri və xətləri",
+        "paymentType": "ödənişsiz",
+        "bal2425": 93.9,
+        "bal2526": 115.2,
+        "isSpecial": false
+      },
+      {
+        "code": "578719",
+        "name": "Vaqon və refrijerator təsərrüfatı 105.7 Bakı Xoreoqrafiya Akademiyasının orta ixtisas təhsili",
+        "paymentType": "ödənişsiz",
+        "bal2425": 117.9,
+        "bal2526": null,
+        "isSpecial": false
+      },
+      {
+        "code": "579278",
+        "name": "Rəqs müəllimliyi",
+        "paymentType": "ödənişsiz",
+        "bal2425": 30,
+        "bal2526": 138.6,
+        "isSpecial": true
+      },
+      {
+        "code": "579286",
+        "name": "Xoreoqrafiya sənəti (klassik, xalq)",
+        "paymentType": "ödənişsiz",
+        "bal2425": 30,
+        "bal2526": 30,
+        "isSpecial": true
+      },
+      {
+        "code": "579294",
+        "name": "İnstrumental ifaçılıq (fortepiano, tar, kamança, nağara, qarmon, klarnet)",
+        "paymentType": "ödənişsiz",
+        "bal2425": 50,
+        "bal2526": 75.2,
+        "isSpecial": true
+      },
+      {
+        "code": "579318",
+        "name": "Rəqs müəllimliyi",
+        "paymentType": "ödənişsiz",
+        "bal2425": 30,
+        "bal2526": 30,
+        "isSpecial": true
+      },
+      {
+        "code": "579326",
+        "name": "İnstrumental ifaçılıq (fortepiano, tar, kamança, nağara, qarmon, klarnet) 50 Azərbaycan Dövlət Mədəniyyət və İncəsənət Universitetinin nəzdində Humanitar",
+        "paymentType": "ödənişli",
+        "bal2425": 50,
+        "bal2526": null,
+        "isSpecial": true
+      },
+      {
+        "code": "579359",
+        "name": "İnklüziv təhsil",
+        "paymentType": "ödənişli",
+        "bal2425": 99.1,
+        "bal2526": 141.6,
+        "isSpecial": false
+      },
+      {
+        "code": "579367",
+        "name": "Kitabxana işi",
+        "paymentType": "ödənişli",
+        "bal2425": 140.8,
+        "bal2526": 152.1,
+        "isSpecial": false
+      },
+      {
+        "code": "579375",
+        "name": "Kinooperator sənəti",
+        "paymentType": "ödənişli",
+        "bal2425": 107.4,
+        "bal2526": 128.7,
+        "isSpecial": false
+      },
+      {
+        "code": "579383",
+        "name": "Mədəni kütləvi tədbirlərin təşkilatçısı",
+        "paymentType": "ödənişli",
+        "bal2425": 119.7,
+        "bal2526": 137.4,
+        "isSpecial": false
+      },
+      {
+        "code": "579391",
+        "name": "Muzey işi və abidələrin qorunması",
+        "paymentType": "ödənişli",
+        "bal2425": 130.8,
+        "bal2526": 145.6,
+        "isSpecial": false
+      },
+      {
+        "code": "579415",
+        "name": "Sosial iş",
+        "paymentType": "ödənişli",
+        "bal2425": 148.2,
+        "bal2526": 152.9,
+        "isSpecial": false
+      },
+      {
+        "code": "579423",
+        "name": "Turizm bələdçiliyi",
+        "paymentType": "ödənişli",
+        "bal2425": 145.6,
+        "bal2526": 161.2,
+        "isSpecial": false
+      },
+      {
+        "code": "579431",
+        "name": "Aktyor sənəti",
+        "paymentType": "ödənişli",
+        "bal2425": 74,
+        "bal2526": 84,
+        "isSpecial": true
+      },
+      {
+        "code": "579448",
+        "name": "Aşıq sənəti",
+        "paymentType": "ödənişli",
+        "bal2425": 75.3,
+        "bal2526": 70.2,
+        "isSpecial": true
+      },
+      {
+        "code": "579456",
+        "name": "Bədii yaradıcılıq işi",
+        "paymentType": "ödənişli",
+        "bal2425": 50,
+        "bal2526": 50,
+        "isSpecial": true
+      },
+      {
+        "code": "579464",
+        "name": "Dekorativ-tətbiqi sənət (bədii xalça)",
+        "paymentType": "ödənişli",
+        "bal2425": 96.1,
+        "bal2526": 118.4,
+        "isSpecial": true
+      },
+      {
+        "code": "579472",
+        "name": "Dizayn (geyim dizaynı)",
+        "paymentType": "ödənişli",
+        "bal2425": 147.2,
+        "bal2526": 172.6,
+        "isSpecial": true
+      },
+      {
+        "code": "579489",
+        "name": "İnstrumental ifaçılıq (fortepiano, tar, kamança, gitara, violin, nağara)",
+        "paymentType": "ödənişli",
+        "bal2425": 50,
+        "bal2526": 74.7,
+        "isSpecial": true
+      },
+      {
+        "code": "579497",
+        "name": "Populyar musiqi və caz ifaçılığı (vokal)",
+        "paymentType": "ödənişli",
+        "bal2425": 50,
+        "bal2526": 50,
+        "isSpecial": true
+      },
+      {
+        "code": "579512",
+        "name": "Vokal sənəti (xanəndəlik)",
+        "paymentType": "ödənişli",
+        "bal2425": 95.3,
+        "bal2526": 107.4,
+        "isSpecial": true
+      },
+      {
+        "code": "579529",
+        "name": "İnklüziv təhsil",
+        "paymentType": "ödənişli",
+        "bal2425": 99.1,
+        "bal2526": 110.5,
+        "isSpecial": false
+      },
+      {
+        "code": "579537",
+        "name": "Kitabxana işi",
+        "paymentType": "ödənişli",
+        "bal2425": 104.6,
+        "bal2526": 110.9,
+        "isSpecial": false
+      },
+      {
+        "code": "579545",
+        "name": "Kinooperator sənəti",
+        "paymentType": "ödənişli",
+        "bal2425": 86.4,
+        "bal2526": 102.6,
+        "isSpecial": false
+      },
+      {
+        "code": "579553",
+        "name": "Mədəni kütləvi tədbirlərin təşkilatçısı",
+        "paymentType": "ödənişli",
+        "bal2425": 91.7,
+        "bal2526": 110.1,
+        "isSpecial": false
+      },
+      {
+        "code": "579561",
+        "name": "Muzey işi və abidələrin qorunması",
+        "paymentType": "ödənişli",
+        "bal2425": 95.6,
+        "bal2526": 107.3,
+        "isSpecial": false
+      },
+      {
+        "code": "579578",
+        "name": "Sosial iş",
+        "paymentType": "ödənişli",
+        "bal2425": 114.2,
+        "bal2526": 119.3,
+        "isSpecial": false
+      },
+      {
+        "code": "579586",
+        "name": "Turizm bələdçiliyi",
+        "paymentType": "ödənişli",
+        "bal2425": 108.4,
+        "bal2526": 118.3,
+        "isSpecial": false
+      },
+      {
+        "code": "579594",
+        "name": "Aktyor sənəti",
+        "paymentType": "ödənişli",
+        "bal2425": 50,
+        "bal2526": 61.8,
+        "isSpecial": true
+      },
+      {
+        "code": "579618",
+        "name": "Aşıq sənəti",
+        "paymentType": "ödənişli",
+        "bal2425": 50,
+        "bal2526": 50,
+        "isSpecial": true
+      },
+      {
+        "code": "579626",
+        "name": "Bədii yaradıcılıq işi",
+        "paymentType": "ödənişli",
+        "bal2425": 50,
+        "bal2526": 50,
+        "isSpecial": true
+      },
+      {
+        "code": "579634",
+        "name": "Dekorativ-tətbiqi sənət (bədii xalça)",
+        "paymentType": "ödənişli",
+        "bal2425": 79,
+        "bal2526": 89.3,
+        "isSpecial": true
+      },
+      {
+        "code": "579642",
+        "name": "Dizayn (geyim dizaynı)",
+        "paymentType": "ödənişli",
+        "bal2425": 101.2,
+        "bal2526": 130.4,
+        "isSpecial": true
+      },
+      {
+        "code": "579659",
+        "name": "İnstrumental ifaçılıq (fortepiano, tar, kamança, gitara, violin, nağara)",
+        "paymentType": "ödənişli",
+        "bal2425": null,
+        "bal2526": 50,
+        "isSpecial": true
+      },
+      {
+        "code": "579667",
+        "name": "Populyar musiqi və caz ifaçılığı (vokal)",
+        "paymentType": "ödənişli",
+        "bal2425": 50,
+        "bal2526": 50,
+        "isSpecial": true
+      },
+      {
+        "code": "579675",
+        "name": "Vokal sənəti (xanəndəlik)",
+        "paymentType": "ödənişli",
+        "bal2425": 50,
+        "bal2526": 50,
+        "isSpecial": true
+      }
+    ]
+  },
+  {
+    "name": "Azərbaycan Dövlət Rəssamlıq Akademiyası nəzdində İncəsənət Kolleci",
+    "normalized": "azərbaycandövlətrəssamlıqakademiyasınəzdindəi̇ncəsənətkolleci",
+    "specialties": [
+      {
+        "code": "579812",
+        "name": "Dekorativ-tətbiqi sənət (sahələr üzrə)",
+        "paymentType": "ödənişsiz",
+        "bal2425": null,
+        "bal2526": 157.8,
+        "isSpecial": true
+      },
+      {
+        "code": "579829",
+        "name": "Dizayn (sahələr üzrə)",
+        "paymentType": "ödənişsiz",
+        "bal2425": null,
+        "bal2526": 209.9,
+        "isSpecial": true
+      },
+      {
+        "code": "579837",
+        "name": "Heykəltəraşlıq",
+        "paymentType": "ödənişsiz",
+        "bal2425": 50,
+        "bal2526": 182.1,
+        "isSpecial": true
+      },
+      {
+        "code": "579845",
+        "name": "Qrafika üzrə texnik",
+        "paymentType": "ödənişsiz",
+        "bal2425": 171.4,
+        "bal2526": 193.4,
+        "isSpecial": true
+      },
+      {
+        "code": "579853",
+        "name": "Rəngkarlıq (sahələr üzrə)",
+        "paymentType": "ödənişsiz",
+        "bal2425": 178.7,
+        "bal2526": 187.2,
+        "isSpecial": true
+      },
+      {
+        "code": "579861",
+        "name": "Teatr dekor sənəti",
+        "paymentType": "ödənişsiz",
+        "bal2425": 155.1,
+        "bal2526": 144.7,
+        "isSpecial": true
+      },
+      {
+        "code": "579878",
+        "name": "Dekorativ-tətbiqi sənət (sahələr üzrə)",
+        "paymentType": "ödənişli",
+        "bal2425": null,
+        "bal2526": 108.5,
+        "isSpecial": true
+      },
+      {
+        "code": "579886",
+        "name": "Dizayn (sahələr üzrə)",
+        "paymentType": "ödənişli",
+        "bal2425": null,
+        "bal2526": 172.2,
+        "isSpecial": true
+      },
+      {
+        "code": "579894",
+        "name": "Heykəltəraşlıq",
+        "paymentType": "ödənişli",
+        "bal2425": 50,
+        "bal2526": 92.2,
+        "isSpecial": true
+      },
+      {
+        "code": "579918",
+        "name": "Qrafika üzrə texnik",
+        "paymentType": "ödənişli",
+        "bal2425": 113.9,
+        "bal2526": 127.6,
+        "isSpecial": true
+      },
+      {
+        "code": "579926",
+        "name": "Rəngkarlıq (sahələr üzrə)",
+        "paymentType": "ödənişli",
+        "bal2425": 121.7,
+        "bal2526": 151.3,
+        "isSpecial": true
+      },
+      {
+        "code": "579934",
+        "name": "Teatr dekor sənəti",
+        "paymentType": "ödənişli",
+        "bal2425": 102,
+        "bal2526": 89.9,
+        "isSpecial": true
+      }
+    ]
+  },
+  {
+    "name": "Azərbaycan Milli Konservatoriyası nəzdində Musiqi Kolleci",
+    "normalized": "azərbaycanmillikonservatoriyasınəzdindəmusiqikolleci",
+    "specialties": [
+      {
+        "code": "581156",
+        "name": "İnstrumental ifaçılıq (fortepiano, violin, viola, violonçel, fleyta, qoboy, klarnet, truba, trombon, valtorna, tar, kamança, qanun, balaban, qarmon, nağara)",
+        "paymentType": "ödənişsiz",
+        "bal2425": 79,
+        "bal2526": 82.3,
+        "isSpecial": true
+      },
+      {
+        "code": "581164",
+        "name": "İnstrumental ifaçılıq (fortepiano, violin, viola, violonçel, fleyta, qoboy, klarnet, truba, trombon, valtorna, tar, kamança, qanun, balaban, qarmon, nağara)",
+        "paymentType": "ödənişli",
+        "bal2425": 50,
+        "bal2526": 50,
+        "isSpecial": true
+      }
+    ]
+  },
+  {
+    "name": "Azərbaycan Texniki Universitetinin nəzdində Bakı Texniki Kolleci",
+    "normalized": "azərbaycantexnikiuniversitetininnəzdindəbakıtexnikikolleci",
+    "specialties": [
+      {
+        "code": "581197",
+        "name": "Marketinq (sahələr üzrə)",
+        "paymentType": "ödənişsiz",
+        "bal2425": 154.6,
+        "bal2526": 168.4,
+        "isSpecial": false
+      },
+      {
+        "code": "581212",
+        "name": "Mühasibat uçotu",
+        "paymentType": "ödənişsiz",
+        "bal2425": 159.5,
+        "bal2526": 174.6,
+        "isSpecial": false
+      },
+      {
+        "code": "581229",
+        "name": "Energetika və elektroenergetika",
+        "paymentType": "ödənişsiz",
+        "bal2425": 133.1,
+        "bal2526": 148.8,
+        "isSpecial": false
+      },
+      {
+        "code": "581237",
+        "name": "Ətraf mühitin mühafizəsi və bərpası",
+        "paymentType": "ödənişsiz",
+        "bal2425": 121.3,
+        "bal2526": 132.6,
+        "isSpecial": false
+      },
+      {
+        "code": "581245",
+        "name": "Kompüter sistemlərində proqram təminatı",
+        "paymentType": "ödənişsiz",
+        "bal2425": 184.8,
+        "bal2526": 198,
+        "isSpecial": false
+      },
+      {
+        "code": "581253",
+        "name": "Qaldırıcı- nəqliyyat, tikinti maşın və avadanlıqlarının texniki istismarı",
+        "paymentType": "ödənişsiz",
+        "bal2425": 108.7,
+        "bal2526": 124.7,
+        "isSpecial": false
+      },
+      {
+        "code": "581261",
+        "name": "Qaynaq istehsalının metallurgiyası, texnologiyası və avadanlığı",
+        "paymentType": "ödənişsiz",
+        "bal2425": 104.5,
+        "bal2526": 117.4,
+        "isSpecial": false
+      },
+      {
+        "code": "581278",
+        "name": "Nəqliyyat vasitələrinin texniki istismarı",
+        "paymentType": "ödənişsiz",
+        "bal2425": 129.1,
+        "bal2526": 149.2,
+        "isSpecial": false
+      },
+      {
+        "code": "581286",
+        "name": "Nəqliyyatda avtomatika, telemexanika (nəqliyyat növləri üzrə)",
+        "paymentType": "ödənişsiz",
+        "bal2425": 131.1,
+        "bal2526": 148,
+        "isSpecial": false
+      },
+      {
+        "code": "581294",
+        "name": "Nəqliyyatın logistikası",
+        "paymentType": "ödənişsiz",
+        "bal2425": 138.9,
+        "bal2526": 153.8,
+        "isSpecial": false
+      },
+      {
+        "code": "581318",
+        "name": "Sənaye avadanlıqlarının quraşdırılması və texniki istismarı",
+        "paymentType": "ödənişsiz",
+        "bal2425": 123.8,
+        "bal2526": 141.8,
+        "isSpecial": false
+      },
+      {
+        "code": "581326",
+        "name": "Tibbi avadanlıqların quraşdırılması və istismarı",
+        "paymentType": "ödənişsiz",
+        "bal2425": 133.9,
+        "bal2526": 148.1,
+        "isSpecial": false
+      },
+      {
+        "code": "581334",
+        "name": "Marketinq (sahələr üzrə)",
+        "paymentType": "ödənişli",
+        "bal2425": 108,
+        "bal2526": 128.8,
+        "isSpecial": false
+      },
+      {
+        "code": "581342",
+        "name": "Mühasibat uçotu",
+        "paymentType": "ödənişli",
+        "bal2425": 115.8,
+        "bal2526": 130.5,
+        "isSpecial": false
+      },
+      {
+        "code": "581359",
+        "name": "Energetika və elektroenergetika",
+        "paymentType": "ödənişli",
+        "bal2425": 93.2,
+        "bal2526": 111.2,
+        "isSpecial": false
+      },
+      {
+        "code": "581367",
+        "name": "Ətraf mühitin mühafizəsi və bərpası",
+        "paymentType": "ödənişli",
+        "bal2425": 91.8,
+        "bal2526": 106.4,
+        "isSpecial": false
+      },
+      {
+        "code": "581375",
+        "name": "Kompüter sistemlərində proqram təminatı",
+        "paymentType": "ödənişli",
+        "bal2425": 115.8,
+        "bal2526": 134,
+        "isSpecial": false
+      },
+      {
+        "code": "581383",
+        "name": "Qaldırıcı- nəqliyyat, tikinti maşın və avadanlıqlarının texniki istismarı",
+        "paymentType": "ödənişli",
+        "bal2425": 71.2,
+        "bal2526": 97.5,
+        "isSpecial": false
+      },
+      {
+        "code": "581391",
+        "name": "Qaynaq istehsalının metallurgiyası, texnologiyası və avadanlığı",
+        "paymentType": "ödənişli",
+        "bal2425": 75.6,
+        "bal2526": 95.2,
+        "isSpecial": false
+      },
+      {
+        "code": "581415",
+        "name": "Nəqliyyat vasitələrinin texniki istismarı",
+        "paymentType": "ödənişli",
+        "bal2425": 90.2,
+        "bal2526": 108.8,
+        "isSpecial": false
+      },
+      {
+        "code": "581423",
+        "name": "Nəqliyyatda avtomatika, telemexanika (nəqliyyat növləri üzrə)",
+        "paymentType": "ödənişli",
+        "bal2425": 87.9,
+        "bal2526": 107.2,
+        "isSpecial": false
+      },
+      {
+        "code": "581431",
+        "name": "Nəqliyyatın logistikası",
+        "paymentType": "ödənişli",
+        "bal2425": 95.2,
+        "bal2526": 114.9,
+        "isSpecial": false
+      },
+      {
+        "code": "581448",
+        "name": "Sənaye avadanlıqlarının quraşdırılması və texniki istismarı",
+        "paymentType": "ödənişli",
+        "bal2425": 89.3,
+        "bal2526": 103.3,
+        "isSpecial": false
+      },
+      {
+        "code": "581456",
+        "name": "Tibbi avadanlıqların quraşdırılması və istismarı",
+        "paymentType": "ödənişli",
+        "bal2425": 104.1,
+        "bal2526": 115.3,
+        "isSpecial": false
+      }
+    ]
+  },
+  {
+    "name": "Azərbaycan Dövlət Neft və Sənaye Universitetinin nəzdində Bakı Neft-Energetika Kolleci",
+    "normalized": "azərbaycandövlətneftvəsənayeuniversitetininnəzdindəbakıneftenergetikakolleci",
+    "specialties": [
+      {
+        "code": "581464",
+        "name": "Mühasibat uçotu",
+        "paymentType": "ödənişsiz",
+        "bal2425": 158.1,
+        "bal2526": 172.8,
+        "isSpecial": false
+      },
+      {
+        "code": "581472",
+        "name": "Elektrik stansiyası və yarımstansiyası avadanlıqlarının quraşdırılması",
+        "paymentType": "ödənişsiz",
+        "bal2425": 119.7,
+        "bal2526": 131.5,
+        "isSpecial": false
+      },
+      {
+        "code": "581489",
+        "name": "Elektrik təchizatı (sahələr üzrə)",
+        "paymentType": "ödənişsiz",
+        "bal2425": 125.6,
+        "bal2526": 138.1,
+        "isSpecial": false
+      },
+      {
+        "code": "581497",
+        "name": "Ətraf mühitin mühafizəsi və bərpası",
+        "paymentType": "ödənişsiz",
+        "bal2425": 116.2,
+        "bal2526": 130.5,
+        "isSpecial": false
+      },
+      {
+        "code": "581512",
+        "name": "İstilik təchizatı və istilik texnikası avadanlıqları",
+        "paymentType": "ödənişsiz",
+        "bal2425": 114.9,
+        "bal2526": 126.5,
+        "isSpecial": false
+      },
+      {
+        "code": "581529",
+        "name": "İşıq texnikası və işıq mənbələri",
+        "paymentType": "ödənişsiz",
+        "bal2425": 110.6,
+        "bal2526": 124.6,
+        "isSpecial": false
+      },
+      {
+        "code": "581537",
+        "name": "Məişət tullantılarının idarə olunması",
+        "paymentType": "ödənişsiz",
+        "bal2425": 102.4,
+        "bal2526": 115.5,
+        "isSpecial": false
+      },
+      {
+        "code": "581545",
+        "name": "Neft emalı və neft kimyası",
+        "paymentType": "ödənişsiz",
+        "bal2425": 152.3,
+        "bal2526": 159.3,
+        "isSpecial": false
+      },
+      {
+        "code": "581553",
+        "name": "Neft və qaz yataqlarında geoloji və geofiziki işlər",
+        "paymentType": "ödənişsiz",
+        "bal2425": 131.1,
+        "bal2526": 151.7,
+        "isSpecial": false
+      },
+      {
+        "code": "581561",
+        "name": "Neft və qaz yataqlarının istismarı",
+        "paymentType": "ödənişsiz",
+        "bal2425": 137.9,
+        "bal2526": 155.6,
+        "isSpecial": false
+      },
+      {
+        "code": "581578",
+        "name": "Neft-qaz işi",
+        "paymentType": "ödənişsiz",
+        "bal2425": 146.7,
+        "bal2526": 158,
+        "isSpecial": false
+      },
+      {
+        "code": "581586",
+        "name": "Neft-qaz qurğuları",
+        "paymentType": "ödənişsiz",
+        "bal2425": 132.6,
+        "bal2526": 149.4,
+        "isSpecial": false
+      },
+      {
+        "code": "581594",
+        "name": "Sənaye və mülki binalarda elektrik avadanlıqlarının quraşdırılması və istismarı",
+        "paymentType": "ödənişsiz",
+        "bal2425": 110.4,
+        "bal2526": 129.9,
+        "isSpecial": false
+      },
+      {
+        "code": "581618",
+        "name": "Mühasibat uçotu",
+        "paymentType": "ödənişli",
+        "bal2425": 116.8,
+        "bal2526": 132,
+        "isSpecial": false
+      },
+      {
+        "code": "581626",
+        "name": "Elektrik stansiyası və yarımstansiyası avadanlıqlarının quraşdırılması",
+        "paymentType": "ödənişli",
+        "bal2425": 84.5,
+        "bal2526": 102.2,
+        "isSpecial": false
+      },
+      {
+        "code": "581634",
+        "name": "Elektrik təchizatı (sahələr üzrə)",
+        "paymentType": "ödənişli",
+        "bal2425": 93.2,
+        "bal2526": 102.6,
+        "isSpecial": false
+      },
+      {
+        "code": "581642",
+        "name": "Ətraf mühitin mühafizəsi və bərpası",
+        "paymentType": "ödənişli",
+        "bal2425": 95.3,
+        "bal2526": 100.6,
+        "isSpecial": false
+      },
+      {
+        "code": "581659",
+        "name": "İstilik təchizatı və istilik texnikası avadanlıqları",
+        "paymentType": "ödənişli",
+        "bal2425": 87.3,
+        "bal2526": 95.4,
+        "isSpecial": false
+      },
+      {
+        "code": "581667",
+        "name": "İşıq texnikası və işıq mənbələri",
+        "paymentType": "ödənişli",
+        "bal2425": 87.8,
+        "bal2526": 97.2,
+        "isSpecial": false
+      },
+      {
+        "code": "581675",
+        "name": "Məişət tullantılarının idarə olunması",
+        "paymentType": "ödənişli",
+        "bal2425": 84.5,
+        "bal2526": 94.6,
+        "isSpecial": false
+      },
+      {
+        "code": "581683",
+        "name": "Neft emalı və neft kimyası",
+        "paymentType": "ödənişli",
+        "bal2425": 110.9,
+        "bal2526": 114.5,
+        "isSpecial": false
+      },
+      {
+        "code": "581691",
+        "name": "Neft və qaz yataqlarında geoloji və geofiziki işlər",
+        "paymentType": "ödənişli",
+        "bal2425": 101.6,
+        "bal2526": 109.2,
+        "isSpecial": false
+      },
+      {
+        "code": "581715",
+        "name": "Neft və qaz yataqlarının istismarı",
+        "paymentType": "ödənişli",
+        "bal2425": 104.1,
+        "bal2526": 110.9,
+        "isSpecial": false
+      },
+      {
+        "code": "581723",
+        "name": "Neft-qaz işi",
+        "paymentType": "ödənişli",
+        "bal2425": 111.7,
+        "bal2526": 118.8,
+        "isSpecial": false
+      },
+      {
+        "code": "581731",
+        "name": "Neft-qaz qurğuları",
+        "paymentType": "ödənişli",
+        "bal2425": 103.1,
+        "bal2526": 108,
+        "isSpecial": false
+      },
+      {
+        "code": "581748",
+        "name": "Sənaye və mülki binalarda elektrik avadanlıqlarının quraşdırılması və istismarı",
+        "paymentType": "ödənişli",
+        "bal2425": 89.4,
+        "bal2526": 98.4,
+        "isSpecial": false
+      }
+    ]
+  },
+  {
+    "name": "Azərbaycan Memarlıq və İnşaat Universitetinin nəzdində İnşaat Kolleci",
+    "normalized": "azərbaycanmemarlıqvəi̇nşaatuniversitetininnəzdindəi̇nşaatkolleci",
+    "specialties": [
+      {
+        "code": "581886",
+        "name": "Bərpaçı",
+        "paymentType": "ödənişsiz",
+        "bal2425": 72.7,
+        "bal2526": 128.8,
+        "isSpecial": false
+      },
+      {
+        "code": "581894",
+        "name": "Alternativ enerji qurğu və avadanlıqlarının istismarı",
+        "paymentType": "ödənişsiz",
+        "bal2425": 120.7,
+        "bal2526": 144.6,
+        "isSpecial": false
+      },
+      {
+        "code": "581918",
+        "name": "Avtomobil yollarının və aerodromların tikintisi və istismarı",
+        "paymentType": "ödənişsiz",
+        "bal2425": 116.2,
+        "bal2526": 141.9,
+        "isSpecial": false
+      },
+      {
+        "code": "581926",
+        "name": "Bina və qurğuların tikintisi və istismarı",
+        "paymentType": "ödənişsiz",
+        "bal2425": 86.7,
+        "bal2526": 149.2,
+        "isSpecial": false
+      },
+      {
+        "code": "581934",
+        "name": "Geodeziya və kartoqrafiya",
+        "paymentType": "ödənişsiz",
+        "bal2425": 133.5,
+        "bal2526": 141.4,
+        "isSpecial": false
+      },
+      {
+        "code": "581942",
+        "name": "İnşaat məmulatlarının və konstruksiyalarının istehsalı",
+        "paymentType": "ödənişsiz",
+        "bal2425": 106.5,
+        "bal2526": 126.7,
+        "isSpecial": false
+      },
+      {
+        "code": "581959",
+        "name": "İstilik təchizatı və istilik texnikası avadanlıqları",
+        "paymentType": "ödənişsiz",
+        "bal2425": 108.6,
+        "bal2526": 124.7,
+        "isSpecial": false
+      },
+      {
+        "code": "581967",
+        "name": "Kompüter şəbəkələri və şəbəkə inzibatçılığı",
+        "paymentType": "ödənişsiz",
+        "bal2425": 153.4,
+        "bal2526": 176.9,
+        "isSpecial": false
+      },
+      {
+        "code": "581975",
+        "name": "Qaz təsərrüfatı qurğularının istismarı",
+        "paymentType": "ödənişsiz",
+        "bal2425": 124.7,
+        "bal2526": 130.1,
+        "isSpecial": false
+      },
+      {
+        "code": "581983",
+        "name": "Nəqliyyatın logistikası",
+        "paymentType": "ödənişsiz",
+        "bal2425": 132,
+        "bal2526": 152.2,
+        "isSpecial": false
+      },
+      {
+        "code": "581991",
+        "name": "Sanitar texniki qurğularının quraşdırılması və istismarı",
+        "paymentType": "ödənişsiz",
+        "bal2425": 106.4,
+        "bal2526": 118.7,
+        "isSpecial": false
+      },
+      {
+        "code": "582111",
+        "name": "Sənaye və mülki binalarda elektrik avadanlıqlarının quraşdırılması və istismarı",
+        "paymentType": "ödənişsiz",
+        "bal2425": 112.4,
+        "bal2526": 126.9,
+        "isSpecial": false
+      },
+      {
+        "code": "582128",
+        "name": "Su təsərrüfatı qurğularının istismarı",
+        "paymentType": "ödənişsiz",
+        "bal2425": 110.3,
+        "bal2526": 125.6,
+        "isSpecial": false
+      },
+      {
+        "code": "582136",
+        "name": "Hidromeliorasiya və torpaq mühafizəsi",
+        "paymentType": "ödənişsiz",
+        "bal2425": 112.5,
+        "bal2526": 126.4,
+        "isSpecial": false
+      },
+      {
+        "code": "582144",
+        "name": "Yerquruluşu və daşınmaz əmlakın kadastrı",
+        "paymentType": "ödənişsiz",
+        "bal2425": 126.6,
+        "bal2526": 140.8,
+        "isSpecial": false
+      },
+      {
+        "code": "582152",
+        "name": "Dizayn (interyer dizaynı)",
+        "paymentType": "ödənişsiz",
+        "bal2425": 153.7,
+        "bal2526": 213.8,
+        "isSpecial": true
+      },
+      {
+        "code": "582169",
+        "name": "Bərpaçı",
+        "paymentType": "ödənişli",
+        "bal2425": 72.7,
+        "bal2526": 97.6,
+        "isSpecial": false
+      },
+      {
+        "code": "582177",
+        "name": "Alternativ enerji qurğu və avadanlıqlarının istismarı",
+        "paymentType": "ödənişli",
+        "bal2425": 89.8,
+        "bal2526": 103.8,
+        "isSpecial": false
+      },
+      {
+        "code": "582185",
+        "name": "Avtomobil yollarının və aerodromların tikintisi və istismarı",
+        "paymentType": "ödənişli",
+        "bal2425": 80.9,
+        "bal2526": 103.7,
+        "isSpecial": false
+      },
+      {
+        "code": "582193",
+        "name": "Bina və qurğuların tikintisi və istismarı",
+        "paymentType": "ödənişli",
+        "bal2425": 86.7,
+        "bal2526": 105.9,
+        "isSpecial": false
+      },
+      {
+        "code": "582217",
+        "name": "Geodeziya və kartoqrafiya",
+        "paymentType": "ödənişli",
+        "bal2425": 89.7,
+        "bal2526": 109,
+        "isSpecial": false
+      },
+      {
+        "code": "582225",
+        "name": "İnşaat məmulatlarının və konstruksiyalarının istehsalı",
+        "paymentType": "ödənişli",
+        "bal2425": 87.1,
+        "bal2526": 95.6,
+        "isSpecial": false
+      },
+      {
+        "code": "582233",
+        "name": "İstilik təchizatı və istilik texnikası avadanlıqları",
+        "paymentType": "ödənişli",
+        "bal2425": 86,
+        "bal2526": 98.1,
+        "isSpecial": false
+      },
+      {
+        "code": "582241",
+        "name": "Kompüter şəbəkələri və şəbəkə inzibatçılığı",
+        "paymentType": "ödənişli",
+        "bal2425": 106.4,
+        "bal2526": 128.6,
+        "isSpecial": false
+      },
+      {
+        "code": "582258",
+        "name": "Qaz təsərrüfatı qurğularının istismarı",
+        "paymentType": "ödənişli",
+        "bal2425": 90.9,
+        "bal2526": 103.9,
+        "isSpecial": false
+      },
+      {
+        "code": "582266",
+        "name": "Nəqliyyatın logistikası",
+        "paymentType": "ödənişli",
+        "bal2425": 100.6,
+        "bal2526": 116.7,
+        "isSpecial": false
+      },
+      {
+        "code": "582274",
+        "name": "Sanitar texniki qurğularının quraşdırılması və istismarı",
+        "paymentType": "ödənişli",
+        "bal2425": 84.5,
+        "bal2526": 93.8,
+        "isSpecial": false
+      },
+      {
+        "code": "582282",
+        "name": "Sənaye və mülki binalarda elektrik avadanlıqlarının quraşdırılması və istismarı",
+        "paymentType": "ödənişli",
+        "bal2425": 86.4,
+        "bal2526": 100.1,
+        "isSpecial": false
+      },
+      {
+        "code": "582299",
+        "name": "Su təsərrüfatı qurğularının istismarı",
+        "paymentType": "ödənişli",
+        "bal2425": 87.4,
+        "bal2526": 101.2,
+        "isSpecial": false
+      },
+      {
+        "code": "582314",
+        "name": "Hidromeliorasiya və torpaq mühafizəsi",
+        "paymentType": "ödənişli",
+        "bal2425": 89.7,
+        "bal2526": 100.8,
+        "isSpecial": false
+      },
+      {
+        "code": "582322",
+        "name": "Yerquruluşu və daşınmaz əmlakın kadastrı",
+        "paymentType": "ödənişli",
+        "bal2425": 95.2,
+        "bal2526": 115.1,
+        "isSpecial": false
+      },
+      {
+        "code": "582339",
+        "name": "Dizayn (interyer dizaynı)",
+        "paymentType": "ödənişli",
+        "bal2425": 122.7,
+        "bal2526": 143.1,
+        "isSpecial": true
+      }
+    ]
+  },
+  {
+    "name": "Naxçıvan Dövlət Texniki Kolleci",
+    "normalized": "naxçıvandövləttexnikikolleci",
+    "specialties": [
+      {
+        "code": "582582",
+        "name": "Bank işi",
+        "paymentType": "ödənişsiz",
+        "bal2425": 184.5,
+        "bal2526": 182.1,
+        "isSpecial": false
+      },
+      {
+        "code": "582599",
+        "name": "Bələdiyyə işi",
+        "paymentType": "ödənişsiz",
+        "bal2425": 166.3,
+        "bal2526": 148.1,
+        "isSpecial": false
+      },
+      {
+        "code": "582614",
+        "name": "Mühasibat uçotu",
+        "paymentType": "ödənişsiz",
+        "bal2425": 173.8,
+        "bal2526": 174.3,
+        "isSpecial": false
+      },
+      {
+        "code": "582622",
+        "name": "Elektrik təchizatı (sahələr üzrə)",
+        "paymentType": "ödənişsiz",
+        "bal2425": 143.1,
+        "bal2526": 132.1,
+        "isSpecial": false
+      },
+      {
+        "code": "582639",
+        "name": "Kompüter sistemlərində proqram təminatı",
+        "paymentType": "ödənişsiz",
+        "bal2425": 169.6,
+        "bal2526": 154.6,
+        "isSpecial": false
+      },
+      {
+        "code": "582647",
+        "name": "Nəqliyyat vasitələrinin texniki istismarı",
+        "paymentType": "ödənişsiz",
+        "bal2425": 151.7,
+        "bal2526": 139.5,
+        "isSpecial": false
+      },
+      {
+        "code": "582655",
+        "name": "Telekommunikasiya və kompüter sistemlərinin informasiya təhlükəsizliyi",
+        "paymentType": "ödənişsiz",
+        "bal2425": 169.5,
+        "bal2526": 160.2,
+        "isSpecial": false
+      },
+      {
+        "code": "582663",
+        "name": "Aqrar (fermer) təsərrüfatının təşkili",
+        "paymentType": "ödənişsiz",
+        "bal2425": 144.8,
+        "bal2526": 131.3,
+        "isSpecial": false
+      },
+      {
+        "code": "582671",
+        "name": "Baytarlıq",
+        "paymentType": "ödənişsiz",
+        "bal2425": 132.6,
+        "bal2526": 111.8,
+        "isSpecial": false
+      },
+      {
+        "code": "582688",
+        "name": "Turizm işinin təşkili",
+        "paymentType": "ödənişsiz",
+        "bal2425": 163,
+        "bal2526": 145.5,
+        "isSpecial": false
+      },
+      {
+        "code": "582696",
+        "name": "Bank işi",
+        "paymentType": "ödənişli",
+        "bal2425": 156.1,
+        "bal2526": 150.2,
+        "isSpecial": false
+      },
+      {
+        "code": "582711",
+        "name": "Bələdiyyə işi",
+        "paymentType": "ödənişli",
+        "bal2425": 136.4,
+        "bal2526": 121.3,
+        "isSpecial": false
+      },
+      {
+        "code": "582728",
+        "name": "Mühasibat uçotu",
+        "paymentType": "ödənişli",
+        "bal2425": 147.3,
+        "bal2526": 144.1,
+        "isSpecial": false
+      },
+      {
+        "code": "582736",
+        "name": "Elektrik təchizatı (sahələr üzrə)",
+        "paymentType": "ödənişli",
+        "bal2425": 124.8,
+        "bal2526": 115.2,
+        "isSpecial": false
+      },
+      {
+        "code": "582744",
+        "name": "Kompüter sistemlərində proqram təminatı",
+        "paymentType": "ödənişli",
+        "bal2425": 139.8,
+        "bal2526": 126.5,
+        "isSpecial": false
+      },
+      {
+        "code": "582752",
+        "name": "Nəqliyyat vasitələrinin texniki istismarı",
+        "paymentType": "ödənişli",
+        "bal2425": 131,
+        "bal2526": 118.9,
+        "isSpecial": false
+      },
+      {
+        "code": "582769",
+        "name": "Telekommunikasiya və kompüter sistemlərinin informasiya təhlükəsizliyi",
+        "paymentType": "ödənişli",
+        "bal2425": 137.9,
+        "bal2526": 123,
+        "isSpecial": false
+      },
+      {
+        "code": "582777",
+        "name": "Aqrar (fermer) təsərrüfatının təşkili",
+        "paymentType": "ödənişli",
+        "bal2425": 116.8,
+        "bal2526": 111.4,
+        "isSpecial": false
+      },
+      {
+        "code": "582785",
+        "name": "Baytarlıq",
+        "paymentType": "ödənişli",
+        "bal2425": 119.3,
+        "bal2526": 109,
+        "isSpecial": false
+      },
+      {
+        "code": "582793",
+        "name": "Turizm işinin təşkili",
+        "paymentType": "ödənişli",
+        "bal2425": 131,
+        "bal2526": 121.4,
+        "isSpecial": false
+      }
+    ]
+  },
+  {
+    "name": "Naxçıvan Musiqi Kolleci",
+    "normalized": "naxçıvanmusiqikolleci",
+    "specialties": [
+      {
+        "code": "582858",
+        "name": "Aktyor sənəti",
+        "paymentType": "ödənişsiz",
+        "bal2425": 50,
+        "bal2526": 50,
+        "isSpecial": true
+      },
+      {
+        "code": "582866",
+        "name": "Aşıq sənəti",
+        "paymentType": "ödənişsiz",
+        "bal2425": 81,
+        "bal2526": 57.2,
+        "isSpecial": true
+      },
+      {
+        "code": "582874",
+        "name": "Xoreoqrafiya sənəti (sahələr üzrə)",
+        "paymentType": "ödənişsiz",
+        "bal2425": 63.3,
+        "bal2526": 30,
+        "isSpecial": true
+      },
+      {
+        "code": "582882",
+        "name": "İnstrumental ifaçılıq (fortepiano)",
+        "paymentType": "ödənişsiz",
+        "bal2425": 128.9,
+        "bal2526": 125.6,
+        "isSpecial": true
+      },
+      {
+        "code": "582899",
+        "name": "İnstrumental ifaçılıq (orkestr alətləri: violin, violonçel, fleyta, klarnet, truba, valtorna, qoboy, tuba)",
+        "paymentType": "ödənişsiz",
+        "bal2425": 99.5,
+        "bal2526": 50,
+        "isSpecial": true
+      },
+      {
+        "code": "582914",
+        "name": "İnstrumental ifaçılıq (tar)",
+        "paymentType": "ödənişsiz",
+        "bal2425": 50,
+        "bal2526": 117,
+        "isSpecial": true
+      },
+      {
+        "code": "582922",
+        "name": "İnstrumental ifaçılıq (kamança)",
+        "paymentType": "ödənişsiz",
+        "bal2425": 119.7,
+        "bal2526": 111.3,
+        "isSpecial": true
+      },
+      {
+        "code": "582939",
+        "name": "İnstrumental ifaçılıq (qanun)",
+        "paymentType": "ödənişsiz",
+        "bal2425": 93.7,
+        "bal2526": 90.7,
+        "isSpecial": true
+      },
+      {
+        "code": "582947",
+        "name": "İnstrumental ifaçılıq (qarmon)",
+        "paymentType": "ödənişsiz",
+        "bal2425": 111.2,
+        "bal2526": 56,
+        "isSpecial": true
+      },
+      {
+        "code": "582955",
+        "name": "İnstrumental ifaçılıq (nağara)",
+        "paymentType": "ödənişsiz",
+        "bal2425": 101,
+        "bal2526": 79.4,
+        "isSpecial": true
+      },
+      {
+        "code": "582963",
+        "name": "İnstrumental ifaçılıq (balaban)",
+        "paymentType": "ödənişsiz",
+        "bal2425": 57.9,
+        "bal2526": 51.4,
+        "isSpecial": true
+      },
+      {
+        "code": "582971",
+        "name": "Rəngkarlıq (sahələr üzrə)",
+        "paymentType": "ödənişsiz",
+        "bal2425": 105.6,
+        "bal2526": 82,
+        "isSpecial": true
+      },
+      {
+        "code": "582988",
+        "name": "Vokal sənəti (xanəndəlik, klassik vokal)",
+        "paymentType": "ödənişsiz",
+        "bal2425": 84.4,
+        "bal2526": 50,
+        "isSpecial": true
+      },
+      {
+        "code": "582996",
+        "name": "Aktyor sənəti",
+        "paymentType": "ödənişsiz",
+        "bal2425": 50,
+        "bal2526": 50,
+        "isSpecial": true
+      },
+      {
+        "code": "583116",
+        "name": "Aşıq sənəti",
+        "paymentType": "ödənişsiz",
+        "bal2425": 74,
+        "bal2526": 50,
+        "isSpecial": true
+      },
+      {
+        "code": "583124",
+        "name": "Xoreoqrafiya sənəti (sahələr üzrə)",
+        "paymentType": "ödənişsiz",
+        "bal2425": 50.5,
+        "bal2526": 30,
+        "isSpecial": true
+      },
+      {
+        "code": "583132",
+        "name": "İnstrumental ifaçılıq (fortepiano)",
+        "paymentType": "ödənişsiz",
+        "bal2425": 93.6,
+        "bal2526": 81.2,
+        "isSpecial": true
+      },
+      {
+        "code": "583149",
+        "name": "İnstrumental ifaçılıq (orkestr alətləri: violin, violonçel, fleyta, klarnet, truba, valtorna, qoboy, tuba)",
+        "paymentType": "ödənişsiz",
+        "bal2425": 72.7,
+        "bal2526": 50,
+        "isSpecial": true
+      },
+      {
+        "code": "583157",
+        "name": "İnstrumental ifaçılıq (tar)",
+        "paymentType": "ödənişsiz",
+        "bal2425": 50,
+        "bal2526": 84.7,
+        "isSpecial": true
+      },
+      {
+        "code": "583165",
+        "name": "İnstrumental ifaçılıq (kamança)",
+        "paymentType": "ödənişsiz",
+        "bal2425": 101.5,
+        "bal2526": 91.4,
+        "isSpecial": true
+      },
+      {
+        "code": "583173",
+        "name": "İnstrumental ifaçılıq (qanun)",
+        "paymentType": "ödənişsiz",
+        "bal2425": 77,
+        "bal2526": 50,
+        "isSpecial": true
+      },
+      {
+        "code": "583181",
+        "name": "İnstrumental ifaçılıq (qarmon)",
+        "paymentType": "ödənişsiz",
+        "bal2425": 100.6,
+        "bal2526": 57.5,
+        "isSpecial": true
+      },
+      {
+        "code": "583198",
+        "name": "İnstrumental ifaçılıq (nağara)",
+        "paymentType": "ödənişsiz",
+        "bal2425": 99.2,
+        "bal2526": 65.2,
+        "isSpecial": true
+      },
+      {
+        "code": "583213",
+        "name": "İnstrumental ifaçılıq (balaban)",
+        "paymentType": "ödənişsiz",
+        "bal2425": 97.3,
+        "bal2526": 50,
+        "isSpecial": true
+      },
+      {
+        "code": "583221",
+        "name": "Rəngkarlıq (sahələr üzrə)",
+        "paymentType": "ödənişsiz",
+        "bal2425": 87.7,
+        "bal2526": 50,
+        "isSpecial": true
+      },
+      {
+        "code": "583238",
+        "name": "Vokal sənəti (xanəndəlik, klassik vokal) 50 Gəncə Dövlət Universitetinin nəzdində Regional",
+        "paymentType": "ödənişsiz",
+        "bal2425": 61.3,
+        "bal2526": null,
+        "isSpecial": true
+      },
+      {
+        "code": "583416",
+        "name": "Ailə və ev təhsili",
+        "paymentType": "ödənişsiz",
+        "bal2425": 130.1,
+        "bal2526": 140.3,
+        "isSpecial": false
+      },
+      {
+        "code": "583424",
+        "name": "Məktəbəqədər təhsil",
+        "paymentType": "ödənişsiz",
+        "bal2425": 147.4,
+        "bal2526": 162.8,
+        "isSpecial": false
+      },
+      {
+        "code": "583432",
+        "name": "Mühasibat uçotu",
+        "paymentType": "ödənişli",
+        "bal2425": 186.5,
+        "bal2526": 190.5,
+        "isSpecial": false
+      },
+      {
+        "code": "583449",
+        "name": "Elektrik təchizatı (sahələr üzrə)",
+        "paymentType": "ödənişli",
+        "bal2425": 133.9,
+        "bal2526": 139,
+        "isSpecial": false
+      },
+      {
+        "code": "583457",
+        "name": "Kompüter sistemlərinin təmiri və servisi",
+        "paymentType": "ödənişli",
+        "bal2425": 140.4,
+        "bal2526": 160.7,
+        "isSpecial": false
+      },
+      {
+        "code": "583465",
+        "name": "Nəqliyyat vasitələrinin texniki istismarı",
+        "paymentType": "ödənişli",
+        "bal2425": 126.6,
+        "bal2526": 136.5,
+        "isSpecial": false
+      },
+      {
+        "code": "583473",
+        "name": "Nəqliyyatın logistikası",
+        "paymentType": "ödənişli",
+        "bal2425": 127.6,
+        "bal2526": 138.1,
+        "isSpecial": false
+      },
+      {
+        "code": "583481",
+        "name": "Telekommunikasiya vasitələri və qurğuları",
+        "paymentType": "ödənişli",
+        "bal2425": 123.7,
+        "bal2526": 141.5,
+        "isSpecial": false
+      },
+      {
+        "code": "583498",
+        "name": "Tikiş məmulatlarının və trikotaj istehsalı texnologiyası",
+        "paymentType": "ödənişli",
+        "bal2425": 102.6,
+        "bal2526": 129.4,
+        "isSpecial": false
+      },
+      {
+        "code": "583513",
+        "name": "Baytarlıq",
+        "paymentType": "ödənişli",
+        "bal2425": 109,
+        "bal2526": 156.1,
+        "isSpecial": false
+      },
+      {
+        "code": "583521",
+        "name": "Turizm işinin təşkili",
+        "paymentType": "ödənişli",
+        "bal2425": 135.6,
+        "bal2526": 159.5,
+        "isSpecial": false
+      },
+      {
+        "code": "583538",
+        "name": "Fiziki tərbiyə müəllimliyi",
+        "paymentType": "ödənişli",
+        "bal2425": 108.1,
+        "bal2526": 117.5,
+        "isSpecial": true
+      },
+      {
+        "code": "583546",
+        "name": "Dizayn (interyer dizaynı, qrafik dizaynı)",
+        "paymentType": "ödənişli",
+        "bal2425": 125.1,
+        "bal2526": 87.4,
+        "isSpecial": true
+      },
+      {
+        "code": "583554",
+        "name": "İnstrumental ifaçılıq (fortepiano, violin, truba, tar, kamança, qarmon, nağara, saz)",
+        "paymentType": "ödənişli",
+        "bal2425": 115.2,
+        "bal2526": 79.4,
+        "isSpecial": true
+      },
+      {
+        "code": "583562",
+        "name": "Vokal sənəti (klassik vokal, xanəndəlik)",
+        "paymentType": "ödənişli",
+        "bal2425": 51.1,
+        "bal2526": 50,
+        "isSpecial": true
+      },
+      {
+        "code": "583579",
+        "name": "Ailə və ev təhsili",
+        "paymentType": "ödənişli",
+        "bal2425": 99.2,
+        "bal2526": 108,
+        "isSpecial": false
+      },
+      {
+        "code": "583587",
+        "name": "Məktəbəqədər təhsil",
+        "paymentType": "ödənişli",
+        "bal2425": 123.5,
+        "bal2526": 128.6,
+        "isSpecial": false
+      },
+      {
+        "code": "583595",
+        "name": "Mühasibat uçotu",
+        "paymentType": "ödənişli",
+        "bal2425": 156.5,
+        "bal2526": 151.7,
+        "isSpecial": false
+      },
+      {
+        "code": "583619",
+        "name": "Elektrik təchizatı (sahələr üzrə)",
+        "paymentType": "ödənişli",
+        "bal2425": 102,
+        "bal2526": 113.6,
+        "isSpecial": false
+      },
+      {
+        "code": "583627",
+        "name": "Kompüter sistemlərinin təmiri və servisi",
+        "paymentType": "ödənişli",
+        "bal2425": 115.1,
+        "bal2526": 125.8,
+        "isSpecial": false
+      },
+      {
+        "code": "583635",
+        "name": "Nəqliyyat vasitələrinin texniki istismarı",
+        "paymentType": "ödənişli",
+        "bal2425": 105.9,
+        "bal2526": 116.6,
+        "isSpecial": false
+      },
+      {
+        "code": "583643",
+        "name": "Nəqliyyatın logistikası",
+        "paymentType": "ödənişli",
+        "bal2425": 109.4,
+        "bal2526": 116.6,
+        "isSpecial": false
+      },
+      {
+        "code": "583651",
+        "name": "Telekommunikasiya vasitələri və qurğuları",
+        "paymentType": "ödənişli",
+        "bal2425": 107,
+        "bal2526": 115.3,
+        "isSpecial": false
+      },
+      {
+        "code": "583668",
+        "name": "Tikiş məmulatlarının və trikotaj istehsalı texnologiyası",
+        "paymentType": "ödənişli",
+        "bal2425": 93.7,
+        "bal2526": 99.7,
+        "isSpecial": false
+      },
+      {
+        "code": "583676",
+        "name": "Baytarlıq",
+        "paymentType": "ödənişli",
+        "bal2425": 109,
+        "bal2526": 120,
+        "isSpecial": false
+      },
+      {
+        "code": "583684",
+        "name": "Turizm işinin təşkili",
+        "paymentType": "ödənişli",
+        "bal2425": 107,
+        "bal2526": 116,
+        "isSpecial": false
+      },
+      {
+        "code": "583692",
+        "name": "Fiziki tərbiyə müəllimliyi",
+        "paymentType": "ödənişli",
+        "bal2425": 88.3,
+        "bal2526": 85.7,
+        "isSpecial": true
+      },
+      {
+        "code": "583716",
+        "name": "Dizayn (interyer dizaynı, qrafik dizaynı)",
+        "paymentType": "ödənişli",
+        "bal2425": 74.7,
+        "bal2526": 59.9,
+        "isSpecial": true
+      },
+      {
+        "code": "583724",
+        "name": "İnstrumental ifaçılıq (fortepiano, violin, truba, tar, kamança, qarmon, nağara, saz)",
+        "paymentType": "ödənişli",
+        "bal2425": 60.9,
+        "bal2526": 50,
+        "isSpecial": true
+      },
+      {
+        "code": "583732",
+        "name": "Vokal sənəti (klassik vokal, xanəndəlik)",
+        "paymentType": "ödənişli",
+        "bal2425": 50,
+        "bal2526": 50,
+        "isSpecial": true
+      }
+    ]
+  },
+  {
+    "name": "Qazax Dövlət Sosial-İqtisadi Kolleci",
+    "normalized": "qazaxdövlətsosiali̇qtisadikolleci",
+    "specialties": [
+      {
+        "code": "583813",
+        "name": "Kitabxana işi",
+        "paymentType": "ödənişsiz",
+        "bal2425": 107.4,
+        "bal2526": 124.5,
+        "isSpecial": false
+      },
+      {
+        "code": "583821",
+        "name": "Bank işi",
+        "paymentType": "ödənişsiz",
+        "bal2425": 116.9,
+        "bal2526": 143.7,
+        "isSpecial": false
+      },
+      {
+        "code": "583838",
+        "name": "Maliyyə işi",
+        "paymentType": "ödənişsiz",
+        "bal2425": 140.4,
+        "bal2526": 154.7,
+        "isSpecial": false
+      },
+      {
+        "code": "583846",
+        "name": "Mühasibat uçotu",
+        "paymentType": "ödənişsiz",
+        "bal2425": 123.2,
+        "bal2526": 145.8,
+        "isSpecial": false
+      },
+      {
+        "code": "583854",
+        "name": "Elektrik təchizatı (sahələr üzrə)",
+        "paymentType": "ödənişsiz",
+        "bal2425": 92.7,
+        "bal2526": 124.8,
+        "isSpecial": false
+      },
+      {
+        "code": "583862",
+        "name": "Poçt rabitəsi",
+        "paymentType": "ödənişsiz",
+        "bal2425": 93.7,
+        "bal2526": 125.7,
+        "isSpecial": false
+      },
+      {
+        "code": "583879",
+        "name": "Tikiş məmulatlarının və trikotaj istehsalı texnologiyası",
+        "paymentType": "ödənişsiz",
+        "bal2425": 75.1,
+        "bal2526": 95.9,
+        "isSpecial": false
+      },
+      {
+        "code": "583887",
+        "name": "Aqrar (fermer) təsərrüfatının təşkili",
+        "paymentType": "ödənişsiz",
+        "bal2425": 79.6,
+        "bal2526": 103,
+        "isSpecial": false
+      },
+      {
+        "code": "583895",
+        "name": "Aqronomluq",
+        "paymentType": "ödənişsiz",
+        "bal2425": 80,
+        "bal2526": 98.1,
+        "isSpecial": false
+      },
+      {
+        "code": "583919",
+        "name": "Baytarlıq",
+        "paymentType": "ödənişsiz",
+        "bal2425": 85.9,
+        "bal2526": 119.2,
+        "isSpecial": false
+      },
+      {
+        "code": "583927",
+        "name": "Meşə və park",
+        "paymentType": "ödənişsiz",
+        "bal2425": 76,
+        "bal2526": 97.6,
+        "isSpecial": false
+      },
+      {
+        "code": "583935",
+        "name": "Yerquruluşu və daşınmaz əmlakın kadastrı",
+        "paymentType": "ödənişsiz",
+        "bal2425": 105.5,
+        "bal2526": 129.4,
+        "isSpecial": false
+      },
+      {
+        "code": "583943",
+        "name": "Zootexniklik",
+        "paymentType": "ödənişsiz",
+        "bal2425": 72.6,
+        "bal2526": 88.4,
+        "isSpecial": false
+      },
+      {
+        "code": "583951",
+        "name": "Sosial iş",
+        "paymentType": "ödənişsiz",
+        "bal2425": 105.1,
+        "bal2526": 132.8,
+        "isSpecial": false
+      },
+      {
+        "code": "583968",
+        "name": "Kitabxana işi",
+        "paymentType": "ödənişli",
+        "bal2425": 82.2,
+        "bal2526": 91.2,
+        "isSpecial": false
+      },
+      {
+        "code": "583976",
+        "name": "Bank işi",
+        "paymentType": "ödənişli",
+        "bal2425": 91.6,
+        "bal2526": 111.2,
+        "isSpecial": false
+      },
+      {
+        "code": "583984",
+        "name": "Maliyyə işi",
+        "paymentType": "ödənişli",
+        "bal2425": 91.3,
+        "bal2526": 111.2,
+        "isSpecial": false
+      },
+      {
+        "code": "583992",
+        "name": "Mühasibat uçotu",
+        "paymentType": "ödənişli",
+        "bal2425": 87.8,
+        "bal2526": 103.3,
+        "isSpecial": false
+      },
+      {
+        "code": "584112",
+        "name": "Elektrik təchizatı (sahələr üzrə)",
+        "paymentType": "ödənişli",
+        "bal2425": 79.5,
+        "bal2526": 94.3,
+        "isSpecial": false
+      },
+      {
+        "code": "584129",
+        "name": "Poçt rabitəsi",
+        "paymentType": "ödənişli",
+        "bal2425": 82.4,
+        "bal2526": 91.5,
+        "isSpecial": false
+      },
+      {
+        "code": "584137",
+        "name": "Tikiş məmulatlarının və trikotaj istehsalı texnologiyası",
+        "paymentType": "ödənişli",
+        "bal2425": 73.1,
+        "bal2526": 80,
+        "isSpecial": false
+      },
+      {
+        "code": "584145",
+        "name": "Aqrar (fermer) təsərrüfatının təşkili",
+        "paymentType": "ödənişli",
+        "bal2425": 73.1,
+        "bal2526": 83.3,
+        "isSpecial": false
+      },
+      {
+        "code": "584153",
+        "name": "Aqronomluq",
+        "paymentType": "ödənişli",
+        "bal2425": 75.1,
+        "bal2526": 85.3,
+        "isSpecial": false
+      },
+      {
+        "code": "584161",
+        "name": "Baytarlıq",
+        "paymentType": "ödənişli",
+        "bal2425": 73.6,
+        "bal2526": 88.3,
+        "isSpecial": false
+      },
+      {
+        "code": "584178",
+        "name": "Meşə və park",
+        "paymentType": "ödənişli",
+        "bal2425": 72,
+        "bal2526": 79.3,
+        "isSpecial": false
+      },
+      {
+        "code": "584186",
+        "name": "Yerquruluşu və daşınmaz əmlakın kadastrı",
+        "paymentType": "ödənişli",
+        "bal2425": 78.5,
+        "bal2526": 91,
+        "isSpecial": false
+      },
+      {
+        "code": "584194",
+        "name": "Zootexniklik",
+        "paymentType": "ödənişli",
+        "bal2425": 71,
+        "bal2526": 79,
+        "isSpecial": false
+      },
+      {
+        "code": "584218",
+        "name": "Sosial iş",
+        "paymentType": "ödənişli",
+        "bal2425": 84.9,
+        "bal2526": 91.7,
+        "isSpecial": false
+      }
+    ]
+  },
+  {
+    "name": "Tovuz Dövlət Sosial-İqtisadi Kolleci",
+    "normalized": "tovuzdövlətsosiali̇qtisadikolleci",
+    "specialties": [
+      {
+        "code": "584242",
+        "name": "Bank işi",
+        "paymentType": "ödənişsiz",
+        "bal2425": 129.6,
+        "bal2526": 138.1,
+        "isSpecial": false
+      },
+      {
+        "code": "584259",
+        "name": "Kommersiya işi",
+        "paymentType": "ödənişsiz",
+        "bal2425": 103.5,
+        "bal2526": 124.1,
+        "isSpecial": false
+      },
+      {
+        "code": "584267",
+        "name": "Mühasibat uçotu",
+        "paymentType": "ödənişsiz",
+        "bal2425": 121.2,
+        "bal2526": 139.3,
+        "isSpecial": false
+      },
+      {
+        "code": "584275",
+        "name": "Sığorta işi",
+        "paymentType": "ödənişsiz",
+        "bal2425": 102.2,
+        "bal2526": 130.3,
+        "isSpecial": false
+      },
+      {
+        "code": "584283",
+        "name": "Çörək və unlu qənnadı məmulatlarının texnologiyası",
+        "paymentType": "ödənişsiz",
+        "bal2425": 74.9,
+        "bal2526": 101.6,
+        "isSpecial": false
+      },
+      {
+        "code": "584291",
+        "name": "Ətraf mühitin mühafizəsi və bərpası",
+        "paymentType": "ödənişsiz",
+        "bal2425": 92.7,
+        "bal2526": 110.9,
+        "isSpecial": false
+      },
+      {
+        "code": "584315",
+        "name": "Nəqliyyat vasitələrinin texniki istismarı",
+        "paymentType": "ödənişsiz",
+        "bal2425": 113.8,
+        "bal2526": 132.4,
+        "isSpecial": false
+      },
+      {
+        "code": "584323",
+        "name": "Poçt rabitəsi",
+        "paymentType": "ödənişsiz",
+        "bal2425": 104.4,
+        "bal2526": 106.5,
+        "isSpecial": false
+      },
+      {
+        "code": "584331",
+        "name": "Aqrar (fermer) təsərrüfatının təşkili",
+        "paymentType": "ödənişsiz",
+        "bal2425": 80,
+        "bal2526": 103.2,
+        "isSpecial": false
+      },
+      {
+        "code": "584348",
+        "name": "Turizm işinin təşkili",
+        "paymentType": "ödənişsiz",
+        "bal2425": 91.3,
+        "bal2526": 112.2,
+        "isSpecial": false
+      },
+      {
+        "code": "584356",
+        "name": "Bank işi",
+        "paymentType": "ödənişli",
+        "bal2425": 94.7,
+        "bal2526": 104.9,
+        "isSpecial": false
+      },
+      {
+        "code": "584364",
+        "name": "Kommersiya işi",
+        "paymentType": "ödənişli",
+        "bal2425": 84,
+        "bal2526": 91.7,
+        "isSpecial": false
+      },
+      {
+        "code": "584372",
+        "name": "Mühasibat uçotu",
+        "paymentType": "ödənişli",
+        "bal2425": 92.6,
+        "bal2526": 106.1,
+        "isSpecial": false
+      },
+      {
+        "code": "584389",
+        "name": "Sığorta işi",
+        "paymentType": "ödənişli",
+        "bal2425": 87.3,
+        "bal2526": 99.4,
+        "isSpecial": false
+      },
+      {
+        "code": "584397",
+        "name": "Çörək və unlu qənnadı məmulatlarının texnologiyası",
+        "paymentType": "ödənişli",
+        "bal2425": 74.9,
+        "bal2526": 81.5,
+        "isSpecial": false
+      },
+      {
+        "code": "584412",
+        "name": "Ətraf mühitin mühafizəsi və bərpası",
+        "paymentType": "ödənişli",
+        "bal2425": 79,
+        "bal2526": 85.6,
+        "isSpecial": false
+      },
+      {
+        "code": "584429",
+        "name": "Nəqliyyat vasitələrinin texniki istismarı",
+        "paymentType": "ödənişli",
+        "bal2425": 85.9,
+        "bal2526": 101,
+        "isSpecial": false
+      },
+      {
+        "code": "584437",
+        "name": "Poçt rabitəsi",
+        "paymentType": "ödənişli",
+        "bal2425": 83,
+        "bal2526": 88.9,
+        "isSpecial": false
+      },
+      {
+        "code": "584445",
+        "name": "Aqrar (fermer) təsərrüfatının təşkili",
+        "paymentType": "ödənişli",
+        "bal2425": 76.5,
+        "bal2526": 85.9,
+        "isSpecial": false
+      },
+      {
+        "code": "584453",
+        "name": "Turizm işinin təşkili",
+        "paymentType": "ödənişli",
+        "bal2425": 79,
+        "bal2526": 90.7,
+        "isSpecial": false
+      }
+    ]
+  },
+  {
+    "name": "Sumqayıt Dövlət Universitetinin nəzdində Sumqayıt Dövlət Texniki Kolleci",
+    "normalized": "sumqayıtdövlətuniversitetininnəzdindəsumqayıtdövləttexnikikolleci",
+    "specialties": [
+      {
+        "code": "584712",
+        "name": "Maliyyə işi",
+        "paymentType": "ödənişsiz",
+        "bal2425": 171.3,
+        "bal2526": 181.3,
+        "isSpecial": false
+      },
+      {
+        "code": "584729",
+        "name": "Mühasibat uçotu",
+        "paymentType": "ödənişsiz",
+        "bal2425": 162.4,
+        "bal2526": 170.7,
+        "isSpecial": false
+      },
+      {
+        "code": "584737",
+        "name": "Elektrik təchizatı (sahələr üzrə)",
+        "paymentType": "ödənişsiz",
+        "bal2425": 122.7,
+        "bal2526": 140.2,
+        "isSpecial": false
+      },
+      {
+        "code": "584745",
+        "name": "Energetika və elektroenergetika",
+        "paymentType": "ödənişsiz",
+        "bal2425": 137,
+        "bal2526": 150.7,
+        "isSpecial": false
+      },
+      {
+        "code": "584753",
+        "name": "Ətraf mühitin mühafizəsi və bərpası",
+        "paymentType": "ödənişsiz",
+        "bal2425": 120.7,
+        "bal2526": 131.2,
+        "isSpecial": false
+      },
+      {
+        "code": "584761",
+        "name": "Kimyəvi birləşmələrin keyfiyyətinə analitik nəzarət",
+        "paymentType": "ödənişsiz",
+        "bal2425": 132,
+        "bal2526": 150.1,
+        "isSpecial": false
+      },
+      {
+        "code": "584778",
+        "name": "Kompüter sistemlərində proqram təminatı",
+        "paymentType": "ödənişsiz",
+        "bal2425": 151.7,
+        "bal2526": 186.4,
+        "isSpecial": false
+      },
+      {
+        "code": "584786",
+        "name": "Kompüter şəbəkəsi avadanlıqlarının təmiri və servisi",
+        "paymentType": "ödənişsiz",
+        "bal2425": 140.9,
+        "bal2526": 173.6,
+        "isSpecial": false
+      },
+      {
+        "code": "584794",
+        "name": "Neft emalı və neft kimyası",
+        "paymentType": "ödənişsiz",
+        "bal2425": 134.9,
+        "bal2526": 148.4,
+        "isSpecial": false
+      },
+      {
+        "code": "584818",
+        "name": "Nəqliyyat vasitələrinin texniki istismarı",
+        "paymentType": "ödənişsiz",
+        "bal2425": 124.1,
+        "bal2526": 138.8,
+        "isSpecial": false
+      },
+      {
+        "code": "584826",
+        "name": "Nəqliyyatın logistikası",
+        "paymentType": "ödənişsiz",
+        "bal2425": 136.5,
+        "bal2526": 149.5,
+        "isSpecial": false
+      },
+      {
+        "code": "584834",
+        "name": "Sosial iş",
+        "paymentType": "ödənişsiz",
+        "bal2425": 142.8,
+        "bal2526": 146.4,
+        "isSpecial": false
+      },
+      {
+        "code": "584842",
+        "name": "Turizm işinin təşkili",
+        "paymentType": "ödənişsiz",
+        "bal2425": 141.8,
+        "bal2526": 160.1,
+        "isSpecial": false
+      },
+      {
+        "code": "584859",
+        "name": "Maliyyə işi",
+        "paymentType": "ödənişli",
+        "bal2425": 127.6,
+        "bal2526": 140.4,
+        "isSpecial": false
+      },
+      {
+        "code": "584867",
+        "name": "Mühasibat uçotu",
+        "paymentType": "ödənişli",
+        "bal2425": 121.7,
+        "bal2526": 133.5,
+        "isSpecial": false
+      },
+      {
+        "code": "584875",
+        "name": "Elektrik təchizatı (sahələr üzrə)",
+        "paymentType": "ödənişli",
+        "bal2425": 96.6,
+        "bal2526": 113.7,
+        "isSpecial": false
+      },
+      {
+        "code": "584883",
+        "name": "Energetika və elektroenergetika",
+        "paymentType": "ödənişli",
+        "bal2425": 96.6,
+        "bal2526": 115.1,
+        "isSpecial": false
+      },
+      {
+        "code": "584891",
+        "name": "Ətraf mühitin mühafizəsi və bərpası",
+        "paymentType": "ödənişli",
+        "bal2425": 93.7,
+        "bal2526": 112.2,
+        "isSpecial": false
+      },
+      {
+        "code": "584915",
+        "name": "Kimyəvi birləşmələrin keyfiyyətinə analitik nəzarət",
+        "paymentType": "ödənişli",
+        "bal2425": 103.5,
+        "bal2526": 117.9,
+        "isSpecial": false
+      },
+      {
+        "code": "584923",
+        "name": "Kompüter sistemlərində proqram təminatı",
+        "paymentType": "ödənişli",
+        "bal2425": 112.3,
+        "bal2526": 135.3,
+        "isSpecial": false
+      },
+      {
+        "code": "584931",
+        "name": "Kompüter şəbəkəsi avadanlıqlarının təmiri və servisi",
+        "paymentType": "ödənişli",
+        "bal2425": 109.1,
+        "bal2526": 132.7,
+        "isSpecial": false
+      },
+      {
+        "code": "584948",
+        "name": "Neft emalı və neft kimyası",
+        "paymentType": "ödənişli",
+        "bal2425": 100.5,
+        "bal2526": 119,
+        "isSpecial": false
+      },
+      {
+        "code": "584956",
+        "name": "Nəqliyyat vasitələrinin texniki istismarı",
+        "paymentType": "ödənişli",
+        "bal2425": 98.1,
+        "bal2526": 110.8,
+        "isSpecial": false
+      },
+      {
+        "code": "584964",
+        "name": "Nəqliyyatın logistikası",
+        "paymentType": "ödənişli",
+        "bal2425": 102.2,
+        "bal2526": 119.5,
+        "isSpecial": false
+      },
+      {
+        "code": "584972",
+        "name": "Sosial iş",
+        "paymentType": "ödənişli",
+        "bal2425": 113.9,
+        "bal2526": 120.2,
+        "isSpecial": false
+      },
+      {
+        "code": "584989",
+        "name": "Turizm işinin təşkili",
+        "paymentType": "ödənişli",
+        "bal2425": 106.5,
+        "bal2526": 116.7,
+        "isSpecial": false
+      }
+    ]
+  },
+  {
+    "name": "Azərbaycan Milli Konservatoriyası nəzdində Sumqayıt Musiqi Kolleci",
+    "normalized": "azərbaycanmillikonservatoriyasınəzdindəsumqayıtmusiqikolleci",
+    "specialties": [
+      {
+        "code": "585158",
+        "name": "İnstrumental ifaçılıq (fortepiano, violin, violonçel, arfa, ksilofon, fleyta, qoboy, klarnet, valtorna, truba, trombon, tuba, tar, kamança, qanun, saz, balaban, qarmon, nağara)",
+        "paymentType": "ödənişsiz",
+        "bal2425": 65.3,
+        "bal2526": 50,
+        "isSpecial": true
+      },
+      {
+        "code": "585166",
+        "name": "Populyar musiqi və caz ifaçılığı (vokal, fortepiano, violin, viola, violonçel, kontrabas, gitara, ksilofon, fleyta, qoboy, klarnet, valtorna, truba, trombon, zərb alətləri, akkordeon, saksofon, tuba, tar, kamança, qanun, saz, balaban, qarmon, nağara)",
+        "paymentType": "ödənişsiz",
+        "bal2425": 50,
+        "bal2526": 50,
+        "isSpecial": true
+      },
+      {
+        "code": "585174",
+        "name": "Vokal sənəti (klassik vokal, milli vokal, xanəndəlik)",
+        "paymentType": "ödənişsiz",
+        "bal2425": 50,
+        "bal2526": 56.4,
+        "isSpecial": true
+      },
+      {
+        "code": "585182",
+        "name": "İnstrumental ifaçılıq (fortepiano, violin, violonçel, arfa, ksilofon, fleyta, qoboy, klarnet, valtorna, truba, trombon, tuba, tar, kamança, qanun, saz, balaban, qarmon, nağara)",
+        "paymentType": "ödənişli",
+        "bal2425": 50,
+        "bal2526": 50,
+        "isSpecial": true
+      },
+      {
+        "code": "585199",
+        "name": "Populyar musiqi və caz ifaçılığı (vokal, fortepiano, violin, viola, violonçel, kontrabas, gitara, ksilofon, fleyta, qoboy, klarnet, valtorna, truba, trombon, zərb alətləri, akkordeon, saksofon, tuba, tar, kamança, qanun, saz, balaban, qarmon, nağara)",
+        "paymentType": "ödənişli",
+        "bal2425": 50,
+        "bal2526": 50,
+        "isSpecial": true
+      },
+      {
+        "code": "585214",
+        "name": "Vokal sənəti (klassik vokal, milli vokal, xanəndəlik)",
+        "paymentType": "ödənişli",
+        "bal2425": 50,
+        "bal2526": 50,
+        "isSpecial": true
+      }
+    ]
+  },
+  {
+    "name": "Quba Dövlət Sosial-İqtisadi Kolleci",
+    "normalized": "qubadövlətsosiali̇qtisadikolleci",
+    "specialties": [
+      {
+        "code": "585247",
+        "name": "Kitabxana işi",
+        "paymentType": "ödənişsiz",
+        "bal2425": 123.6,
+        "bal2526": 128.8,
+        "isSpecial": false
+      },
+      {
+        "code": "585255",
+        "name": "Bank işi",
+        "paymentType": "ödənişsiz",
+        "bal2425": 139.4,
+        "bal2526": 142.2,
+        "isSpecial": false
+      },
+      {
+        "code": "585263",
+        "name": "Maliyyə işi",
+        "paymentType": "ödənişsiz",
+        "bal2425": 164.3,
+        "bal2526": 167.4,
+        "isSpecial": false
+      },
+      {
+        "code": "585271",
+        "name": "Mühasibat uçotu",
+        "paymentType": "ödənişsiz",
+        "bal2425": 137.9,
+        "bal2526": 157,
+        "isSpecial": false
+      },
+      {
+        "code": "585288",
+        "name": "Vergi işi",
+        "paymentType": "ödənişsiz",
+        "bal2425": 132.5,
+        "bal2526": 142.1,
+        "isSpecial": false
+      },
+      {
+        "code": "585296",
+        "name": "Kompüter sistemləri və kompleksləri",
+        "paymentType": "ödənişsiz",
+        "bal2425": 150.7,
+        "bal2526": 148.4,
+        "isSpecial": false
+      },
+      {
+        "code": "585311",
+        "name": "Yerquruluşu və daşınmaz əmlakın kadastrı",
+        "paymentType": "ödənişsiz",
+        "bal2425": 122.3,
+        "bal2526": 132.1,
+        "isSpecial": false
+      },
+      {
+        "code": "585328",
+        "name": "Turizm işinin təşkili",
+        "paymentType": "ödənişsiz",
+        "bal2425": 120.8,
+        "bal2526": 137.8,
+        "isSpecial": false
+      },
+      {
+        "code": "585336",
+        "name": "Kitabxana işi",
+        "paymentType": "ödənişli",
+        "bal2425": 95.8,
+        "bal2526": 109.5,
+        "isSpecial": false
+      },
+      {
+        "code": "585344",
+        "name": "Bank işi",
+        "paymentType": "ödənişli",
+        "bal2425": 104.1,
+        "bal2526": 117.1,
+        "isSpecial": false
+      },
+      {
+        "code": "585352",
+        "name": "Maliyyə işi",
+        "paymentType": "ödənişli",
+        "bal2425": 111.3,
+        "bal2526": 129.5,
+        "isSpecial": false
+      },
+      {
+        "code": "585369",
+        "name": "Mühasibat uçotu",
+        "paymentType": "ödənişli",
+        "bal2425": 104.5,
+        "bal2526": 118.3,
+        "isSpecial": false
+      },
+      {
+        "code": "585377",
+        "name": "Vergi işi",
+        "paymentType": "ödənişli",
+        "bal2425": 100.1,
+        "bal2526": 115.6,
+        "isSpecial": false
+      },
+      {
+        "code": "585385",
+        "name": "Kompüter sistemləri və kompleksləri",
+        "paymentType": "ödənişli",
+        "bal2425": 105.9,
+        "bal2526": 124.2,
+        "isSpecial": false
+      },
+      {
+        "code": "585393",
+        "name": "Yerquruluşu və daşınmaz əmlakın kadastrı",
+        "paymentType": "ödənişli",
+        "bal2425": 93.7,
+        "bal2526": 110.9,
+        "isSpecial": false
+      },
+      {
+        "code": "585417",
+        "name": "Turizm işinin təşkili",
+        "paymentType": "ödənişli",
+        "bal2425": 96.1,
+        "bal2526": 113.9,
+        "isSpecial": false
+      }
+    ]
+  },
+  {
+    "name": "Şamaxı Dövlət Regional Kolleci",
+    "normalized": "şamaxıdövlətregionalkolleci",
+    "specialties": [
+      {
+        "code": "585611",
+        "name": "Kitabxana işi",
+        "paymentType": "ödənişsiz",
+        "bal2425": 104,
+        "bal2526": 118.6,
+        "isSpecial": false
+      },
+      {
+        "code": "585628",
+        "name": "Bank işi",
+        "paymentType": "ödənişsiz",
+        "bal2425": 121.2,
+        "bal2526": 127.8,
+        "isSpecial": false
+      },
+      {
+        "code": "585636",
+        "name": "Bələdiyyə işi",
+        "paymentType": "ödənişsiz",
+        "bal2425": 99.5,
+        "bal2526": 113.1,
+        "isSpecial": false
+      },
+      {
+        "code": "585644",
+        "name": "Maliyyə işi",
+        "paymentType": "ödənişsiz",
+        "bal2425": 118.2,
+        "bal2526": 138.4,
+        "isSpecial": false
+      },
+      {
+        "code": "585652",
+        "name": "Marketinq (sahələr üzrə)",
+        "paymentType": "ödənişsiz",
+        "bal2425": 106,
+        "bal2526": 119.7,
+        "isSpecial": false
+      },
+      {
+        "code": "585669",
+        "name": "Mühasibat uçotu",
+        "paymentType": "ödənişsiz",
+        "bal2425": 116.9,
+        "bal2526": 129.2,
+        "isSpecial": false
+      },
+      {
+        "code": "585677",
+        "name": "Vergi işi",
+        "paymentType": "ödənişsiz",
+        "bal2425": 111,
+        "bal2526": 125,
+        "isSpecial": false
+      },
+      {
+        "code": "585685",
+        "name": "Avtomatlaşdırılmış idarəetmə sistemlərinin istismarı",
+        "paymentType": "ödənişsiz",
+        "bal2425": 94.3,
+        "bal2526": 100.5,
+        "isSpecial": false
+      },
+      {
+        "code": "585693",
+        "name": "Elektrik təchizatı (sahələr üzrə)",
+        "paymentType": "ödənişsiz",
+        "bal2425": 91.9,
+        "bal2526": 103.5,
+        "isSpecial": false
+      },
+      {
+        "code": "585717",
+        "name": "Nəqliyyat vasitələrinin texniki istismarı",
+        "paymentType": "ödənişsiz",
+        "bal2425": 99.5,
+        "bal2526": 95.4,
+        "isSpecial": false
+      },
+      {
+        "code": "585725",
+        "name": "Poçt rabitəsi",
+        "paymentType": "ödənişsiz",
+        "bal2425": 96.6,
+        "bal2526": 106.4,
+        "isSpecial": false
+      },
+      {
+        "code": "585733",
+        "name": "Şərabçılıq və qıcqırtma istehsalatının texnologiyası",
+        "paymentType": "ödənişsiz",
+        "bal2425": 80.8,
+        "bal2526": 80.3,
+        "isSpecial": false
+      },
+      {
+        "code": "585741",
+        "name": "Telekommunikasiya şəbəkələri və xətləri",
+        "paymentType": "ödənişsiz",
+        "bal2425": 96.2,
+        "bal2526": 95.6,
+        "isSpecial": false
+      },
+      {
+        "code": "585758",
+        "name": "Aqrar (fermer) təsərrüfatının təşkili",
+        "paymentType": "ödənişsiz",
+        "bal2425": 83.9,
+        "bal2526": 92,
+        "isSpecial": false
+      },
+      {
+        "code": "585766",
+        "name": "Aqronomluq",
+        "paymentType": "ödənişsiz",
+        "bal2425": 84.8,
+        "bal2526": 94.3,
+        "isSpecial": false
+      },
+      {
+        "code": "585774",
+        "name": "Baytarlıq",
+        "paymentType": "ödənişsiz",
+        "bal2425": 81.9,
+        "bal2526": 93.1,
+        "isSpecial": false
+      },
+      {
+        "code": "585782",
+        "name": "Meşə və park",
+        "paymentType": "ödənişsiz",
+        "bal2425": 75.5,
+        "bal2526": 83.8,
+        "isSpecial": false
+      },
+      {
+        "code": "585799",
+        "name": "Sosial iş",
+        "paymentType": "ödənişsiz",
+        "bal2425": 111.4,
+        "bal2526": 116.5,
+        "isSpecial": false
+      },
+      {
+        "code": "585814",
+        "name": "Turizm işinin təşkili",
+        "paymentType": "ödənişsiz",
+        "bal2425": 96.1,
+        "bal2526": 105.1,
+        "isSpecial": false
+      },
+      {
+        "code": "585822",
+        "name": "Fiziki tərbiyə müəllimliyi",
+        "paymentType": "ödənişsiz",
+        "bal2425": 83.9,
+        "bal2526": 108.3,
+        "isSpecial": true
+      },
+      {
+        "code": "585839",
+        "name": "Dizayn (interyer dizaynı)",
+        "paymentType": "ödənişsiz",
+        "bal2425": 56.9,
+        "bal2526": 52.6,
+        "isSpecial": true
+      },
+      {
+        "code": "585847",
+        "name": "İnstrumental ifaçılıq (fortepiano, violin, klarnet, tar, kamança, saz, qarmon, nağara)",
+        "paymentType": "ödənişsiz",
+        "bal2425": null,
+        "bal2526": 50,
+        "isSpecial": true
+      },
+      {
+        "code": "585855",
+        "name": "Kitabxana işi",
+        "paymentType": "ödənişli",
+        "bal2425": 81.4,
+        "bal2526": 94.3,
+        "isSpecial": false
+      },
+      {
+        "code": "585863",
+        "name": "Bank işi",
+        "paymentType": "ödənişli",
+        "bal2425": 94,
+        "bal2526": 103.4,
+        "isSpecial": false
+      },
+      {
+        "code": "585871",
+        "name": "Bələdiyyə işi",
+        "paymentType": "ödənişli",
+        "bal2425": 84.3,
+        "bal2526": 91.4,
+        "isSpecial": false
+      },
+      {
+        "code": "585888",
+        "name": "Maliyyə işi",
+        "paymentType": "ödənişli",
+        "bal2425": 91.7,
+        "bal2526": 98.4,
+        "isSpecial": false
+      },
+      {
+        "code": "585896",
+        "name": "Marketinq (sahələr üzrə)",
+        "paymentType": "ödənişli",
+        "bal2425": 85.4,
+        "bal2526": 91.7,
+        "isSpecial": false
+      },
+      {
+        "code": "585911",
+        "name": "Mühasibat uçotu",
+        "paymentType": "ödənişli",
+        "bal2425": 87.3,
+        "bal2526": 98.2,
+        "isSpecial": false
+      },
+      {
+        "code": "585928",
+        "name": "Vergi işi",
+        "paymentType": "ödənişli",
+        "bal2425": 86.7,
+        "bal2526": 96.9,
+        "isSpecial": false
+      },
+      {
+        "code": "585936",
+        "name": "Avtomatlaşdırılmış idarəetmə sistemlərinin istismarı",
+        "paymentType": "ödənişli",
+        "bal2425": 81,
+        "bal2526": 87.9,
+        "isSpecial": false
+      },
+      {
+        "code": "585944",
+        "name": "Elektrik təchizatı (sahələr üzrə)",
+        "paymentType": "ödənişli",
+        "bal2425": 77.6,
+        "bal2526": 88.4,
+        "isSpecial": false
+      },
+      {
+        "code": "585952",
+        "name": "Nəqliyyat vasitələrinin texniki istismarı",
+        "paymentType": "ödənişli",
+        "bal2425": 82.5,
+        "bal2526": 89.1,
+        "isSpecial": false
+      },
+      {
+        "code": "585969",
+        "name": "Poçt rabitəsi",
+        "paymentType": "ödənişli",
+        "bal2425": 80.8,
+        "bal2526": 87.9,
+        "isSpecial": false
+      },
+      {
+        "code": "585977",
+        "name": "Şərabçılıq və qıcqırtma istehsalatının texnologiyası",
+        "paymentType": "ödənişli",
+        "bal2425": 76.6,
+        "bal2526": 70.7,
+        "isSpecial": false
+      },
+      {
+        "code": "585985",
+        "name": "Telekommunikasiya şəbəkələri və xətləri",
+        "paymentType": "ödənişli",
+        "bal2425": 79.5,
+        "bal2526": 88.5,
+        "isSpecial": false
+      },
+      {
+        "code": "585993",
+        "name": "Aqrar (fermer) təsərrüfatının təşkili",
+        "paymentType": "ödənişli",
+        "bal2425": 76.1,
+        "bal2526": 81.5,
+        "isSpecial": false
+      },
+      {
+        "code": "586113",
+        "name": "Aqronomluq",
+        "paymentType": "ödənişli",
+        "bal2425": 76.6,
+        "bal2526": 84.5,
+        "isSpecial": false
+      },
+      {
+        "code": "586121",
+        "name": "Baytarlıq",
+        "paymentType": "ödənişli",
+        "bal2425": 73.6,
+        "bal2526": 83.1,
+        "isSpecial": false
+      },
+      {
+        "code": "586138",
+        "name": "Meşə və park",
+        "paymentType": "ödənişli",
+        "bal2425": null,
+        "bal2526": 78,
+        "isSpecial": false
+      },
+      {
+        "code": "586146",
+        "name": "Sosial iş",
+        "paymentType": "ödənişli",
+        "bal2425": 86.8,
+        "bal2526": 93,
+        "isSpecial": false
+      },
+      {
+        "code": "586154",
+        "name": "Turizm işinin təşkili",
+        "paymentType": "ödənişli",
+        "bal2425": 84.5,
+        "bal2526": 91.7,
+        "isSpecial": false
+      },
+      {
+        "code": "586162",
+        "name": "Fiziki tərbiyə müəllimliyi",
+        "paymentType": "ödənişli",
+        "bal2425": 68.1,
+        "bal2526": 84,
+        "isSpecial": true
+      },
+      {
+        "code": "586179",
+        "name": "Dizayn (interyer dizaynı)",
+        "paymentType": "ödənişli",
+        "bal2425": 50,
+        "bal2526": 50,
+        "isSpecial": true
+      },
+      {
+        "code": "586187",
+        "name": "İnstrumental ifaçılıq (fortepiano, violin, klarnet, tar, kamança, saz, qarmon, nağara)",
+        "paymentType": "ödənişli",
+        "bal2425": null,
+        "bal2526": 50,
+        "isSpecial": true
+      }
+    ]
+  },
+  {
+    "name": "Mingəçevir Turizm Kolleci",
+    "normalized": "mingəçevirturizmkolleci",
+    "specialties": [
+      {
+        "code": "586413",
+        "name": "Maliyyə işi",
+        "paymentType": "ödənişsiz",
+        "bal2425": 151.6,
+        "bal2526": 178.5,
+        "isSpecial": false
+      },
+      {
+        "code": "586421",
+        "name": "Mühasibat uçotu",
+        "paymentType": "ödənişsiz",
+        "bal2425": 144.8,
+        "bal2526": 168.6,
+        "isSpecial": false
+      },
+      {
+        "code": "586438",
+        "name": "Nəqliyyatın logistikası",
+        "paymentType": "ödənişsiz",
+        "bal2425": 118.2,
+        "bal2526": 130.8,
+        "isSpecial": false
+      },
+      {
+        "code": "586446",
+        "name": "Aqroturizm",
+        "paymentType": "ödənişsiz",
+        "bal2425": 95.4,
+        "bal2526": 108.5,
+        "isSpecial": false
+      },
+      {
+        "code": "586454",
+        "name": "İaşə müəssisələrinin servisi",
+        "paymentType": "ödənişsiz",
+        "bal2425": 92.7,
+        "bal2526": 103.1,
+        "isSpecial": false
+      },
+      {
+        "code": "586462",
+        "name": "Mehmanxana təsərrüfatının təşkili və idarə edilməsi",
+        "paymentType": "ödənişsiz",
+        "bal2425": 90.7,
+        "bal2526": 102.7,
+        "isSpecial": false
+      },
+      {
+        "code": "586479",
+        "name": "Rekreasiya, idman və sağlamlıq turizmi",
+        "paymentType": "ödənişsiz",
+        "bal2425": 92.8,
+        "bal2526": 106.4,
+        "isSpecial": false
+      },
+      {
+        "code": "586487",
+        "name": "Turizm bələdçiliyi",
+        "paymentType": "ödənişsiz",
+        "bal2425": 105.5,
+        "bal2526": 115.8,
+        "isSpecial": false
+      },
+      {
+        "code": "586495",
+        "name": "Turizm işinin təşkili",
+        "paymentType": "ödənişsiz",
+        "bal2425": 127,
+        "bal2526": 131.5,
+        "isSpecial": false
+      },
+      {
+        "code": "586519",
+        "name": "Maliyyə işi",
+        "paymentType": "ödənişli",
+        "bal2425": 110.9,
+        "bal2526": 130,
+        "isSpecial": false
+      },
+      {
+        "code": "586527",
+        "name": "Mühasibat uçotu",
+        "paymentType": "ödənişli",
+        "bal2425": 102.8,
+        "bal2526": 119.5,
+        "isSpecial": false
+      },
+      {
+        "code": "586535",
+        "name": "Nəqliyyatın logistikası",
+        "paymentType": "ödənişli",
+        "bal2425": 89,
+        "bal2526": 104,
+        "isSpecial": false
+      },
+      {
+        "code": "586543",
+        "name": "Aqroturizm",
+        "paymentType": "ödənişli",
+        "bal2425": 81.3,
+        "bal2526": 88.3,
+        "isSpecial": false
+      },
+      {
+        "code": "586551",
+        "name": "İaşə müəssisələrinin servisi",
+        "paymentType": "ödənişli",
+        "bal2425": 78.9,
+        "bal2526": 88.5,
+        "isSpecial": false
+      },
+      {
+        "code": "586568",
+        "name": "Mehmanxana təsərrüfatının təşkili və idarə edilməsi",
+        "paymentType": "ödənişli",
+        "bal2425": 78.5,
+        "bal2526": 88.4,
+        "isSpecial": false
+      },
+      {
+        "code": "586576",
+        "name": "Rekreasiya, idman və sağlamlıq turizmi",
+        "paymentType": "ödənişli",
+        "bal2425": 82.5,
+        "bal2526": 90.2,
+        "isSpecial": false
+      },
+      {
+        "code": "586584",
+        "name": "Turizm bələdçiliyi",
+        "paymentType": "ödənişli",
+        "bal2425": 84.4,
+        "bal2526": 96.4,
+        "isSpecial": false
+      },
+      {
+        "code": "586592",
+        "name": "Turizm işinin təşkili",
+        "paymentType": "ödənişli",
+        "bal2425": 89.2,
+        "bal2526": 98.6,
+        "isSpecial": false
+      }
+    ]
+  },
+  {
+    "name": "Şəki Dövlət Regional Kolleci",
+    "normalized": "şəkidövlətregionalkolleci",
+    "specialties": [
+      {
+        "code": "586851",
+        "name": "Ailə və ev təhsili",
+        "paymentType": "ödənişsiz",
+        "bal2425": 101,
+        "bal2526": 113.6,
+        "isSpecial": false
+      },
+      {
+        "code": "586868",
+        "name": "Kargüzarlıq və arxiv işi",
+        "paymentType": "ödənişsiz",
+        "bal2425": 108.3,
+        "bal2526": 126.8,
+        "isSpecial": false
+      },
+      {
+        "code": "586876",
+        "name": "Kitabxana işi",
+        "paymentType": "ödənişsiz",
+        "bal2425": 98.1,
+        "bal2526": 117.8,
+        "isSpecial": false
+      },
+      {
+        "code": "586884",
+        "name": "Mühasibat uçotu",
+        "paymentType": "ödənişsiz",
+        "bal2425": 130.5,
+        "bal2526": 148,
+        "isSpecial": false
+      },
+      {
+        "code": "586892",
+        "name": "Kompüter şəbəkələri və şəbəkə inzibatçılığı",
+        "paymentType": "ödənişsiz",
+        "bal2425": 126.2,
+        "bal2526": 142.3,
+        "isSpecial": false
+      },
+      {
+        "code": "586916",
+        "name": "Nəqliyyat vasitələrinin texniki istismarı",
+        "paymentType": "ödənişsiz",
+        "bal2425": 99.1,
+        "bal2526": 124.6,
+        "isSpecial": false
+      },
+      {
+        "code": "586924",
+        "name": "Nəqliyyatın logistikası",
+        "paymentType": "ödənişsiz",
+        "bal2425": 92.3,
+        "bal2526": 123,
+        "isSpecial": false
+      },
+      {
+        "code": "586932",
+        "name": "İpəkçilik",
+        "paymentType": "ödənişsiz",
+        "bal2425": 77.5,
+        "bal2526": 83.1,
+        "isSpecial": false
+      },
+      {
+        "code": "586949",
+        "name": "Meşə və park",
+        "paymentType": "ödənişsiz",
+        "bal2425": 75.6,
+        "bal2526": 86.5,
+        "isSpecial": false
+      },
+      {
+        "code": "586957",
+        "name": "Mühafizə xidməti",
+        "paymentType": "ödənişsiz",
+        "bal2425": 89.8,
+        "bal2526": 117,
+        "isSpecial": false
+      },
+      {
+        "code": "586965",
+        "name": "Turizm işinin təşkili",
+        "paymentType": "ödənişsiz",
+        "bal2425": 108.5,
+        "bal2526": 136.6,
+        "isSpecial": false
+      },
+      {
+        "code": "586973",
+        "name": "İnstrumental ifaçılıq (fortepiano, klarnet, violin, qarmon, tar, kamança)",
+        "paymentType": "ödənişsiz",
+        "bal2425": null,
+        "bal2526": 50,
+        "isSpecial": true
+      },
+      {
+        "code": "586981",
+        "name": "Rəngkarlıq (sahələr üzrə)",
+        "paymentType": "ödənişsiz",
+        "bal2425": 64.2,
+        "bal2526": 50,
+        "isSpecial": true
+      },
+      {
+        "code": "586998",
+        "name": "Vokal sənəti (xanəndəlik)",
+        "paymentType": "ödənişsiz",
+        "bal2425": 50,
+        "bal2526": 50,
+        "isSpecial": true
+      },
+      {
+        "code": "587118",
+        "name": "Ailə və ev təhsili",
+        "paymentType": "ödənişli",
+        "bal2425": 85.4,
+        "bal2526": 90.8,
+        "isSpecial": false
+      },
+      {
+        "code": "587126",
+        "name": "Kargüzarlıq və arxiv işi",
+        "paymentType": "ödənişli",
+        "bal2425": 75.6,
+        "bal2526": 90.4,
+        "isSpecial": false
+      },
+      {
+        "code": "587134",
+        "name": "Kitabxana işi",
+        "paymentType": "ödənişli",
+        "bal2425": 78.5,
+        "bal2526": 91.1,
+        "isSpecial": false
+      },
+      {
+        "code": "587142",
+        "name": "Mühasibat uçotu",
+        "paymentType": "ödənişli",
+        "bal2425": 91.3,
+        "bal2526": 113.4,
+        "isSpecial": false
+      },
+      {
+        "code": "587159",
+        "name": "Kompüter şəbəkələri və şəbəkə inzibatçılığı",
+        "paymentType": "ödənişli",
+        "bal2425": 95.6,
+        "bal2526": 112.7,
+        "isSpecial": false
+      },
+      {
+        "code": "587167",
+        "name": "Nəqliyyat vasitələrinin texniki istismarı",
+        "paymentType": "ödənişli",
+        "bal2425": 82.9,
+        "bal2526": 97.2,
+        "isSpecial": false
+      },
+      {
+        "code": "587175",
+        "name": "Nəqliyyatın logistikası",
+        "paymentType": "ödənişli",
+        "bal2425": 79,
+        "bal2526": 96.6,
+        "isSpecial": false
+      },
+      {
+        "code": "587183",
+        "name": "İpəkçilik",
+        "paymentType": "ödənişli",
+        "bal2425": 73.1,
+        "bal2526": 73.6,
+        "isSpecial": false
+      },
+      {
+        "code": "587191",
+        "name": "Meşə və park",
+        "paymentType": "ödənişli",
+        "bal2425": 71.7,
+        "bal2526": 78.8,
+        "isSpecial": false
+      },
+      {
+        "code": "587215",
+        "name": "Mühafizə xidməti",
+        "paymentType": "ödənişli",
+        "bal2425": 70.7,
+        "bal2526": 86.2,
+        "isSpecial": false
+      },
+      {
+        "code": "587223",
+        "name": "Turizm işinin təşkili",
+        "paymentType": "ödənişli",
+        "bal2425": 83.5,
+        "bal2526": 94.1,
+        "isSpecial": false
+      },
+      {
+        "code": "587231",
+        "name": "İnstrumental ifaçılıq (fortepiano, klarnet, violin, qarmon, tar, kamança)",
+        "paymentType": "ödənişli",
+        "bal2425": null,
+        "bal2526": 50,
+        "isSpecial": true
+      },
+      {
+        "code": "587248",
+        "name": "Rəngkarlıq (sahələr üzrə)",
+        "paymentType": "ödənişli",
+        "bal2425": 50,
+        "bal2526": 50,
+        "isSpecial": true
+      }
+    ]
+  },
+  {
+    "name": "Zaqatala Dövlət İdarəetmə və Texnologiya Kolleci",
+    "normalized": "zaqataladövləti̇darəetməvətexnologiyakolleci",
+    "specialties": [
+      {
+        "code": "587312",
+        "name": "Mühasibat uçotu",
+        "paymentType": "ödənişsiz",
+        "bal2425": 138.8,
+        "bal2526": 158.6,
+        "isSpecial": false
+      },
+      {
+        "code": "587329",
+        "name": "Nəqliyyat vasitələrinin texniki istismarı",
+        "paymentType": "ödənişsiz",
+        "bal2425": 102.5,
+        "bal2526": 117.6,
+        "isSpecial": false
+      },
+      {
+        "code": "587337",
+        "name": "Telekommunikasiya şəbəkələri və xətləri",
+        "paymentType": "ödənişsiz",
+        "bal2425": 108.9,
+        "bal2526": 102.9,
+        "isSpecial": false
+      },
+      {
+        "code": "587345",
+        "name": "Aqronomluq",
+        "paymentType": "ödənişsiz",
+        "bal2425": 74.7,
+        "bal2526": 83.7,
+        "isSpecial": false
+      },
+      {
+        "code": "587353",
+        "name": "Mühasibat uçotu",
+        "paymentType": "ödənişli",
+        "bal2425": 110.3,
+        "bal2526": 113.2,
+        "isSpecial": false
+      },
+      {
+        "code": "587361",
+        "name": "Nəqliyyat vasitələrinin texniki istismarı",
+        "paymentType": "ödənişli",
+        "bal2425": 81.4,
+        "bal2526": 86.8,
+        "isSpecial": false
+      },
+      {
+        "code": "587378",
+        "name": "Telekommunikasiya şəbəkələri və xətləri",
+        "paymentType": "ödənişli",
+        "bal2425": 87.4,
+        "bal2526": 91.2,
+        "isSpecial": false
+      },
+      {
+        "code": "587386",
+        "name": "Aqronomluq",
+        "paymentType": "ödənişli",
+        "bal2425": 66.8,
+        "bal2526": 79.1,
+        "isSpecial": false
+      }
+    ]
+  },
+  {
+    "name": "Şuşa Humanitar Kolleci",
+    "normalized": "şuşahumanitarkolleci",
+    "specialties": [
+      {
+        "code": "587459",
+        "name": "Ailə və ev təhsili",
+        "paymentType": "ödənişsiz",
+        "bal2425": 108,
+        "bal2526": 134.3,
+        "isSpecial": false
+      },
+      {
+        "code": "587467",
+        "name": "Kitabxana işi",
+        "paymentType": "ödənişsiz",
+        "bal2425": 112.9,
+        "bal2526": 131,
+        "isSpecial": false
+      },
+      {
+        "code": "587475",
+        "name": "Sosial iş",
+        "paymentType": "ödənişsiz",
+        "bal2425": 128.1,
+        "bal2526": 144.2,
+        "isSpecial": false
+      },
+      {
+        "code": "587483",
+        "name": "Aşıq sənəti",
+        "paymentType": "ödənişsiz",
+        "bal2425": 50,
+        "bal2526": 50,
+        "isSpecial": true
+      },
+      {
+        "code": "587491",
+        "name": "İnstrumental ifaçılıq (fortepiano, violin, klarnet, tar, qarmon, kamança, nağara)",
+        "paymentType": "ödənişsiz",
+        "bal2425": null,
+        "bal2526": 50,
+        "isSpecial": true
+      },
+      {
+        "code": "587515",
+        "name": "Vokal sənəti (klassik vokal, xanəndəlik)",
+        "paymentType": "ödənişsiz",
+        "bal2425": 81.5,
+        "bal2526": 94.2,
+        "isSpecial": true
+      },
+      {
+        "code": "587523",
+        "name": "Ailə və ev təhsili",
+        "paymentType": "ödənişli",
+        "bal2425": 92.6,
+        "bal2526": 106.7,
+        "isSpecial": false
+      },
+      {
+        "code": "587531",
+        "name": "Kitabxana işi",
+        "paymentType": "ödənişli",
+        "bal2425": 91.1,
+        "bal2526": 103.5,
+        "isSpecial": false
+      },
+      {
+        "code": "587548",
+        "name": "Sosial iş",
+        "paymentType": "ödənişli",
+        "bal2425": 102.5,
+        "bal2526": 110.5,
+        "isSpecial": false
+      },
+      {
+        "code": "587556",
+        "name": "Aşıq sənəti",
+        "paymentType": "ödənişli",
+        "bal2425": 50,
+        "bal2526": 50,
+        "isSpecial": true
+      },
+      {
+        "code": "587564",
+        "name": "İnstrumental ifaçılıq (fortepiano, violin, klarnet, tar, qarmon, kamança, nağara)",
+        "paymentType": "ödənişli",
+        "bal2425": null,
+        "bal2526": 50,
+        "isSpecial": true
+      },
+      {
+        "code": "587572",
+        "name": "Vokal sənəti (klassik vokal, xanəndəlik)",
+        "paymentType": "ödənişli",
+        "bal2425": 51.5,
+        "bal2526": 50,
+        "isSpecial": true
+      }
+    ]
+  },
+  {
+    "name": "Ağdam Dövlət Sosial-İqtisadi Kolleci",
+    "normalized": "ağdamdövlətsosiali̇qtisadikolleci",
+    "specialties": [
+      {
+        "code": "587718",
+        "name": "Ailə və ev təhsili",
+        "paymentType": "ödənişsiz",
+        "bal2425": 95.2,
+        "bal2526": 96.9,
+        "isSpecial": false
+      },
+      {
+        "code": "587726",
+        "name": "Maliyyə işi",
+        "paymentType": "ödənişsiz",
+        "bal2425": 128,
+        "bal2526": 139.2,
+        "isSpecial": false
+      },
+      {
+        "code": "587734",
+        "name": "Mühasibat uçotu",
+        "paymentType": "ödənişsiz",
+        "bal2425": 122.2,
+        "bal2526": 128.4,
+        "isSpecial": false
+      },
+      {
+        "code": "587742",
+        "name": "Elektrik təchizatı (sahələr üzrə)",
+        "paymentType": "ödənişsiz",
+        "bal2425": 67.2,
+        "bal2526": 98,
+        "isSpecial": false
+      },
+      {
+        "code": "587759",
+        "name": "Kompüter sistemləri və kompleksləri",
+        "paymentType": "ödənişsiz",
+        "bal2425": 117.2,
+        "bal2526": 126.6,
+        "isSpecial": false
+      },
+      {
+        "code": "587767",
+        "name": "Nəqliyyat vasitələrinin texniki istismarı",
+        "paymentType": "ödənişsiz",
+        "bal2425": 106.6,
+        "bal2526": 112.6,
+        "isSpecial": false
+      },
+      {
+        "code": "587775",
+        "name": "Poçt rabitəsi",
+        "paymentType": "ödənişsiz",
+        "bal2425": 110.4,
+        "bal2526": 109.4,
+        "isSpecial": false
+      },
+      {
+        "code": "587783",
+        "name": "Aqrar (fermer) təsərrüfatının təşkili",
+        "paymentType": "ödənişsiz",
+        "bal2425": 99.1,
+        "bal2526": 96.4,
+        "isSpecial": false
+      },
+      {
+        "code": "587791",
+        "name": "Aqronomluq",
+        "paymentType": "ödənişsiz",
+        "bal2425": 83.8,
+        "bal2526": 82.1,
+        "isSpecial": false
+      },
+      {
+        "code": "587815",
+        "name": "Baytarlıq",
+        "paymentType": "ödənişsiz",
+        "bal2425": 89.7,
+        "bal2526": 92.3,
+        "isSpecial": false
+      },
+      {
+        "code": "587823",
+        "name": "Yerquruluşu və daşınmaz əmlakın kadastrı",
+        "paymentType": "ödənişsiz",
+        "bal2425": 108.3,
+        "bal2526": 106.1,
+        "isSpecial": false
+      },
+      {
+        "code": "587831",
+        "name": "Fiziki tərbiyə müəllimliyi",
+        "paymentType": "ödənişsiz",
+        "bal2425": 80.9,
+        "bal2526": 97.6,
+        "isSpecial": true
+      },
+      {
+        "code": "587848",
+        "name": "Ailə və ev təhsili",
+        "paymentType": "ödənişli",
+        "bal2425": 83.8,
+        "bal2526": 88.9,
+        "isSpecial": false
+      },
+      {
+        "code": "587856",
+        "name": "Maliyyə işi",
+        "paymentType": "ödənişli",
+        "bal2425": 98.1,
+        "bal2526": 113.2,
+        "isSpecial": false
+      },
+      {
+        "code": "587864",
+        "name": "Mühasibat uçotu",
+        "paymentType": "ödənişli",
+        "bal2425": 97.1,
+        "bal2526": 110.5,
+        "isSpecial": false
+      },
+      {
+        "code": "587872",
+        "name": "Elektrik təchizatı (sahələr üzrə)",
+        "paymentType": "ödənişli",
+        "bal2425": 73,
+        "bal2526": 86.8,
+        "isSpecial": false
+      },
+      {
+        "code": "587889",
+        "name": "Kompüter sistemləri və kompleksləri",
+        "paymentType": "ödənişli",
+        "bal2425": 88.8,
+        "bal2526": 105.3,
+        "isSpecial": false
+      },
+      {
+        "code": "587897",
+        "name": "Nəqliyyat vasitələrinin texniki istismarı",
+        "paymentType": "ödənişli",
+        "bal2425": 82.5,
+        "bal2526": 96.2,
+        "isSpecial": false
+      },
+      {
+        "code": "587912",
+        "name": "Poçt rabitəsi",
+        "paymentType": "ödənişli",
+        "bal2425": 82.5,
+        "bal2526": 97.8,
+        "isSpecial": false
+      },
+      {
+        "code": "587929",
+        "name": "Aqrar (fermer) təsərrüfatının təşkili",
+        "paymentType": "ödənişli",
+        "bal2425": 77.9,
+        "bal2526": 86.8,
+        "isSpecial": false
+      },
+      {
+        "code": "587937",
+        "name": "Aqronomluq",
+        "paymentType": "ödənişli",
+        "bal2425": 76,
+        "bal2526": 82.3,
+        "isSpecial": false
+      },
+      {
+        "code": "587945",
+        "name": "Baytarlıq",
+        "paymentType": "ödənişli",
+        "bal2425": 73.6,
+        "bal2526": 82.9,
+        "isSpecial": false
+      },
+      {
+        "code": "587953",
+        "name": "Yerquruluşu və daşınmaz əmlakın kadastrı",
+        "paymentType": "ödənişli",
+        "bal2425": 80.5,
+        "bal2526": 89,
+        "isSpecial": false
+      },
+      {
+        "code": "587961",
+        "name": "Fiziki tərbiyə müəllimliyi",
+        "paymentType": "ödənişli",
+        "bal2425": 73.6,
+        "bal2526": 81.7,
+        "isSpecial": true
+      }
+    ]
+  },
+  {
+    "name": "Ağdam Musiqi Kolleci",
+    "normalized": "ağdammusiqikolleci",
+    "specialties": [
+      {
+        "code": "588114",
+        "name": "Aşıq sənəti",
+        "paymentType": "ödənişsiz",
+        "bal2425": 50,
+        "bal2526": 50,
+        "isSpecial": true
+      },
+      {
+        "code": "588122",
+        "name": "İnstrumental ifaçılıq (fortepiano, violin, tar, kamança, qarmon, nağara, qanun, balaban, klarnet, ud)",
+        "paymentType": "ödənişsiz",
+        "bal2425": 68.1,
+        "bal2526": 50,
+        "isSpecial": true
+      },
+      {
+        "code": "588139",
+        "name": "Vokal sənəti (klassik vokal, xanəndəlik)",
+        "paymentType": "ödənişsiz",
+        "bal2425": 50,
+        "bal2526": 50,
+        "isSpecial": true
+      },
+      {
+        "code": "588147",
+        "name": "Aşıq sənəti",
+        "paymentType": "ödənişli",
+        "bal2425": 50,
+        "bal2526": 50,
+        "isSpecial": true
+      },
+      {
+        "code": "588155",
+        "name": "İnstrumental ifaçılıq (fortepiano, violin, tar, kamança, qarmon, nağara, qanun, balaban, klarnet, ud)",
+        "paymentType": "ödənişli",
+        "bal2425": 50,
+        "bal2526": 50,
+        "isSpecial": true
+      },
+      {
+        "code": "588163",
+        "name": "Vokal sənəti (klassik vokal, xanəndəlik)",
+        "paymentType": "ödənişli",
+        "bal2425": 50,
+        "bal2526": 50,
+        "isSpecial": true
+      }
+    ]
+  },
+  {
+    "name": "Ağdaş Dövlət Humanitar Kolleci",
+    "normalized": "ağdaşdövləthumanitarkolleci",
+    "specialties": [
+      {
+        "code": "588211",
+        "name": "Ailə və ev təhsili",
+        "paymentType": "ödənişsiz",
+        "bal2425": 93.7,
+        "bal2526": 113.3,
+        "isSpecial": false
+      },
+      {
+        "code": "588228",
+        "name": "Kitabxana işi",
+        "paymentType": "ödənişsiz",
+        "bal2425": 98.2,
+        "bal2526": 119.8,
+        "isSpecial": false
+      },
+      {
+        "code": "588236",
+        "name": "Bələdiyyə işi",
+        "paymentType": "ödənişsiz",
+        "bal2425": 99.6,
+        "bal2526": 114.6,
+        "isSpecial": false
+      },
+      {
+        "code": "588244",
+        "name": "Maliyyə işi",
+        "paymentType": "ödənişsiz",
+        "bal2425": 134,
+        "bal2526": 161.6,
+        "isSpecial": false
+      },
+      {
+        "code": "588252",
+        "name": "Mühasibat uçotu",
+        "paymentType": "ödənişsiz",
+        "bal2425": 122.2,
+        "bal2526": 152.7,
+        "isSpecial": false
+      },
+      {
+        "code": "588269",
+        "name": "Kompüter sistemləri və kompleksləri",
+        "paymentType": "ödənişsiz",
+        "bal2425": 118.8,
+        "bal2526": 140.4,
+        "isSpecial": false
+      },
+      {
+        "code": "588277",
+        "name": "Kompüter şəbəkələri və şəbəkə inzibatçılığı",
+        "paymentType": "ödənişsiz",
+        "bal2425": 117.7,
+        "bal2526": 137.8,
+        "isSpecial": false
+      },
+      {
+        "code": "588285",
+        "name": "Aqrar (fermer) təsərrüfatının təşkili",
+        "paymentType": "ödənişsiz",
+        "bal2425": 86.8,
+        "bal2526": 92.4,
+        "isSpecial": false
+      },
+      {
+        "code": "588293",
+        "name": "Aqronomluq",
+        "paymentType": "ödənişsiz",
+        "bal2425": 81.5,
+        "bal2526": 89.6,
+        "isSpecial": false
+      },
+      {
+        "code": "588317",
+        "name": "Baytarlıq",
+        "paymentType": "ödənişsiz",
+        "bal2425": 87.3,
+        "bal2526": 99.5,
+        "isSpecial": false
+      },
+      {
+        "code": "588325",
+        "name": "Ailə və ev təhsili",
+        "paymentType": "ödənişli",
+        "bal2425": 78.1,
+        "bal2526": 86.4,
+        "isSpecial": false
+      },
+      {
+        "code": "588333",
+        "name": "Kitabxana işi",
+        "paymentType": "ödənişli",
+        "bal2425": 81.5,
+        "bal2526": 92,
+        "isSpecial": false
+      },
+      {
+        "code": "588341",
+        "name": "Bələdiyyə işi",
+        "paymentType": "ödənişli",
+        "bal2425": 78.5,
+        "bal2526": 89.4,
+        "isSpecial": false
+      },
+      {
+        "code": "588358",
+        "name": "Maliyyə işi",
+        "paymentType": "ödənişli",
+        "bal2425": 93.7,
+        "bal2526": 108.6,
+        "isSpecial": false
+      },
+      {
+        "code": "588366",
+        "name": "Mühasibat uçotu",
+        "paymentType": "ödənişli",
+        "bal2425": 85.3,
+        "bal2526": 103.9,
+        "isSpecial": false
+      },
+      {
+        "code": "588374",
+        "name": "Kompüter sistemləri və kompleksləri",
+        "paymentType": "ödənişli",
+        "bal2425": 86.8,
+        "bal2526": 101.1,
+        "isSpecial": false
+      },
+      {
+        "code": "588382",
+        "name": "Kompüter şəbəkələri və şəbəkə inzibatçılığı",
+        "paymentType": "ödənişli",
+        "bal2425": 86.4,
+        "bal2526": 96.4,
+        "isSpecial": false
+      },
+      {
+        "code": "588399",
+        "name": "Aqrar (fermer) təsərrüfatının təşkili",
+        "paymentType": "ödənişli",
+        "bal2425": 73.1,
+        "bal2526": 83.3,
+        "isSpecial": false
+      },
+      {
+        "code": "588414",
+        "name": "Aqronomluq",
+        "paymentType": "ödənişli",
+        "bal2425": 72.4,
+        "bal2526": 79.1,
+        "isSpecial": false
+      },
+      {
+        "code": "588422",
+        "name": "Baytarlıq",
+        "paymentType": "ödənişli",
+        "bal2425": 72.1,
+        "bal2526": 84.9,
+        "isSpecial": false
+      }
+    ]
+  },
+  {
+    "name": "Ağcabədi Pedaqoji Kolleci",
+    "normalized": "ağcabədipedaqojikolleci",
+    "specialties": [
+      {
+        "code": "588488",
+        "name": "Ailə və ev təhsili",
+        "paymentType": "ödənişsiz",
+        "bal2425": 97.4,
+        "bal2526": 107.8,
+        "isSpecial": false
+      },
+      {
+        "code": "588496",
+        "name": "Kitabxana işi",
+        "paymentType": "ödənişsiz",
+        "bal2425": 120.4,
+        "bal2526": 109,
+        "isSpecial": false
+      },
+      {
+        "code": "588511",
+        "name": "Mühasibat uçotu",
+        "paymentType": "ödənişsiz",
+        "bal2425": 128.5,
+        "bal2526": 152.3,
+        "isSpecial": false
+      },
+      {
+        "code": "588528",
+        "name": "Kompüter sistemləri və kompleksləri",
+        "paymentType": "ödənişsiz",
+        "bal2425": 124.8,
+        "bal2526": 139.9,
+        "isSpecial": false
+      },
+      {
+        "code": "588536",
+        "name": "Süd və süd məhsullarının texnologiyası",
+        "paymentType": "ödənişsiz",
+        "bal2425": 82.4,
+        "bal2526": 96,
+        "isSpecial": false
+      },
+      {
+        "code": "588544",
+        "name": "Telekommunikasiya və kompüter sistemlərinin informasiya təhlükəsizliyi",
+        "paymentType": "ödənişsiz",
+        "bal2425": 94,
+        "bal2526": 131.5,
+        "isSpecial": false
+      },
+      {
+        "code": "588552",
+        "name": "Aqronomluq",
+        "paymentType": "ödənişsiz",
+        "bal2425": 77.6,
+        "bal2526": 90.3,
+        "isSpecial": false
+      },
+      {
+        "code": "588569",
+        "name": "Baytarlıq",
+        "paymentType": "ödənişsiz",
+        "bal2425": 83.8,
+        "bal2526": 89.9,
+        "isSpecial": false
+      },
+      {
+        "code": "588577",
+        "name": "Meşə və park",
+        "paymentType": "ödənişsiz",
+        "bal2425": 70.7,
+        "bal2526": 87.1,
+        "isSpecial": false
+      },
+      {
+        "code": "588585",
+        "name": "Ailə və ev təhsili",
+        "paymentType": "ödənişli",
+        "bal2425": null,
+        "bal2526": 92,
+        "isSpecial": false
+      },
+      {
+        "code": "588593",
+        "name": "Kitabxana işi",
+        "paymentType": "ödənişli",
+        "bal2425": 90.4,
+        "bal2526": 93.6,
+        "isSpecial": false
+      },
+      {
+        "code": "588617",
+        "name": "Mühasibat uçotu",
+        "paymentType": "ödənişli",
+        "bal2425": 102,
+        "bal2526": 109.5,
+        "isSpecial": false
+      },
+      {
+        "code": "588625",
+        "name": "Kompüter sistemləri və kompleksləri",
+        "paymentType": "ödənişli",
+        "bal2425": 97.7,
+        "bal2526": 115.6,
+        "isSpecial": false
+      },
+      {
+        "code": "588633",
+        "name": "Süd və süd məhsullarının texnologiyası",
+        "paymentType": "ödənişli",
+        "bal2425": 74.1,
+        "bal2526": 85.1,
+        "isSpecial": false
+      },
+      {
+        "code": "588641",
+        "name": "Telekommunikasiya və kompüter sistemlərinin informasiya təhlükəsizliyi",
+        "paymentType": "ödənişli",
+        "bal2425": 94,
+        "bal2526": 106.2,
+        "isSpecial": false
+      },
+      {
+        "code": "588658",
+        "name": "Aqronomluq",
+        "paymentType": "ödənişli",
+        "bal2425": 77.6,
+        "bal2526": 83.4,
+        "isSpecial": false
+      },
+      {
+        "code": "588666",
+        "name": "Baytarlıq",
+        "paymentType": "ödənişli",
+        "bal2425": 74,
+        "bal2526": 82.7,
+        "isSpecial": false
+      },
+      {
+        "code": "588674",
+        "name": "Meşə və park",
+        "paymentType": "ödənişli",
+        "bal2425": 73,
+        "bal2526": 79.1,
+        "isSpecial": false
+      }
+    ]
+  },
+  {
+    "name": "Şirvan Dövlət İqtisadiyyat və Humanitar Kolleci",
+    "normalized": "şirvandövləti̇qtisadiyyatvəhumanitarkolleci",
+    "specialties": [
+      {
+        "code": "588714",
+        "name": "Ailə və ev təhsili",
+        "paymentType": "ödənişsiz",
+        "bal2425": 113.3,
+        "bal2526": 117.9,
+        "isSpecial": false
+      },
+      {
+        "code": "588722",
+        "name": "Kitabxana işi",
+        "paymentType": "ödənişsiz",
+        "bal2425": 117.9,
+        "bal2526": 123.1,
+        "isSpecial": false
+      },
+      {
+        "code": "588739",
+        "name": "Bank işi",
+        "paymentType": "ödənişsiz",
+        "bal2425": 133.2,
+        "bal2526": 148.5,
+        "isSpecial": false
+      },
+      {
+        "code": "588747",
+        "name": "Maliyyə işi",
+        "paymentType": "ödənişsiz",
+        "bal2425": 147.3,
+        "bal2526": 158.8,
+        "isSpecial": false
+      },
+      {
+        "code": "588755",
+        "name": "Mühasibat uçotu",
+        "paymentType": "ödənişsiz",
+        "bal2425": 141.1,
+        "bal2526": 149.5,
+        "isSpecial": false
+      },
+      {
+        "code": "588763",
+        "name": "Vergi işi",
+        "paymentType": "ödənişsiz",
+        "bal2425": 124.1,
+        "bal2526": 141.6,
+        "isSpecial": false
+      },
+      {
+        "code": "588771",
+        "name": "Energetika və elektroenergetika",
+        "paymentType": "ödənişsiz",
+        "bal2425": 114.3,
+        "bal2526": 124.8,
+        "isSpecial": false
+      },
+      {
+        "code": "588788",
+        "name": "Ətraf mühitin mühafizəsi və bərpası",
+        "paymentType": "ödənişsiz",
+        "bal2425": 100,
+        "bal2526": 117.5,
+        "isSpecial": false
+      },
+      {
+        "code": "588796",
+        "name": "Kompüter sistemlərində proqram təminatı",
+        "paymentType": "ödənişsiz",
+        "bal2425": 136.4,
+        "bal2526": 144.2,
+        "isSpecial": false
+      },
+      {
+        "code": "588811",
+        "name": "Neft-qaz işi",
+        "paymentType": "ödənişsiz",
+        "bal2425": 124.1,
+        "bal2526": 135.7,
+        "isSpecial": false
+      },
+      {
+        "code": "588828",
+        "name": "Tikiş məmulatlarının və trikotaj istehsalı texnologiyası",
+        "paymentType": "ödənişsiz",
+        "bal2425": 85.9,
+        "bal2526": 110.6,
+        "isSpecial": false
+      },
+      {
+        "code": "588836",
+        "name": "Sosial iş",
+        "paymentType": "ödənişsiz",
+        "bal2425": 92.3,
+        "bal2526": 140.7,
+        "isSpecial": false
+      },
+      {
+        "code": "588844",
+        "name": "Turizm işinin təşkili",
+        "paymentType": "ödənişsiz",
+        "bal2425": 107.5,
+        "bal2526": 132.3,
+        "isSpecial": false
+      },
+      {
+        "code": "588852",
+        "name": "Fiziki tərbiyə müəllimliyi",
+        "paymentType": "ödənişsiz",
+        "bal2425": 117.2,
+        "bal2526": 96.1,
+        "isSpecial": true
+      },
+      {
+        "code": "588869",
+        "name": "Ailə və ev təhsili",
+        "paymentType": "ödənişli",
+        "bal2425": 101.1,
+        "bal2526": 101.6,
+        "isSpecial": false
+      },
+      {
+        "code": "588877",
+        "name": "Kitabxana işi",
+        "paymentType": "ödənişli",
+        "bal2425": 92.3,
+        "bal2526": 98.7,
+        "isSpecial": false
+      },
+      {
+        "code": "588885",
+        "name": "Bank işi",
+        "paymentType": "ödənişli",
+        "bal2425": 105.1,
+        "bal2526": 118.4,
+        "isSpecial": false
+      },
+      {
+        "code": "588893",
+        "name": "Maliyyə işi",
+        "paymentType": "ödənişli",
+        "bal2425": 111,
+        "bal2526": 121,
+        "isSpecial": false
+      },
+      {
+        "code": "588917",
+        "name": "Mühasibat uçotu",
+        "paymentType": "ödənişli",
+        "bal2425": 101.5,
+        "bal2526": 115.6,
+        "isSpecial": false
+      },
+      {
+        "code": "588925",
+        "name": "Vergi işi",
+        "paymentType": "ödənişli",
+        "bal2425": 98.7,
+        "bal2526": 112.8,
+        "isSpecial": false
+      },
+      {
+        "code": "588933",
+        "name": "Energetika və elektroenergetika",
+        "paymentType": "ödənişli",
+        "bal2425": 88.8,
+        "bal2526": 102.8,
+        "isSpecial": false
+      },
+      {
+        "code": "588941",
+        "name": "Ətraf mühitin mühafizəsi və bərpası",
+        "paymentType": "ödənişli",
+        "bal2425": 86.4,
+        "bal2526": 99.8,
+        "isSpecial": false
+      },
+      {
+        "code": "588958",
+        "name": "Kompüter sistemlərində proqram təminatı",
+        "paymentType": "ödənişli",
+        "bal2425": 96.6,
+        "bal2526": 116.3,
+        "isSpecial": false
+      },
+      {
+        "code": "588966",
+        "name": "Neft-qaz işi",
+        "paymentType": "ödənişli",
+        "bal2425": 95.7,
+        "bal2526": 109,
+        "isSpecial": false
+      },
+      {
+        "code": "588974",
+        "name": "Tikiş məmulatlarının və trikotaj istehsalı texnologiyası",
+        "paymentType": "ödənişli",
+        "bal2425": 85.9,
+        "bal2526": 93.6,
+        "isSpecial": false
+      },
+      {
+        "code": "588982",
+        "name": "Sosial iş",
+        "paymentType": "ödənişli",
+        "bal2425": 92.3,
+        "bal2526": 104.7,
+        "isSpecial": false
+      },
+      {
+        "code": "588999",
+        "name": "Turizm işinin təşkili",
+        "paymentType": "ödənişli",
+        "bal2425": 88.7,
+        "bal2526": 100.3,
+        "isSpecial": false
+      },
+      {
+        "code": "589119",
+        "name": "Fiziki tərbiyə müəllimliyi",
+        "paymentType": "ödənişli",
+        "bal2425": 77.6,
+        "bal2526": 86.5,
+        "isSpecial": true
+      }
+    ]
+  },
+  {
+    "name": "Bərdə Dövlət İdarəetmə və Texnologiya Kolleci",
+    "normalized": "bərdədövləti̇darəetməvətexnologiyakolleci",
+    "specialties": [
+      {
+        "code": "589151",
+        "name": "Mühasibat uçotu",
+        "paymentType": "ödənişsiz",
+        "bal2425": 139.4,
+        "bal2526": 155.9,
+        "isSpecial": false
+      },
+      {
+        "code": "589168",
+        "name": "Nəqliyyat vasitələrinin texniki istismarı",
+        "paymentType": "ödənişsiz",
+        "bal2425": 108,
+        "bal2526": 118.4,
+        "isSpecial": false
+      },
+      {
+        "code": "589176",
+        "name": "Nəqliyyatın logistikası",
+        "paymentType": "ödənişsiz",
+        "bal2425": 111.9,
+        "bal2526": 118.5,
+        "isSpecial": false
+      },
+      {
+        "code": "589184",
+        "name": "Poçt rabitəsi",
+        "paymentType": "ödənişsiz",
+        "bal2425": 106.5,
+        "bal2526": 122.3,
+        "isSpecial": false
+      },
+      {
+        "code": "589192",
+        "name": "Su təsərrüfatı qurğularının istismarı",
+        "paymentType": "ödənişsiz",
+        "bal2425": 71.7,
+        "bal2526": 101.5,
+        "isSpecial": false
+      },
+      {
+        "code": "589216",
+        "name": "Aqrar (fermer) təsərrüfatının təşkili",
+        "paymentType": "ödənişsiz",
+        "bal2425": 93.6,
+        "bal2526": 114.6,
+        "isSpecial": false
+      },
+      {
+        "code": "589224",
+        "name": "Aqronomluq",
+        "paymentType": "ödənişsiz",
+        "bal2425": null,
+        "bal2526": 83.7,
+        "isSpecial": false
+      },
+      {
+        "code": "589232",
+        "name": "Aqroturizm",
+        "paymentType": "ödənişsiz",
+        "bal2425": 85.4,
+        "bal2526": 91.1,
+        "isSpecial": false
+      },
+      {
+        "code": "589249",
+        "name": "Baytarlıq",
+        "paymentType": "ödənişsiz",
+        "bal2425": 98.5,
+        "bal2526": 101.2,
+        "isSpecial": false
+      },
+      {
+        "code": "589257",
+        "name": "İpəkçilik",
+        "paymentType": "ödənişsiz",
+        "bal2425": 52.1,
+        "bal2526": 81.5,
+        "isSpecial": false
+      },
+      {
+        "code": "589265",
+        "name": "Meşə və park",
+        "paymentType": "ödənişsiz",
+        "bal2425": 57.9,
+        "bal2526": 85.4,
+        "isSpecial": false
+      },
+      {
+        "code": "589273",
+        "name": "Pambıqçılıq",
+        "paymentType": "ödənişsiz",
+        "bal2425": 50,
+        "bal2526": 81.4,
+        "isSpecial": false
+      },
+      {
+        "code": "589281",
+        "name": "Sosial iş",
+        "paymentType": "ödənişsiz",
+        "bal2425": 113.4,
+        "bal2526": 120.5,
+        "isSpecial": false
+      },
+      {
+        "code": "589298",
+        "name": "Mühasibat uçotu",
+        "paymentType": "ödənişli",
+        "bal2425": 106,
+        "bal2526": 118.6,
+        "isSpecial": false
+      },
+      {
+        "code": "589313",
+        "name": "Nəqliyyat vasitələrinin texniki istismarı",
+        "paymentType": "ödənişli",
+        "bal2425": 87.8,
+        "bal2526": 98.4,
+        "isSpecial": false
+      },
+      {
+        "code": "589321",
+        "name": "Nəqliyyatın logistikası",
+        "paymentType": "ödənişli",
+        "bal2425": 82.4,
+        "bal2526": 96.1,
+        "isSpecial": false
+      },
+      {
+        "code": "589338",
+        "name": "Poçt rabitəsi",
+        "paymentType": "ödənişli",
+        "bal2425": 83.9,
+        "bal2526": 99.1,
+        "isSpecial": false
+      },
+      {
+        "code": "589346",
+        "name": "Su təsərrüfatı qurğularının istismarı",
+        "paymentType": "ödənişli",
+        "bal2425": 74.7,
+        "bal2526": 84.7,
+        "isSpecial": false
+      },
+      {
+        "code": "589354",
+        "name": "Aqrar (fermer) təsərrüfatının təşkili",
+        "paymentType": "ödənişli",
+        "bal2425": 81.9,
+        "bal2526": 91.4,
+        "isSpecial": false
+      },
+      {
+        "code": "589362",
+        "name": "Aqroturizm",
+        "paymentType": "ödənişli",
+        "bal2425": 75,
+        "bal2526": 83.2,
+        "isSpecial": false
+      },
+      {
+        "code": "589379",
+        "name": "Baytarlıq",
+        "paymentType": "ödənişli",
+        "bal2425": 78.6,
+        "bal2526": 86.7,
+        "isSpecial": false
+      },
+      {
+        "code": "589387",
+        "name": "İpəkçilik",
+        "paymentType": "ödənişli",
+        "bal2425": 68.2,
+        "bal2526": 77.9,
+        "isSpecial": false
+      },
+      {
+        "code": "589395",
+        "name": "Meşə və park",
+        "paymentType": "ödənişli",
+        "bal2425": 70.2,
+        "bal2526": 77,
+        "isSpecial": false
+      },
+      {
+        "code": "589419",
+        "name": "Pambıqçılıq",
+        "paymentType": "ödənişli",
+        "bal2425": 68.7,
+        "bal2526": 77.8,
+        "isSpecial": false
+      },
+      {
+        "code": "589427",
+        "name": "Sosial iş",
+        "paymentType": "ödənişli",
+        "bal2425": 95.7,
+        "bal2526": 91.1,
+        "isSpecial": false
+      }
+    ]
+  },
+  {
+    "name": "Sabirabad Dövlət Sosial-İqtisadi Kolleci",
+    "normalized": "sabirabaddövlətsosiali̇qtisadikolleci",
+    "specialties": [
+      {
+        "code": "589468",
+        "name": "Kargüzarlıq və arxiv işi",
+        "paymentType": "ödənişsiz",
+        "bal2425": 110,
+        "bal2526": 129.6,
+        "isSpecial": false
+      },
+      {
+        "code": "589476",
+        "name": "Kitabxana işi",
+        "paymentType": "ödənişsiz",
+        "bal2425": 117.8,
+        "bal2526": 121.1,
+        "isSpecial": false
+      },
+      {
+        "code": "589484",
+        "name": "Bələdiyyə işi",
+        "paymentType": "ödənişsiz",
+        "bal2425": 109.9,
+        "bal2526": 133.2,
+        "isSpecial": false
+      },
+      {
+        "code": "589492",
+        "name": "Mühasibat uçotu",
+        "paymentType": "ödənişsiz",
+        "bal2425": 125,
+        "bal2526": 147.5,
+        "isSpecial": false
+      },
+      {
+        "code": "589516",
+        "name": "Kompüter sistemləri və kompleksləri",
+        "paymentType": "ödənişsiz",
+        "bal2425": 132,
+        "bal2526": 158.5,
+        "isSpecial": false
+      },
+      {
+        "code": "589524",
+        "name": "Su təsərrüfatı qurğularının istismarı",
+        "paymentType": "ödənişsiz",
+        "bal2425": 92.6,
+        "bal2526": 106.1,
+        "isSpecial": false
+      },
+      {
+        "code": "589532",
+        "name": "Aqrar (fermer) təsərrüfatının təşkili",
+        "paymentType": "ödənişsiz",
+        "bal2425": 87.4,
+        "bal2526": 91.4,
+        "isSpecial": false
+      },
+      {
+        "code": "589549",
+        "name": "Aqronomluq",
+        "paymentType": "ödənişsiz",
+        "bal2425": 91,
+        "bal2526": 96.9,
+        "isSpecial": false
+      },
+      {
+        "code": "589557",
+        "name": "Baytarlıq",
+        "paymentType": "ödənişsiz",
+        "bal2425": 98.6,
+        "bal2526": 96.8,
+        "isSpecial": false
+      },
+      {
+        "code": "589565",
+        "name": "Kargüzarlıq və arxiv işi",
+        "paymentType": "ödənişli",
+        "bal2425": 83.8,
+        "bal2526": 92.4,
+        "isSpecial": false
+      },
+      {
+        "code": "589573",
+        "name": "Kitabxana işi",
+        "paymentType": "ödənişli",
+        "bal2425": 85.4,
+        "bal2526": 94.6,
+        "isSpecial": false
+      },
+      {
+        "code": "589581",
+        "name": "Bələdiyyə işi",
+        "paymentType": "ödənişli",
+        "bal2425": 84.8,
+        "bal2526": 100.1,
+        "isSpecial": false
+      },
+      {
+        "code": "589598",
+        "name": "Mühasibat uçotu",
+        "paymentType": "ödənişli",
+        "bal2425": 99.2,
+        "bal2526": 117.3,
+        "isSpecial": false
+      },
+      {
+        "code": "589613",
+        "name": "Kompüter sistemləri və kompleksləri",
+        "paymentType": "ödənişli",
+        "bal2425": 104.1,
+        "bal2526": 128,
+        "isSpecial": false
+      },
+      {
+        "code": "589621",
+        "name": "Su təsərrüfatı qurğularının istismarı",
+        "paymentType": "ödənişli",
+        "bal2425": 79,
+        "bal2526": 93,
+        "isSpecial": false
+      },
+      {
+        "code": "589638",
+        "name": "Aqrar (fermer) təsərrüfatının təşkili",
+        "paymentType": "ödənişli",
+        "bal2425": 76,
+        "bal2526": 85.2,
+        "isSpecial": false
+      },
+      {
+        "code": "589646",
+        "name": "Aqronomluq",
+        "paymentType": "ödənişli",
+        "bal2425": 75.6,
+        "bal2526": 87.4,
+        "isSpecial": false
+      },
+      {
+        "code": "589654",
+        "name": "Baytarlıq",
+        "paymentType": "ödənişli",
+        "bal2425": 75.6,
+        "bal2526": 84.8,
+        "isSpecial": false
+      }
+    ]
+  },
+  {
+    "name": "Göyçay Dövlət İdarəetmə və Texnologiya Kolleci",
+    "normalized": "göyçaydövləti̇darəetməvətexnologiyakolleci",
+    "specialties": [
+      {
+        "code": "589719",
+        "name": "Kargüzarlıq və arxiv işi",
+        "paymentType": "ödənişsiz",
+        "bal2425": 106,
+        "bal2526": 109.6,
+        "isSpecial": false
+      },
+      {
+        "code": "589727",
+        "name": "Bank işi",
+        "paymentType": "ödənişsiz",
+        "bal2425": 125.5,
+        "bal2526": 124.8,
+        "isSpecial": false
+      },
+      {
+        "code": "589735",
+        "name": "Maliyyə işi",
+        "paymentType": "ödənişsiz",
+        "bal2425": 132.5,
+        "bal2526": 129.1,
+        "isSpecial": false
+      },
+      {
+        "code": "589743",
+        "name": "Mühasibat uçotu",
+        "paymentType": "ödənişsiz",
+        "bal2425": 122.2,
+        "bal2526": 122.4,
+        "isSpecial": false
+      },
+      {
+        "code": "589751",
+        "name": "Elektrik təchizatı (sahələr üzrə)",
+        "paymentType": "ödənişsiz",
+        "bal2425": 101.4,
+        "bal2526": 105,
+        "isSpecial": false
+      },
+      {
+        "code": "589768",
+        "name": "Kompüter sistemləri və kompleksləri",
+        "paymentType": "ödənişsiz",
+        "bal2425": 122.2,
+        "bal2526": 128.5,
+        "isSpecial": false
+      },
+      {
+        "code": "589776",
+        "name": "Nəqliyyat vasitələrinin texniki istismarı",
+        "paymentType": "ödənişsiz",
+        "bal2425": 112.4,
+        "bal2526": 119,
+        "isSpecial": false
+      },
+      {
+        "code": "589784",
+        "name": "Tikiş məmulatlarının və trikotaj istehsalı texnologiyası",
+        "paymentType": "ödənişsiz",
+        "bal2425": 85.3,
+        "bal2526": 91.6,
+        "isSpecial": false
+      },
+      {
+        "code": "589792",
+        "name": "Aqrar (fermer) təsərrüfatının təşkili",
+        "paymentType": "ödənişsiz",
+        "bal2425": 87.8,
+        "bal2526": 89.9,
+        "isSpecial": false
+      },
+      {
+        "code": "589816",
+        "name": "Baytarlıq",
+        "paymentType": "ödənişsiz",
+        "bal2425": 86.8,
+        "bal2526": 107.4,
+        "isSpecial": false
+      },
+      {
+        "code": "589824",
+        "name": "İstixana təsərrüfatı",
+        "paymentType": "ödənişsiz",
+        "bal2425": 75,
+        "bal2526": 79.5,
+        "isSpecial": false
+      },
+      {
+        "code": "589832",
+        "name": "Kargüzarlıq və arxiv işi",
+        "paymentType": "ödənişsiz",
+        "bal2425": 80,
+        "bal2526": 90.7,
+        "isSpecial": false
+      },
+      {
+        "code": "589849",
+        "name": "Bank işi",
+        "paymentType": "ödənişsiz",
+        "bal2425": 90.8,
+        "bal2526": 100,
+        "isSpecial": false
+      },
+      {
+        "code": "589857",
+        "name": "Maliyyə işi",
+        "paymentType": "ödənişsiz",
+        "bal2425": 97.2,
+        "bal2526": 101.5,
+        "isSpecial": false
+      },
+      {
+        "code": "589865",
+        "name": "Mühasibat uçotu",
+        "paymentType": "ödənişsiz",
+        "bal2425": 88.3,
+        "bal2526": 99.1,
+        "isSpecial": false
+      },
+      {
+        "code": "589873",
+        "name": "Elektrik təchizatı (sahələr üzrə)",
+        "paymentType": "ödənişsiz",
+        "bal2425": 77.1,
+        "bal2526": 90.2,
+        "isSpecial": false
+      },
+      {
+        "code": "589881",
+        "name": "Kompüter sistemləri və kompleksləri",
+        "paymentType": "ödənişsiz",
+        "bal2425": 90.8,
+        "bal2526": 105.5,
+        "isSpecial": false
+      },
+      {
+        "code": "589898",
+        "name": "Nəqliyyat vasitələrinin texniki istismarı",
+        "paymentType": "ödənişsiz",
+        "bal2425": 84.8,
+        "bal2526": 95.5,
+        "isSpecial": false
+      },
+      {
+        "code": "589913",
+        "name": "Tikiş məmulatlarının və trikotaj istehsalı texnologiyası",
+        "paymentType": "ödənişsiz",
+        "bal2425": 76,
+        "bal2526": 81.9,
+        "isSpecial": false
+      },
+      {
+        "code": "589921",
+        "name": "Aqrar (fermer) təsərrüfatının təşkili",
+        "paymentType": "ödənişsiz",
+        "bal2425": null,
+        "bal2526": 78.8,
+        "isSpecial": false
+      },
+      {
+        "code": "589938",
+        "name": "Baytarlıq",
+        "paymentType": "ödənişsiz",
+        "bal2425": 75.1,
+        "bal2526": 85.6,
+        "isSpecial": false
+      },
+      {
+        "code": "589946",
+        "name": "İstixana təsərrüfatı 75.4 Lənkəran Dövlət Universitetinin nəzdində Sosial və Aqrar-Texnoloji",
+        "paymentType": "ödənişsiz",
+        "bal2425": 75,
+        "bal2526": null,
+        "isSpecial": false
+      },
+      {
+        "code": "591151",
+        "name": "Məktəbəqədər təhsil",
+        "paymentType": "ödənişli",
+        "bal2425": 99.1,
+        "bal2526": 126.5,
+        "isSpecial": false
+      },
+      {
+        "code": "591168",
+        "name": "Kitabxana işi",
+        "paymentType": "ödənişli",
+        "bal2425": 115.3,
+        "bal2526": 118,
+        "isSpecial": false
+      },
+      {
+        "code": "591176",
+        "name": "Maliyyə işi",
+        "paymentType": "ödənişli",
+        "bal2425": 155.7,
+        "bal2526": 159.9,
+        "isSpecial": false
+      },
+      {
+        "code": "591184",
+        "name": "Kompüter sistemləri və kompleksləri",
+        "paymentType": "ödənişli",
+        "bal2425": 137.9,
+        "bal2526": 153.8,
+        "isSpecial": false
+      },
+      {
+        "code": "591192",
+        "name": "Qida məhsullarının təhlükəsizliyi",
+        "paymentType": "ödənişli",
+        "bal2425": 120.2,
+        "bal2526": 136.8,
+        "isSpecial": false
+      },
+      {
+        "code": "591216",
+        "name": "Hidromeliorasiya və torpaq mühafizəsi",
+        "paymentType": "ödənişli",
+        "bal2425": 101.6,
+        "bal2526": 102.1,
+        "isSpecial": false
+      },
+      {
+        "code": "591224",
+        "name": "Sosial iş",
+        "paymentType": "ödənişli",
+        "bal2425": 130.5,
+        "bal2526": 140.8,
+        "isSpecial": false
+      },
+      {
+        "code": "591232",
+        "name": "Turizm işinin təşkili",
+        "paymentType": "ödənişli",
+        "bal2425": 116.8,
+        "bal2526": 124.3,
+        "isSpecial": false
+      },
+      {
+        "code": "591249",
+        "name": "Dizayn (interyer dizaynı)",
+        "paymentType": "ödənişli",
+        "bal2425": 74.1,
+        "bal2526": 86.4,
+        "isSpecial": true
+      },
+      {
+        "code": "591257",
+        "name": "İnstrumental ifaçılıq (fortepiano, tar, kamança, qarmon)",
+        "paymentType": "ödənişli",
+        "bal2425": null,
+        "bal2526": 50,
+        "isSpecial": true
+      },
+      {
+        "code": "591265",
+        "name": "Vokal sənəti (xanəndəlik)",
+        "paymentType": "ödənişli",
+        "bal2425": 50,
+        "bal2526": 50,
+        "isSpecial": true
+      },
+      {
+        "code": "591273",
+        "name": "Məktəbəqədər təhsil",
+        "paymentType": "ödənişli",
+        "bal2425": 99.1,
+        "bal2526": 110.4,
+        "isSpecial": false
+      },
+      {
+        "code": "591281",
+        "name": "Kitabxana işi",
+        "paymentType": "ödənişli",
+        "bal2425": 85.9,
+        "bal2526": 101.4,
+        "isSpecial": false
+      },
+      {
+        "code": "591298",
+        "name": "Maliyyə işi",
+        "paymentType": "ödənişli",
+        "bal2425": 104.4,
+        "bal2526": 131.1,
+        "isSpecial": false
+      },
+      {
+        "code": "591313",
+        "name": "Kompüter sistemləri və kompleksləri",
+        "paymentType": "ödənişli",
+        "bal2425": 100.6,
+        "bal2526": 119.2,
+        "isSpecial": false
+      },
+      {
+        "code": "591321",
+        "name": "Qida məhsullarının təhlükəsizliyi",
+        "paymentType": "ödənişli",
+        "bal2425": 92.8,
+        "bal2526": 107.4,
+        "isSpecial": false
+      },
+      {
+        "code": "591338",
+        "name": "Hidromeliorasiya və torpaq mühafizəsi",
+        "paymentType": "ödənişli",
+        "bal2425": 83.9,
+        "bal2526": 88,
+        "isSpecial": false
+      },
+      {
+        "code": "591346",
+        "name": "Sosial iş",
+        "paymentType": "ödənişli",
+        "bal2425": 99.7,
+        "bal2526": 107,
+        "isSpecial": false
+      },
+      {
+        "code": "591354",
+        "name": "Turizm işinin təşkili",
+        "paymentType": "ödənişli",
+        "bal2425": 86.4,
+        "bal2526": 101.3,
+        "isSpecial": false
+      },
+      {
+        "code": "591362",
+        "name": "Dizayn (interyer dizaynı)",
+        "paymentType": "ödənişli",
+        "bal2425": 58.3,
+        "bal2526": 50,
+        "isSpecial": true
+      },
+      {
+        "code": "591379",
+        "name": "İnstrumental ifaçılıq (fortepiano, tar, kamança, qarmon)",
+        "paymentType": "ödənişli",
+        "bal2425": null,
+        "bal2526": 50,
+        "isSpecial": true
+      },
+      {
+        "code": "591387",
+        "name": "Vokal sənəti (xanəndəlik)",
+        "paymentType": "ödənişli",
+        "bal2425": 50,
+        "bal2526": 50,
+        "isSpecial": true
+      }
+    ]
+  },
+  {
+    "name": "Astara Pedaqoji Kolleci",
+    "normalized": "astarapedaqojikolleci",
+    "specialties": [
+      {
+        "code": "591662",
+        "name": "Ailə və ev təhsili",
+        "paymentType": "ödənişsiz",
+        "bal2425": 96.2,
+        "bal2526": 95.2,
+        "isSpecial": false
+      },
+      {
+        "code": "591679",
+        "name": "Maliyyə işi",
+        "paymentType": "ödənişsiz",
+        "bal2425": 120.8,
+        "bal2526": 131.8,
+        "isSpecial": false
+      },
+      {
+        "code": "591687",
+        "name": "Mühasibat uçotu",
+        "paymentType": "ödənişsiz",
+        "bal2425": 108,
+        "bal2526": 122.8,
+        "isSpecial": false
+      },
+      {
+        "code": "591695",
+        "name": "Kompüter sistemlərində proqram təminatı",
+        "paymentType": "ödənişsiz",
+        "bal2425": 110.9,
+        "bal2526": 126.1,
+        "isSpecial": false
+      },
+      {
+        "code": "591719",
+        "name": "Qida məhsullarının təhlükəsizliyi",
+        "paymentType": "ödənişsiz",
+        "bal2425": 98.6,
+        "bal2526": 111.1,
+        "isSpecial": false
+      },
+      {
+        "code": "591727",
+        "name": "Aqronomluq",
+        "paymentType": "ödənişsiz",
+        "bal2425": 81.4,
+        "bal2526": 85.9,
+        "isSpecial": false
+      },
+      {
+        "code": "591735",
+        "name": "Aqroturizm",
+        "paymentType": "ödənişsiz",
+        "bal2425": 85.9,
+        "bal2526": 94,
+        "isSpecial": false
+      },
+      {
+        "code": "591743",
+        "name": "Turizm işinin təşkili",
+        "paymentType": "ödənişsiz",
+        "bal2425": 97.8,
+        "bal2526": 105,
+        "isSpecial": false
+      },
+      {
+        "code": "591751",
+        "name": "Ailə və ev təhsili",
+        "paymentType": "ödənişli",
+        "bal2425": 73.7,
+        "bal2526": 88.3,
+        "isSpecial": false
+      },
+      {
+        "code": "591768",
+        "name": "Maliyyə işi",
+        "paymentType": "ödənişli",
+        "bal2425": 86.4,
+        "bal2526": 105.5,
+        "isSpecial": false
+      },
+      {
+        "code": "591776",
+        "name": "Mühasibat uçotu",
+        "paymentType": "ödənişli",
+        "bal2425": 80.9,
+        "bal2526": 99.6,
+        "isSpecial": false
+      },
+      {
+        "code": "591784",
+        "name": "Kompüter sistemlərində proqram təminatı",
+        "paymentType": "ödənişli",
+        "bal2425": 79,
+        "bal2526": 105.6,
+        "isSpecial": false
+      },
+      {
+        "code": "591792",
+        "name": "Qida məhsullarının təhlükəsizliyi",
+        "paymentType": "ödənişli",
+        "bal2425": 72.7,
+        "bal2526": 95.7,
+        "isSpecial": false
+      },
+      {
+        "code": "591816",
+        "name": "Aqronomluq",
+        "paymentType": "ödənişli",
+        "bal2425": 70.1,
+        "bal2526": 80.2,
+        "isSpecial": false
+      },
+      {
+        "code": "591824",
+        "name": "Aqroturizm",
+        "paymentType": "ödənişli",
+        "bal2425": 71.7,
+        "bal2526": 84.7,
+        "isSpecial": false
+      },
+      {
+        "code": "591832",
+        "name": "Turizm işinin təşkili",
+        "paymentType": "ödənişli",
+        "bal2425": 76,
+        "bal2526": 92.6,
+        "isSpecial": false
+      }
+    ]
+  },
+  {
+    "name": "İsmayıllı Dövlət Humanitar və Texnologiya Kolleci",
+    "normalized": "i̇smayıllıdövləthumanitarvətexnologiyakolleci",
+    "specialties": [
+      {
+        "code": "591954",
+        "name": "Mühasibat uçotu",
+        "paymentType": "ödənişsiz",
+        "bal2425": 124.7,
+        "bal2526": 156.9,
+        "isSpecial": false
+      },
+      {
+        "code": "591962",
+        "name": "Çörək və unlu qənnadı məmulatlarının texnologiyası",
+        "paymentType": "ödənişsiz",
+        "bal2425": 80.9,
+        "bal2526": 86.5,
+        "isSpecial": false
+      },
+      {
+        "code": "591979",
+        "name": "Kompüter sistemlərində proqram təminatı",
+        "paymentType": "ödənişsiz",
+        "bal2425": 139.3,
+        "bal2526": 143.8,
+        "isSpecial": false
+      },
+      {
+        "code": "591987",
+        "name": "Qida məhsullarının təhlükəsizliyi",
+        "paymentType": "ödənişsiz",
+        "bal2425": 104.1,
+        "bal2526": 118.6,
+        "isSpecial": false
+      },
+      {
+        "code": "591995",
+        "name": "Süd və süd məhsullarının texnologiyası",
+        "paymentType": "ödənişsiz",
+        "bal2425": 75.6,
+        "bal2526": 84.2,
+        "isSpecial": false
+      },
+      {
+        "code": "592115",
+        "name": "Şərabçılıq və qıcqırtma istehsalatının texnologiyası",
+        "paymentType": "ödənişsiz",
+        "bal2425": 72.6,
+        "bal2526": 79.5,
+        "isSpecial": false
+      },
+      {
+        "code": "592123",
+        "name": "Aqronomluq",
+        "paymentType": "ödənişsiz",
+        "bal2425": 74,
+        "bal2526": 91.4,
+        "isSpecial": false
+      },
+      {
+        "code": "592131",
+        "name": "Baytarlıq",
+        "paymentType": "ödənişsiz",
+        "bal2425": 79.9,
+        "bal2526": 101.6,
+        "isSpecial": false
+      },
+      {
+        "code": "592148",
+        "name": "Meşə və park",
+        "paymentType": "ödənişsiz",
+        "bal2425": 67.2,
+        "bal2526": 78.6,
+        "isSpecial": false
+      },
+      {
+        "code": "592156",
+        "name": "Zootexniklik",
+        "paymentType": "ödənişsiz",
+        "bal2425": 69.1,
+        "bal2526": 82.6,
+        "isSpecial": false
+      },
+      {
+        "code": "592164",
+        "name": "Turizm işinin təşkili",
+        "paymentType": "ödənişsiz",
+        "bal2425": 100.1,
+        "bal2526": 102.3,
+        "isSpecial": false
+      },
+      {
+        "code": "592172",
+        "name": "Mühasibat uçotu",
+        "paymentType": "ödənişli",
+        "bal2425": 85.8,
+        "bal2526": 97.2,
+        "isSpecial": false
+      },
+      {
+        "code": "592189",
+        "name": "Çörək və unlu qənnadı məmulatlarının texnologiyası",
+        "paymentType": "ödənişli",
+        "bal2425": 72.6,
+        "bal2526": 80.3,
+        "isSpecial": false
+      },
+      {
+        "code": "592197",
+        "name": "Kompüter sistemlərində proqram təminatı",
+        "paymentType": "ödənişli",
+        "bal2425": 96.7,
+        "bal2526": 95.3,
+        "isSpecial": false
+      },
+      {
+        "code": "592212",
+        "name": "Qida məhsullarının təhlükəsizliyi",
+        "paymentType": "ödənişli",
+        "bal2425": 82.9,
+        "bal2526": 86.2,
+        "isSpecial": false
+      },
+      {
+        "code": "592229",
+        "name": "Süd və süd məhsullarının texnologiyası",
+        "paymentType": "ödənişli",
+        "bal2425": 77.6,
+        "bal2526": 78.1,
+        "isSpecial": false
+      },
+      {
+        "code": "592237",
+        "name": "Şərabçılıq və qıcqırtma istehsalatının texnologiyası",
+        "paymentType": "ödənişli",
+        "bal2425": 73.1,
+        "bal2526": 73.4,
+        "isSpecial": false
+      },
+      {
+        "code": "592245",
+        "name": "Aqronomluq",
+        "paymentType": "ödənişli",
+        "bal2425": 73.1,
+        "bal2526": 78.6,
+        "isSpecial": false
+      },
+      {
+        "code": "592253",
+        "name": "Baytarlıq",
+        "paymentType": "ödənişli",
+        "bal2425": 71.8,
+        "bal2526": 78.6,
+        "isSpecial": false
+      },
+      {
+        "code": "592261",
+        "name": "Meşə və park",
+        "paymentType": "ödənişli",
+        "bal2425": 69.2,
+        "bal2526": 76.4,
+        "isSpecial": false
+      },
+      {
+        "code": "592278",
+        "name": "Zootexniklik",
+        "paymentType": "ödənişli",
+        "bal2425": 72.6,
+        "bal2526": 76,
+        "isSpecial": false
+      },
+      {
+        "code": "592286",
+        "name": "Turizm işinin təşkili",
+        "paymentType": "ödənişli",
+        "bal2425": 81.4,
+        "bal2526": 88.4,
+        "isSpecial": false
+      }
+    ]
+  },
+  {
+    "name": "Masallı Dövlət Regional Kolleci",
+    "normalized": "masallıdövlətregionalkolleci",
+    "specialties": [
+      {
+        "code": "592512",
+        "name": "Kitabxana işi",
+        "paymentType": "ödənişsiz",
+        "bal2425": 117.2,
+        "bal2526": 113.9,
+        "isSpecial": false
+      },
+      {
+        "code": "592529",
+        "name": "Mühasibat uçotu",
+        "paymentType": "ödənişsiz",
+        "bal2425": 128.7,
+        "bal2526": 145.8,
+        "isSpecial": false
+      },
+      {
+        "code": "592537",
+        "name": "Sığorta işi",
+        "paymentType": "ödənişsiz",
+        "bal2425": 103.6,
+        "bal2526": 121.5,
+        "isSpecial": false
+      },
+      {
+        "code": "592545",
+        "name": "Kompüter şəbəkəsi avadanlıqlarının təmiri və servisi",
+        "paymentType": "ödənişsiz",
+        "bal2425": 110.4,
+        "bal2526": 115.9,
+        "isSpecial": false
+      },
+      {
+        "code": "592553",
+        "name": "Aqronomluq",
+        "paymentType": "ödənişsiz",
+        "bal2425": 83.9,
+        "bal2526": 95.5,
+        "isSpecial": false
+      },
+      {
+        "code": "592561",
+        "name": "Meşə və park",
+        "paymentType": "ödənişsiz",
+        "bal2425": 79,
+        "bal2526": 88.5,
+        "isSpecial": false
+      },
+      {
+        "code": "592578",
+        "name": "Yerquruluşu və daşınmaz əmlakın kadastrı",
+        "paymentType": "ödənişsiz",
+        "bal2425": 93.7,
+        "bal2526": 104.6,
+        "isSpecial": false
+      },
+      {
+        "code": "592586",
+        "name": "Turizm işinin təşkili",
+        "paymentType": "ödənişsiz",
+        "bal2425": 94.8,
+        "bal2526": 107.3,
+        "isSpecial": false
+      },
+      {
+        "code": "592594",
+        "name": "Kitabxana işi",
+        "paymentType": "ödənişsiz",
+        "bal2425": 90.3,
+        "bal2526": 98.4,
+        "isSpecial": false
+      },
+      {
+        "code": "592618",
+        "name": "Mühasibat uçotu",
+        "paymentType": "ödənişli",
+        "bal2425": 94.2,
+        "bal2526": 109.5,
+        "isSpecial": false
+      },
+      {
+        "code": "592626",
+        "name": "Sığorta işi",
+        "paymentType": "ödənişli",
+        "bal2425": 84.9,
+        "bal2526": 100.3,
+        "isSpecial": false
+      },
+      {
+        "code": "592634",
+        "name": "Kompüter şəbəkəsi avadanlıqlarının təmiri və servisi",
+        "paymentType": "ödənişli",
+        "bal2425": 86.7,
+        "bal2526": 99.3,
+        "isSpecial": false
+      },
+      {
+        "code": "592642",
+        "name": "Aqronomluq",
+        "paymentType": "ödənişli",
+        "bal2425": 76.5,
+        "bal2526": 83.6,
+        "isSpecial": false
+      },
+      {
+        "code": "592659",
+        "name": "Meşə və park",
+        "paymentType": "ödənişli",
+        "bal2425": 74.6,
+        "bal2526": 80.7,
+        "isSpecial": false
+      },
+      {
+        "code": "592667",
+        "name": "Yerquruluşu və daşınmaz əmlakın kadastrı",
+        "paymentType": "ödənişli",
+        "bal2425": 81.9,
+        "bal2526": 91.9,
+        "isSpecial": false
+      },
+      {
+        "code": "592675",
+        "name": "Turizm işinin təşkili 92.4 Azərbaycan Respublikası Dini Qurumlarla İş üzrə Dövlət Komitəsinin Azərbaycan İlahiyyat İnstitutunun yanında Bakı İlahiyyat",
+        "paymentType": "ödənişli",
+        "bal2425": 94.8,
+        "bal2526": null,
+        "isSpecial": false
+      },
+      {
+        "code": "593111",
+        "name": "Dini mənəvi xidmət",
+        "paymentType": "ödənişli",
+        "bal2425": null,
+        "bal2526": 85.8,
+        "isSpecial": true
+      }
+    ]
+  },
+  {
+    "name": "Bakı [Biznes](https://biznes.az) və Kooperasiya Kolleci",
+    "normalized": "bakıbizneshttpsbiznesazvəkooperasiyakolleci",
+    "specialties": [
+      {
+        "code": "595112",
+        "name": "Kargüzarlıq və arxiv işi",
+        "paymentType": "ödənişsiz",
+        "bal2425": 90.8,
+        "bal2526": 103.1,
+        "isSpecial": false
+      },
+      {
+        "code": "595129",
+        "name": "Bank işi",
+        "paymentType": "ödənişsiz",
+        "bal2425": 105.8,
+        "bal2526": 119.3,
+        "isSpecial": false
+      },
+      {
+        "code": "595137",
+        "name": "Bələdiyyə işi",
+        "paymentType": "ödənişsiz",
+        "bal2425": 93.2,
+        "bal2526": 106.6,
+        "isSpecial": false
+      },
+      {
+        "code": "595145",
+        "name": "Kommersiya işi",
+        "paymentType": "ödənişsiz",
+        "bal2425": 93.2,
+        "bal2526": 108,
+        "isSpecial": false
+      },
+      {
+        "code": "595153",
+        "name": "Maliyyə işi",
+        "paymentType": "ödənişsiz",
+        "bal2425": 106.4,
+        "bal2526": 123.1,
+        "isSpecial": false
+      },
+      {
+        "code": "595161",
+        "name": "Marketinq (sahələr üzrə)",
+        "paymentType": "ödənişsiz",
+        "bal2425": 95.6,
+        "bal2526": 112.6,
+        "isSpecial": false
+      },
+      {
+        "code": "595178",
+        "name": "Mühasibat uçotu",
+        "paymentType": "ödənişsiz",
+        "bal2425": 102,
+        "bal2526": 119.5,
+        "isSpecial": false
+      },
+      {
+        "code": "595186",
+        "name": "Sığorta işi",
+        "paymentType": "ödənişsiz",
+        "bal2425": 96.6,
+        "bal2526": 111.5,
+        "isSpecial": false
+      },
+      {
+        "code": "595194",
+        "name": "Vergi işi",
+        "paymentType": "ödənişli",
+        "bal2425": 98.7,
+        "bal2526": 114.6,
+        "isSpecial": false
+      },
+      {
+        "code": "595218",
+        "name": "Kompüter sistemlərinin təmiri və servisi",
+        "paymentType": "ödənişli",
+        "bal2425": 93.2,
+        "bal2526": 105.8,
+        "isSpecial": false
+      },
+      {
+        "code": "595226",
+        "name": "Kompüter şəbəkələri və şəbəkə inzibatçılığı",
+        "paymentType": "ödənişli",
+        "bal2425": 96.9,
+        "bal2526": 114,
+        "isSpecial": false
+      },
+      {
+        "code": "595234",
+        "name": "Qida məhsullarının təhlükəsizliyi",
+        "paymentType": "ödənişli",
+        "bal2425": 91.7,
+        "bal2526": 105.7,
+        "isSpecial": false
+      },
+      {
+        "code": "595242",
+        "name": "Nəqliyyatın logistikası",
+        "paymentType": "ödənişli",
+        "bal2425": 90.4,
+        "bal2526": 103.1,
+        "isSpecial": false
+      },
+      {
+        "code": "595259",
+        "name": "Sosial iş",
+        "paymentType": "ödənişli",
+        "bal2425": 96.6,
+        "bal2526": 107.2,
+        "isSpecial": false
+      },
+      {
+        "code": "595267",
+        "name": "Turizm işinin təşkili",
+        "paymentType": "ödənişli",
+        "bal2425": 94.1,
+        "bal2526": 105,
+        "isSpecial": false
+      }
+    ]
+  }
+]
