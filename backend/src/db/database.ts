@@ -1,8 +1,10 @@
 import fs from 'fs';
 import path from 'path';
 
-const SOURCE_FILE = path.join(__dirname, '../../dim-data.json');
 const IS_VERCEL = !!process.env.VERCEL;
+const SOURCE_FILE = IS_VERCEL
+  ? path.join(process.cwd(), 'backend/dim-data.json')
+  : path.join(__dirname, '../../dim-data.json');
 const TMP_FILE = '/tmp/dim-data.json';
 const DB_FILE = IS_VERCEL ? TMP_FILE : SOURCE_FILE;
 
