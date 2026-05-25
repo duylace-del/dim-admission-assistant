@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<!-- Google tag (gtag.js) -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-2MWTMG00JJ"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-2MWTMG00JJ');
+</script>
+<meta charset="UTF-8">
+
+<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+<!-- Favicon and Apple Icons-->
+<link rel="icon" type="image/x-icon" href="https://baau.edu.az/uploads/files/baau_edu_az/system/baau-logo.svg">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+<link rel="shortcut icon" href="https://baau.edu.az/uploads/files/baau_edu_az/system/baau-logo.svg">
+<link rel="apple-touch-icon-precomposed" href="https://baau.edu.az/uploads/files/baau_edu_az/system/baau-logo.svg">
+
+<!-- Title-->
+<title>Bakı Avrasiya Universiteti</title>
+<!-- SEO Meta-->
+<meta name="description" content="Bakı Avrasiya Universiteti">
+<meta name="keywords" content="Bakı,Baau,baau,Bakı Avrasiya">
+
+<link rel="stylesheet" href="https://baau.edu.az/assets/css/bootstrap.min.css">
+
+<link rel="stylesheet" href="https://baau.edu.az/assets/css/owl.theme.default.min.css">
+
+<link rel="stylesheet" href="https://baau.edu.az/assets/css/owl.carousel.min.css">
+
+<link rel="stylesheet" href="https://baau.edu.az/assets/css/remixicon.css">
+
+<link rel="stylesheet" href="https://baau.edu.az/assets/css/flaticon.css">
+
+<link rel="stylesheet" href="https://baau.edu.az/assets/css/meanmenu.min.css">
+
+<link rel="stylesheet" href="https://baau.edu.az/assets/css/animate.min.css">
+
+<link rel="stylesheet" href="https://baau.edu.az/assets/css/odometer.min.css">
+
+<link rel="stylesheet" href="https://baau.edu.az/assets/css/magnific-popup.min.css">
+
+<link rel="stylesheet" href="https://baau.edu.az/assets/css/date-picker.min.css">
+
+<link rel="stylesheet" href="https://baau.edu.az/assets/css/style.css?v=1">
+
+<link rel="stylesheet" href="https://baau.edu.az/assets/css/responsive.css">
+
+
+<link rel="stylesheet" href="https://baau.edu.az/assets/css/custom.css?v=091302">
+
+<style>
+    body{
+        overflow-x: hidden;
+    }
+
+    tbody, td, tfoot, th, thead, tr {
+        border: 1px solid;
+    }
+</style>
+</head>
+
+<body>
+
+    <!-- START SECTIONS -->
+    <section class="height-100vh flex-center">
+	<div class="container">
+		<div class="row">
+			<div class="col-12 text-center">
+				<h1 class="text-primary display-1">404</h1>
+				<h2 class="mb-4">
+					Təəssüf! Bu səhifə mövcud deyil <i class="fas fa-frown text-warning" aria-hidden="true"></i>
+				</h2>
+				<p>
+					İzlədiyiniz keçid zədələnib, və ya səhifə ləğv edilib.
+				</p>
+				<a href="https://baau.edu.az/" class="btn btn-rounded btn-primary mt-5">Ana səhifəyə qayıt</a>
+			</div>
+		</div> <!-- END row-->
+	</div> <!-- END container-->
+
+</section>
+
+    <!-- END SECTIONS -->
+    
+    <script src="https://baau.edu.az/assets/js/jquery.min.js"></script>
+
+<script src="https://baau.edu.az/assets/js/bootstrap.bundle.min.js"></script>
+
+<script src="https://baau.edu.az/assets/js/meanmenu.min.js"></script>
+
+<script src="https://baau.edu.az/assets/js/owl.carousel.min.js"></script>
+
+<script src="https://baau.edu.az/assets/js/wow.min.js"></script>
+
+<script src="https://baau.edu.az/assets/js/appear.min.js"></script>
+
+<script src="https://baau.edu.az/assets/js/odometer.min.js"></script>
+
+<script src="https://baau.edu.az/assets/js/jarallax.min.js"></script>
+
+<script src="https://baau.edu.az/assets/js/bootstrap-datepicker.min.js"></script>
+
+<script src="https://baau.edu.az/assets/js/magnific-popup.min.js"></script>
+
+<script src="https://baau.edu.az/assets/js/form-validator.min.js"></script>
+
+<script src="https://baau.edu.az/assets/js/contact-form-script.js"></script>
+
+<script src="https://baau.edu.az/assets/js/ajaxchimp.min.js"></script>
+
+<script src="https://baau.edu.az/assets/js/custom.js?v=091302"></script>
+
+<script>
+    // LANGUAGE CHANGE FUNCTION
+    $('.lang-select').on('change', function () {
+        var url = $(this).val();
+        location.href = url;
+    });
+</script></body>
+
+</html>

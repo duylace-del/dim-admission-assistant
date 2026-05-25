@@ -34,7 +34,6 @@ export default function Header() {
     { path: '/universitetler', label: t('nav_universities'), icon: <Building2 size={14} /> },
     { path: '/kollecler', label: t('nav_colleges'), icon: <School size={14} /> },
     { path: '/teqvim', label: t('nav_calendar'), icon: <Calendar size={14} /> },
-    { path: '/admin', label: t('nav_admin'), icon: <Settings size={14} /> },
   ];
 
   return (

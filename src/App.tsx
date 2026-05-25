@@ -6,7 +6,6 @@ import ScoreCalculator from './pages/ScoreCalculator';
 import UniversitiesPage from './pages/UniversitiesPage';
 import CollegesPage from './pages/CollegesPage';
 import ExamCalendar from './pages/ExamCalendar';
-import AdminPanel from './pages/AdminPanel';
 import FavoritesPage from './pages/FavoritesPage';
 import GlobalSearchPage from './pages/GlobalSearchPage';
 import ComparisonModal from './components/ComparisonModal';
@@ -34,7 +33,6 @@ export default function App() {
                   <Route path="/universitetler" element={<UniversitiesPage />} />
                   <Route path="/kollecler" element={<CollegesPage />} />
                   <Route path="/teqvim" element={<ExamCalendar />} />
-                  <Route path="/admin" element={<AdminPanel />} />
                   <Route path="/favoritler" element={<FavoritesPage />} />
                 </Routes>
                 {/* Global overlays */}
