@@ -18,6 +18,7 @@ app.use('/api', institutionsRouter);
 app.use('/api/auth', authRouter);
 app.use('/api', notifyRouter);
 
+app.get('/', (_, res) => res.json({ name: 'DİM Qəbul Köməkçisi API', status: 'ok', docs: '/api/health' }));
 app.get('/api/health', (_, res) => res.json({ status: 'ok', time: new Date().toISOString() }));
 
 initDB();
