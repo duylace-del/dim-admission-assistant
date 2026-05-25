@@ -20,7 +20,7 @@ app.use('/api/auth', authRouter);
 app.use('/api', notifyRouter);
 
 // Admin panel - static files
-const adminDir = path.join(__dirname, '../../public/admin');
+const adminDir = path.join(__dirname, '../public/admin');
 app.use('/admin', express.static(adminDir));
 app.get('/admin/*', (_, res) => res.sendFile(path.join(adminDir, 'admin.html')));
 
