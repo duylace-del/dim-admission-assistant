@@ -32,7 +32,7 @@ export function getSubscribersHandler(req: Request, res: Response) {
 
 // DELETE /api/admin/subscriber/:id
 export function deleteSubscriberHandler(req: Request, res: Response) {
-  deleteSubscriber(req.params.id);
+  deleteSubscriber(req.params.id as string);
   res.json({ success: true });
 }
 

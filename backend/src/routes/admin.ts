@@ -103,7 +103,7 @@ router.put('/specialty/:id', adminAuth, (req: Request, res: Response) => {
 // DELETE /api/admin/specialty/:id
 router.delete('/specialty/:id', adminAuth, (req: Request, res: Response) => {
   try {
-    deleteById(decodeURIComponent(req.params.id));
+    deleteById(decodeURIComponent(req.params.id as string));
     res.json({ success: true });
   } catch (err: any) {
     res.status(500).json({ success: false, error: err.message });
@@ -113,7 +113,7 @@ router.delete('/specialty/:id', adminAuth, (req: Request, res: Response) => {
 // DELETE /api/admin/level/:level — delete all for a level
 router.delete('/level/:level', adminAuth, (req: Request, res: Response) => {
   try {
-    const deleted = deleteByLevel(req.params.level);
+    const deleted = deleteByLevel(req.params.level as string);
     res.json({ success: true, deleted });
   } catch (err: any) {
     res.status(500).json({ success: false, error: err.message });
@@ -134,7 +134,7 @@ router.post('/university', adminAuth, (req: Request, res: Response) => {
 
 router.delete('/university/:id', adminAuth, (req: Request, res: Response) => {
   try {
-    deleteUniversityById(decodeURIComponent(req.params.id));
+    deleteUniversityById(decodeURIComponent(req.params.id as string));
     res.json({ success: true });
   } catch (err: any) {
     res.status(500).json({ success: false, error: err.message });
@@ -155,7 +155,7 @@ router.post('/college', adminAuth, (req: Request, res: Response) => {
 
 router.delete('/college/:id', adminAuth, (req: Request, res: Response) => {
   try {
-    deleteCollegeById(decodeURIComponent(req.params.id));
+    deleteCollegeById(decodeURIComponent(req.params.id as string));
     res.json({ success: true });
   } catch (err: any) {
     res.status(500).json({ success: false, error: err.message });
