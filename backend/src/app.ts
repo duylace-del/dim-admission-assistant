@@ -21,6 +21,8 @@ app.use('/api', notifyRouter);
 
 // Admin panel - static files
 const adminDir = path.join(__dirname, '../public/admin');
+app.get('/admin', (_, res) => res.sendFile(path.join(adminDir, 'admin.html')));
+app.get('/admin/', (_, res) => res.sendFile(path.join(adminDir, 'admin.html')));
 app.use('/admin', express.static(adminDir));
 app.get('/admin/*', (_, res) => res.sendFile(path.join(adminDir, 'admin.html')));
 
