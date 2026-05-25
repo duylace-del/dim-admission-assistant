@@ -212,3 +212,72 @@ export async function adminDeleteCollege(token: string, id: string): Promise<voi
   });
   if (!res.ok) throw new Error('Silmə xətası');
 }
+
+// ── user management ───────────────────────────────────────────
+export async function adminGetUsers(token: string): Promise<any[]> {
+  const res = await fetch(`${API_URL}/api/admin/users`, {
+    headers: { Authorization: `Bearer ${token}` },
+  });
+  if (!res.ok) throw new Error('İstifadəçilər yüklənmədi');
+  const json = await res.json();
+  return json.data;
+}
+
+export async function adminDeleteUser(token: string, id: string): Promise<void> {
+  const res = await fetch(`${API_URL}/api/admin/user/${id}`, {
+    method: 'DELETE',
+    headers: { Authorization: `Bearer ${token}` },
+  });
+  if (!res.ok) throw new Error('Silmə xətası');
+}
+
+export async function adminUpdateUserPassword(token: string, id: string, password: string): Promise<void> {
+  const res = await fetch(`${API_URL}/api/admin/user/${id}/password`, {
+    method: 'PUT',
+    headers: { 'Content-Type': 'application/json', Authorization: `Bearer ${token}` },
+    body: JSON.stringify({ password }),
+  });
+  if (!res.ok) {
+    const err = await res.json().catch(() => ({}));
+    throw new Error(err.error || 'Şifrə yenilənmədi');
+  }
+}
+
+// ── calculator config ─────────────────────────────────────────
+export interface CalcSubjectConfig {
+  key: string;
+  label: string;
+  coefficient: number;
+  maxQ: number;
+  maxKod: number;
+  maxYazili: number;
+  color: string;
+}
+
+export interface CalcTypeConfig {
+  value: string;
+  label: string;
+  desc: string;
+  category: 'attestat' | 'blok' | 'magistr' | 'rezidentura' | 'kollec' | 'subbakalavr';
+  maxScore: number;
+  subjects: CalcSubjectConfig[];
+}
+
+export async function fetchCalculatorConfig(): Promise<CalcTypeConfig[]> {
+  const res = await fetch(`${API_URL}/api/calculator-config`);
+  if (!res.ok) throw new Error('Config yüklənmədi');
+  const json = await res.json();
+  return json.data;
+}
+
+export async function adminSaveCalculatorConfig(token: string, config: CalcTypeConfig[]): Promise<void> {
+  const res = await fetch(`${API_URL}/api/admin/calculator-config`, {
+    method: 'PUT',
+    headers: { 'Content-Type': 'application/json', Authorization: `Bearer ${token}` },
+    body: JSON.stringify(config),
+  });
+  if (!res.ok) {
+    const err = await res.json().catch(() => ({}));
+    throw new Error(err.error || 'Saxlama xətası');
+  }
+}

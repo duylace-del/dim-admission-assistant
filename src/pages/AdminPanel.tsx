@@ -4,7 +4,8 @@ import {
   Shield, Lock, Eye, EyeOff, AlertCircle, Database,
   BookOpen, GraduationCap, Stethoscope, School,
   Plus, Trash2, Upload, CheckCircle, RefreshCw, ChevronDown, X,
-  Building2, Edit2, Bell, Users, User, Mail, FileSpreadsheet, List,
+  Building2, Edit2, Bell, Users, Mail, FileSpreadsheet, List,
+  Calculator, KeyRound, Save,
 } from 'lucide-react';
 import * as XLSX from 'xlsx';
 import {
@@ -13,13 +14,15 @@ import {
   fetchUniversities, fetchColleges,
   adminSaveUniversity, adminDeleteUniversity,
   adminSaveCollege, adminDeleteCollege,
-  UniversityData, CollegeData,
+  adminDeleteUser, adminUpdateUserPassword,
+  fetchCalculatorConfig, adminSaveCalculatorConfig,
+  UniversityData, CollegeData, CalcTypeConfig,
 } from '../lib/api';
 import { Specialty } from '../data/specialties';
 
 // ─── types ────────────────────────────────────────────────────
 type Level = 'bakalavr' | 'magistr' | 'rezidentura' | 'kollec_9' | 'kollec_11' | 'subbakalavr';
-type Section = 'ixtisaslar' | 'muessiseler' | 'abuneciler' | 'istifadeciler';
+type Section = 'ixtisaslar' | 'muessiseler' | 'abuneciler' | 'istifadeciler' | 'kalkulyator';
 type InstitutionTab = 'universities' | 'colleges';
 
 const LEVELS: { id: Level; label: string; icon: React.ReactNode; color: string }[] = [
@@ -128,8 +131,13 @@ export default function AdminPanel() {
   const [subsLoading, setSubsLoading] = useState(false);
 
   // ── Users ──
-  const [users, setUsers] = useState<Array<{ id: string; username: string; email: string; createdAt: string }>>([]);
+  const [users, setUsers] = useState<Array<{ id: string; username: string; email: string; createdAt: string; passwordHash: string }>>([]);
   const [usersLoading, setUsersLoading] = useState(false);
+  const [pwModal, setPwModal] = useState<{ id: string; username: string } | null>(null);
+  const [newPw, setNewPw] = useState('');
+  const [pwMsg, setPwMsg] = useState('');
+  const [pwSaving, setPwSaving] = useState(false);
+  const [confirmDeleteUser, setConfirmDeleteUser] = useState<{ id: string; username: string } | null>(null);
 
   const loadUsers = async () => {
     setUsersLoading(true);
@@ -141,6 +149,57 @@ export default function AdminPanel() {
       const data = await res.json();
       if (data.success) setUsers(data.data);
     } catch {} finally { setUsersLoading(false); }
+  };
+
+  const handleDeleteUser = async () => {
+    if (!confirmDeleteUser) return;
+    try {
+      await adminDeleteUser(token, confirmDeleteUser.id);
+      setUsers(prev => prev.filter(u => u.id !== confirmDeleteUser.id));
+      setConfirmDeleteUser(null);
+    } catch (err: any) { alert(err.message); }
+  };
+
+  const handleChangePassword = async () => {
+    if (!pwModal || !newPw || newPw.length < 6) {
+      setPwMsg('❌ Şifrə minimum 6 simvol olmalıdır');
+      return;
+    }
+    setPwSaving(true); setPwMsg('');
+    try {
+      await adminUpdateUserPassword(token, pwModal.id, newPw);
+      setPwMsg('✅ Şifrə yeniləndi');
+      setNewPw('');
+      setTimeout(() => { setPwModal(null); setPwMsg(''); }, 1500);
+    } catch (err: any) {
+      setPwMsg(`❌ ${err.message}`);
+    } finally { setPwSaving(false); }
+  };
+
+  // ── Calculator Config ──
+  const [calcConfig, setCalcConfig] = useState<CalcTypeConfig[] | null>(null);
+  const [calcLoading, setCalcLoading] = useState(false);
+  const [calcSaving, setCalcSaving] = useState(false);
+  const [calcMsg, setCalcMsg] = useState('');
+  const [calcEditIdx, setCalcEditIdx] = useState<number | null>(null);
+
+  const loadCalcConfig = async () => {
+    setCalcLoading(true);
+    try {
+      const cfg = await fetchCalculatorConfig();
+      setCalcConfig(cfg);
+    } catch {} finally { setCalcLoading(false); }
+  };
+
+  const handleSaveCalcConfig = async () => {
+    if (!calcConfig) return;
+    setCalcSaving(true); setCalcMsg('');
+    try {
+      await adminSaveCalculatorConfig(token, calcConfig);
+      setCalcMsg('✅ Kalkulyator konfiqurasiyası saxlanıldı');
+    } catch (err: any) {
+      setCalcMsg(`❌ ${err.message}`);
+    } finally { setCalcSaving(false); }
   };
 
   const loadSubscribers = async () => {
@@ -195,7 +254,7 @@ export default function AdminPanel() {
   };
 
   useEffect(() => {
-    if (authed) { loadCounts(); loadInstitutions(); loadSubscribers(); loadUsers(); loadSpecList(activeTab); }
+    if (authed) { loadCounts(); loadInstitutions(); loadSubscribers(); loadUsers(); loadSpecList(activeTab); loadCalcConfig(); }
   }, [authed]);
 
   useEffect(() => {
@@ -446,6 +505,12 @@ export default function AdminPanel() {
           >
             <Users size={16} /> İstifadəçilər
             {users.length > 0 && <span className="ml-1 bg-indigo-500 text-white text-xs rounded-full w-5 h-5 flex items-center justify-center">{users.length}</span>}
+          </button>
+          <button
+            onClick={() => { setSection('kalkulyator'); if (!calcConfig) loadCalcConfig(); }}
+            className={`flex items-center gap-2 px-5 py-2.5 rounded-xl font-semibold text-sm border transition-all ${section === 'kalkulyator' ? 'bg-purple-600/20 text-purple-300 border-purple-500/40' : 'glass border-white/10 text-gray-400 hover:text-white'}`}
+          >
+            <Calculator size={16} /> Kalkulyator
           </button>
         </div>
 
@@ -918,33 +983,60 @@ export default function AdminPanel() {
                 </div>
               ) : (
                 <div className="glass rounded-2xl border border-white/8 overflow-hidden">
-                  <div className="overflow-x-auto max-h-[500px] overflow-y-auto">
+                  <div className="overflow-x-auto max-h-[600px] overflow-y-auto">
                     <table className="dim-table">
                       <thead>
                         <tr>
                           <th>#</th>
                           <th>İstifadəçi adı</th>
                           <th>E-poçt</th>
+                          <th>Şifrə (hash)</th>
                           <th>Qeydiyyat tarixi</th>
+                          <th>Əməliyyat</th>
                         </tr>
                       </thead>
                       <tbody>
                         {users.map((u, i) => (
                           <tr key={u.id}>
                             <td className="text-gray-500 text-sm font-mono">{i + 1}</td>
-                            <td className="flex items-center gap-2">
-                              <div className="w-7 h-7 rounded-full bg-gradient-to-br from-indigo-500 to-purple-600 flex items-center justify-center text-white text-xs font-bold shrink-0">
-                                {u.username[0]?.toUpperCase()}
+                            <td>
+                              <div className="flex items-center gap-2">
+                                <div className="w-7 h-7 rounded-full bg-gradient-to-br from-indigo-500 to-purple-600 flex items-center justify-center text-white text-xs font-bold shrink-0">
+                                  {u.username[0]?.toUpperCase()}
+                                </div>
+                                <span className="text-white text-sm font-medium">{u.username}</span>
                               </div>
-                              <span className="text-white text-sm font-medium">{u.username}</span>
                             </td>
                             <td>
                               <div className="flex items-center gap-2">
-                                <User size={13} className="text-indigo-400 shrink-0" />
+                                <Mail size={13} className="text-indigo-400 shrink-0" />
                                 <span className="text-gray-300 text-sm">{u.email}</span>
                               </div>
                             </td>
-                            <td className="text-gray-400 text-xs">{new Date(u.createdAt).toLocaleDateString('az-AZ', { year: 'numeric', month: 'long', day: 'numeric' })}</td>
+                            <td>
+                              <span className="text-gray-500 text-xs font-mono truncate max-w-[140px] block" title={u.passwordHash}>
+                                {u.passwordHash ? u.passwordHash.slice(0, 20) + '…' : '—'}
+                              </span>
+                            </td>
+                            <td className="text-gray-400 text-xs">{new Date(u.createdAt).toLocaleDateString('az-AZ', { year: 'numeric', month: 'short', day: 'numeric' })}</td>
+                            <td>
+                              <div className="flex items-center gap-1.5">
+                                <button
+                                  onClick={() => { setPwModal({ id: u.id, username: u.username }); setNewPw(''); setPwMsg(''); }}
+                                  className="glass px-2 py-1 rounded-lg text-xs text-blue-400 border border-blue-500/20 hover:bg-blue-500/10 flex items-center gap-1"
+                                  title="Şifrəni dəyiş"
+                                >
+                                  <KeyRound size={12} /> Şifrə
+                                </button>
+                                <button
+                                  onClick={() => setConfirmDeleteUser({ id: u.id, username: u.username })}
+                                  className="glass px-2 py-1 rounded-lg text-xs text-red-400 border border-red-500/20 hover:bg-red-500/10 flex items-center gap-1"
+                                  title="Sil"
+                                >
+                                  <Trash2 size={12} /> Sil
+                                </button>
+                              </div>
+                            </td>
                           </tr>
                         ))}
                       </tbody>
@@ -952,6 +1044,59 @@ export default function AdminPanel() {
                   </div>
                 </div>
               )}
+
+              {/* Change Password Modal */}
+              <AnimatePresence>
+                {pwModal && (
+                  <motion.div initial={{ opacity: 0 }} animate={{ opacity: 1 }} exit={{ opacity: 0 }}
+                    className="fixed inset-0 bg-black/60 backdrop-blur-sm flex items-center justify-center z-50 p-4">
+                    <motion.div initial={{ scale: 0.9 }} animate={{ scale: 1 }} exit={{ scale: 0.9 }}
+                      className="glass-strong rounded-2xl p-6 border border-white/10 w-full max-w-md">
+                      <div className="flex items-center justify-between mb-4">
+                        <h3 className="font-bold text-white flex items-center gap-2"><KeyRound size={16} className="text-blue-400" /> Şifrəni Dəyiş</h3>
+                        <button onClick={() => setPwModal(null)} className="text-gray-400 hover:text-white"><X size={18} /></button>
+                      </div>
+                      <p className="text-sm text-gray-400 mb-4">İstifadəçi: <span className="text-white font-semibold">{pwModal.username}</span></p>
+                      <input
+                        type="password"
+                        value={newPw}
+                        onChange={e => { setNewPw(e.target.value); setPwMsg(''); }}
+                        placeholder="Yeni şifrə (min 6 simvol)"
+                        className="dim-input mb-3"
+                      />
+                      {pwMsg && <p className={`text-sm mb-3 ${pwMsg.startsWith('✅') ? 'text-green-400' : 'text-red-400'}`}>{pwMsg}</p>}
+                      <div className="flex gap-3">
+                        <button onClick={handleChangePassword} disabled={pwSaving}
+                          className="flex-1 bg-blue-600 hover:bg-blue-700 text-white font-semibold py-2.5 rounded-xl text-sm flex items-center justify-center gap-2 disabled:opacity-60">
+                          <Save size={14} /> {pwSaving ? 'Saxlanılır...' : 'Saxla'}
+                        </button>
+                        <button onClick={() => setPwModal(null)} className="glass px-4 py-2.5 rounded-xl text-gray-300 border border-white/10 text-sm">Ləğv</button>
+                      </div>
+                    </motion.div>
+                  </motion.div>
+                )}
+              </AnimatePresence>
+
+              {/* Confirm Delete User Modal */}
+              <AnimatePresence>
+                {confirmDeleteUser && (
+                  <motion.div initial={{ opacity: 0 }} animate={{ opacity: 1 }} exit={{ opacity: 0 }}
+                    className="fixed inset-0 bg-black/60 backdrop-blur-sm flex items-center justify-center z-50 p-4">
+                    <motion.div initial={{ scale: 0.9 }} animate={{ scale: 1 }} exit={{ scale: 0.9 }}
+                      className="glass-strong rounded-2xl p-6 border border-red-500/20 w-full max-w-md">
+                      <h3 className="font-bold text-white mb-2">İstifadəçini sil?</h3>
+                      <p className="text-gray-400 text-sm mb-5"><span className="text-red-300 font-semibold">{confirmDeleteUser.username}</span> hesabı birdəfəlik silinəcək.</p>
+                      <div className="flex gap-3">
+                        <button onClick={handleDeleteUser}
+                          className="flex-1 bg-red-600 hover:bg-red-700 text-white font-semibold py-2.5 rounded-xl text-sm flex items-center justify-center gap-2">
+                          <Trash2 size={14} /> Sil
+                        </button>
+                        <button onClick={() => setConfirmDeleteUser(null)} className="glass px-4 py-2.5 rounded-xl text-gray-300 border border-white/10 text-sm">Ləğv</button>
+                      </div>
+                    </motion.div>
+                  </motion.div>
+                )}
+              </AnimatePresence>
             </motion.div>
           )}
 
@@ -1007,6 +1152,144 @@ export default function AdminPanel() {
                       </tbody>
                     </table>
                   </div>
+                </div>
+              )}
+            </motion.div>
+          )}
+          {section === 'kalkulyator' && (
+            <motion.div key="kalkulyator" initial={{ opacity: 0, y: 10 }} animate={{ opacity: 1, y: 0 }} exit={{ opacity: 0 }}>
+              <div className="flex items-center justify-between mb-6">
+                <h3 className="font-bold text-white text-lg flex items-center gap-2">
+                  <Calculator size={18} className="text-purple-400" /> Kalkulyator Konfiqurasiyası
+                </h3>
+                <div className="flex gap-2">
+                  <button onClick={loadCalcConfig} className="glass px-3 py-1.5 rounded-xl text-gray-400 border border-white/10 hover:text-white text-xs flex items-center gap-1.5">
+                    <RefreshCw size={13} className={calcLoading ? 'animate-spin' : ''} /> Yenilə
+                  </button>
+                  <button onClick={handleSaveCalcConfig} disabled={calcSaving || !calcConfig}
+                    className="bg-purple-600 hover:bg-purple-700 px-4 py-1.5 rounded-xl text-white text-xs font-semibold flex items-center gap-1.5 disabled:opacity-60">
+                    <Save size={13} /> {calcSaving ? 'Saxlanılır...' : 'Hamısını Saxla'}
+                  </button>
+                </div>
+              </div>
+              {calcMsg && <p className={`text-sm mb-4 ${calcMsg.startsWith('✅') ? 'text-green-400' : 'text-red-400'}`}>{calcMsg}</p>}
+
+              {!calcConfig ? (
+                <div className="text-center py-12 text-gray-400"><Calculator size={40} className="mx-auto mb-3 opacity-30" /><p>Yüklənir...</p></div>
+              ) : (
+                <div className="space-y-3">
+                  <p className="text-xs text-gray-500 mb-4">Hər imtahan növü üçün fənn parametrlərini (sual sayı, əmsallar) redaktə edə bilərsiniz. Saxladıqdan sonra kalkulyator dərhal yeni dəyərlərlə işləyəcək.</p>
+                  {calcConfig.map((ct, idx) => (
+                    <div key={ct.value} className="glass rounded-2xl border border-white/8 overflow-hidden">
+                      <button
+                        className="w-full flex items-center justify-between px-5 py-4 hover:bg-white/5 transition-colors"
+                        onClick={() => setCalcEditIdx(calcEditIdx === idx ? null : idx)}
+                      >
+                        <div className="flex items-center gap-3">
+                          <span className="text-purple-400 font-bold text-sm">{ct.label}</span>
+                          <span className="text-xs text-gray-500 bg-white/5 px-2 py-0.5 rounded-full">{ct.category}</span>
+                          <span className="text-xs text-gray-500">max {ct.maxScore} bal</span>
+                        </div>
+                        <ChevronDown size={16} className={`text-gray-400 transition-transform ${calcEditIdx === idx ? 'rotate-180' : ''}`} />
+                      </button>
+
+                      {calcEditIdx === idx && (
+                        <div className="px-5 pb-5 border-t border-white/5 space-y-4">
+                          {/* Exam type description */}
+                          <div className="pt-4">
+                            <label className="block text-xs font-semibold text-gray-400 mb-1">Açıqlama</label>
+                            <input
+                              className="dim-input text-sm"
+                              value={ct.desc}
+                              onChange={e => {
+                                const cfg = [...calcConfig];
+                                cfg[idx] = { ...cfg[idx], desc: e.target.value };
+                                setCalcConfig(cfg);
+                              }}
+                            />
+                          </div>
+                          <div>
+                            <label className="block text-xs font-semibold text-gray-400 mb-1">Maksimum bal</label>
+                            <input
+                              type="number"
+                              className="dim-input text-sm w-32"
+                              value={ct.maxScore}
+                              onChange={e => {
+                                const cfg = [...calcConfig];
+                                cfg[idx] = { ...cfg[idx], maxScore: Number(e.target.value) };
+                                setCalcConfig(cfg);
+                              }}
+                            />
+                          </div>
+
+                          {/* Subjects */}
+                          <div>
+                            <h4 className="text-xs font-bold text-gray-300 mb-3">Fənnlər</h4>
+                            <div className="space-y-3">
+                              {ct.subjects.map((subj, si) => (
+                                <div key={subj.key} className="glass rounded-xl p-4 border border-white/5">
+                                  <div className="grid grid-cols-2 gap-3 mb-3">
+                                    <div>
+                                      <label className="block text-xs text-gray-500 mb-1">Fənn adı</label>
+                                      <input className="dim-input text-sm" value={subj.label}
+                                        onChange={e => {
+                                          const cfg = [...calcConfig];
+                                          cfg[idx].subjects[si] = { ...subj, label: e.target.value };
+                                          setCalcConfig([...cfg]);
+                                        }}
+                                      />
+                                    </div>
+                                    <div>
+                                      <label className="block text-xs text-gray-500 mb-1">Əmsal (coefficient)</label>
+                                      <input type="number" step="0.5" min="0.5" max="3" className="dim-input text-sm" value={subj.coefficient}
+                                        onChange={e => {
+                                          const cfg = [...calcConfig];
+                                          cfg[idx].subjects[si] = { ...subj, coefficient: Number(e.target.value) };
+                                          setCalcConfig([...cfg]);
+                                        }}
+                                      />
+                                    </div>
+                                  </div>
+                                  <div className="grid grid-cols-3 gap-3">
+                                    <div>
+                                      <label className="block text-xs text-gray-500 mb-1">Qapalı sual (maxQ)</label>
+                                      <input type="number" min="0" className="dim-input text-sm" value={subj.maxQ}
+                                        onChange={e => {
+                                          const cfg = [...calcConfig];
+                                          cfg[idx].subjects[si] = { ...subj, maxQ: Number(e.target.value) };
+                                          setCalcConfig([...cfg]);
+                                        }}
+                                      />
+                                    </div>
+                                    <div>
+                                      <label className="block text-xs text-gray-500 mb-1">Kodlaşdırılan açıq</label>
+                                      <input type="number" min="0" className="dim-input text-sm" value={subj.maxKod}
+                                        onChange={e => {
+                                          const cfg = [...calcConfig];
+                                          cfg[idx].subjects[si] = { ...subj, maxKod: Number(e.target.value) };
+                                          setCalcConfig([...cfg]);
+                                        }}
+                                      />
+                                    </div>
+                                    <div>
+                                      <label className="block text-xs text-gray-500 mb-1">Yazılı açıq</label>
+                                      <input type="number" min="0" className="dim-input text-sm" value={subj.maxYazili}
+                                        onChange={e => {
+                                          const cfg = [...calcConfig];
+                                          cfg[idx].subjects[si] = { ...subj, maxYazili: Number(e.target.value) };
+                                          setCalcConfig([...cfg]);
+                                        }}
+                                      />
+                                    </div>
+                                  </div>
+                                </div>
+                              ))}
+                            </div>
+                          </div>
+                        </div>
+                      )}
+                    </div>
+                  ))}
                 </div>
               )}
             </motion.div>

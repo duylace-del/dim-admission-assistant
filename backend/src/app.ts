@@ -1,7 +1,7 @@
 import express from 'express';
 import cors from 'cors';
 import path from 'path';
-import { initDB } from './db/database';
+import { initDB, getCalcConfig } from './db/database';
 import specialtiesRouter from './routes/specialties';
 import adminRouter from './routes/admin';
 import institutionsRouter from './routes/institutions';
@@ -39,6 +39,7 @@ app.get('/debug', (_, res) => {
   });
 });
 app.get('/api/health', (_, res) => res.json({ status: 'ok', time: new Date().toISOString() }));
+app.get('/api/calculator-config', (_, res) => res.json({ success: true, data: getCalcConfig() }));
 
 initDB();
 

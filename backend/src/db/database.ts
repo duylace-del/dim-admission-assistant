@@ -71,12 +71,33 @@ export interface SubscriberRow {
   createdAt: string;
 }
 
+// ── Calculator Config ────────────────────────────────────────────
+export interface CalcSubjectConfig {
+  key: string;
+  label: string;
+  coefficient: number;
+  maxQ: number;
+  maxKod: number;
+  maxYazili: number;
+  color: string;
+}
+
+export interface CalcTypeConfig {
+  value: string;
+  label: string;
+  desc: string;
+  category: 'attestat' | 'blok' | 'magistr' | 'rezidentura' | 'kollec' | 'subbakalavr';
+  maxScore: number;
+  subjects: CalcSubjectConfig[];
+}
+
 interface DBData {
   specialties: SpecialtyRow[];
   universities: UniversityRow[];
   colleges: CollegeRow[];
   users: UserRow[];
   subscribers: SubscriberRow[];
+  calculatorConfig?: CalcTypeConfig[];
 }
 
 // ── read / write ──────────────────────────────────────────────
@@ -227,6 +248,33 @@ export function createUser(user: UserRow): void {
   writeDB(data);
 }
 
+export function deleteUser(id: string): void {
+  const data = readDB();
+  data.users = data.users.filter(u => u.id !== id);
+  writeDB(data);
+}
+
+export function updateUserPassword(id: string, passwordHash: string): boolean {
+  const data = readDB();
+  const user = data.users.find(u => u.id === id);
+  if (!user) return false;
+  user.passwordHash = passwordHash;
+  writeDB(data);
+  return true;
+}
+
+// ── Calculator Config ────────────────────────────────────────────
+export function getCalcConfig(): CalcTypeConfig[] {
+  const data = readDB();
+  return data.calculatorConfig || DEFAULT_CALC_CONFIG;
+}
+
+export function saveCalcConfig(config: CalcTypeConfig[]): void {
+  const data = readDB();
+  data.calculatorConfig = config;
+  writeDB(data);
+}
+
 // ── subscribers ────────────────────────────────────────────────
 export function getSubscribers(): SubscriberRow[] {
   return readDB().subscribers;
@@ -246,6 +294,113 @@ export function deleteSubscriber(id: string): void {
   data.subscribers = data.subscribers.filter(s => s.id !== id);
   writeDB(data);
 }
+
+// ── Default Calculator Config ─────────────────────────────────
+export const DEFAULT_CALC_CONFIG: CalcTypeConfig[] = [
+  {
+    value: 'attestat9', label: '9-cu sinif Attestat', category: 'attestat', maxScore: 300,
+    desc: 'Buraxılış imtahanı (I mərhələ, 9-illik)',
+    subjects: [
+      { key: 'azDili', label: 'Azərbaycan dili', coefficient: 1, maxQ: 30, maxKod: 0, maxYazili: 3, color: 'blue' },
+      { key: 'riyaz', label: 'Riyaziyyat', coefficient: 1, maxQ: 25, maxKod: 8, maxYazili: 4, color: 'purple' },
+    ],
+  },
+  {
+    value: 'attestat11', label: '11-ci sinif Attestat', category: 'attestat', maxScore: 300,
+    desc: 'Buraxılış imtahanı (I mərhələ, max 300 bal)',
+    subjects: [
+      { key: 'azDili', label: 'Azərbaycan dili', coefficient: 1, maxQ: 30, maxKod: 0, maxYazili: 3, color: 'blue' },
+      { key: 'riyaz', label: 'Riyaziyyat', coefficient: 1, maxQ: 25, maxKod: 8, maxYazili: 4, color: 'purple' },
+      { key: 'xariciDil', label: 'Xarici dil', coefficient: 1, maxQ: 30, maxKod: 0, maxYazili: 3, color: 'green' },
+    ],
+  },
+  {
+    value: 'blok1rk', label: 'I Qrup Blok — RK (Riyaziyyat+Kimya)', category: 'blok', maxScore: 400,
+    desc: 'Riyaziyyat×1.5, Fizika×1.5, Kimya×1',
+    subjects: [
+      { key: 'riyaz', label: 'Riyaziyyat', coefficient: 1.5, maxQ: 22, maxKod: 5, maxYazili: 3, color: 'blue' },
+      { key: 'fizika', label: 'Fizika', coefficient: 1.5, maxQ: 22, maxKod: 5, maxYazili: 3, color: 'purple' },
+      { key: 'kimya', label: 'Kimya', coefficient: 1, maxQ: 22, maxKod: 5, maxYazili: 3, color: 'green' },
+    ],
+  },
+  {
+    value: 'blok1ri', label: 'I Qrup Blok — Ri (Riyaziyyat+İnformatika)', category: 'blok', maxScore: 400,
+    desc: 'Riyaziyyat×1.5, Fizika×1.5, İnformatika×1',
+    subjects: [
+      { key: 'riyaz', label: 'Riyaziyyat', coefficient: 1.5, maxQ: 22, maxKod: 5, maxYazili: 3, color: 'blue' },
+      { key: 'fizika', label: 'Fizika', coefficient: 1.5, maxQ: 22, maxKod: 5, maxYazili: 3, color: 'purple' },
+      { key: 'informatika', label: 'İnformatika', coefficient: 1, maxQ: 22, maxKod: 5, maxYazili: 3, color: 'cyan' },
+    ],
+  },
+  {
+    value: 'blok2', label: 'II Qrup Blok', category: 'blok', maxScore: 400,
+    desc: 'Riyaziyyat×1.5, Coğrafiya×1.5, Tarix×1',
+    subjects: [
+      { key: 'riyaz', label: 'Riyaziyyat', coefficient: 1.5, maxQ: 22, maxKod: 5, maxYazili: 3, color: 'blue' },
+      { key: 'cografiya', label: 'Coğrafiya', coefficient: 1.5, maxQ: 22, maxKod: 5, maxYazili: 3, color: 'green' },
+      { key: 'tarix', label: 'Tarix', coefficient: 1, maxQ: 22, maxKod: 5, maxYazili: 3, color: 'amber' },
+    ],
+  },
+  {
+    value: 'blok3dt', label: 'III Qrup Blok — DT', category: 'blok', maxScore: 400,
+    desc: 'Az.dili×1.5, Tarix×1.5, Ədəbiyyat×1',
+    subjects: [
+      { key: 'azDili', label: 'Azərbaycan dili', coefficient: 1.5, maxQ: 22, maxKod: 0, maxYazili: 3, color: 'blue' },
+      { key: 'tarix', label: 'Tarix', coefficient: 1.5, maxQ: 22, maxKod: 5, maxYazili: 3, color: 'amber' },
+      { key: 'edebiyyat', label: 'Ədəbiyyat', coefficient: 1, maxQ: 22, maxKod: 5, maxYazili: 3, color: 'purple' },
+    ],
+  },
+  {
+    value: 'blok3tc', label: 'III Qrup Blok — TC', category: 'blok', maxScore: 400,
+    desc: 'Az.dili×1.5, Tarix×1.5, Coğrafiya×1',
+    subjects: [
+      { key: 'azDili', label: 'Azərbaycan dili', coefficient: 1.5, maxQ: 22, maxKod: 0, maxYazili: 3, color: 'blue' },
+      { key: 'tarix', label: 'Tarix', coefficient: 1.5, maxQ: 22, maxKod: 5, maxYazili: 3, color: 'amber' },
+      { key: 'cografiya', label: 'Coğrafiya', coefficient: 1, maxQ: 22, maxKod: 5, maxYazili: 3, color: 'green' },
+    ],
+  },
+  {
+    value: 'blok4', label: 'IV Qrup Blok', category: 'blok', maxScore: 400,
+    desc: 'Biologiya×1.5, Kimya×1.5, Fizika×1',
+    subjects: [
+      { key: 'bio', label: 'Biologiya', coefficient: 1.5, maxQ: 22, maxKod: 5, maxYazili: 3, color: 'green' },
+      { key: 'kimya', label: 'Kimya', coefficient: 1.5, maxQ: 22, maxKod: 5, maxYazili: 3, color: 'purple' },
+      { key: 'fizika', label: 'Fizika', coefficient: 1, maxQ: 22, maxKod: 5, maxYazili: 3, color: 'blue' },
+    ],
+  },
+  {
+    value: 'magistr', label: 'Magistratura', category: 'magistr', maxScore: 100,
+    desc: 'Məntiq(50)+İnformatika(25)+Xarici dil(20)+Esse(5) = max 100 bal',
+    subjects: [
+      { key: 'mentiq', label: 'Məntiqi təfəkkür', coefficient: 1, maxQ: 45, maxKod: 0, maxYazili: 5, color: 'blue' },
+      { key: 'informatika', label: 'İnformatika', coefficient: 1, maxQ: 20, maxKod: 0, maxYazili: 5, color: 'purple' },
+      { key: 'xariciDil', label: 'Xarici dil', coefficient: 1, maxQ: 18, maxKod: 0, maxYazili: 2, color: 'green' },
+    ],
+  },
+  {
+    value: 'rezidentura', label: 'Rezidentura', category: 'rezidentura', maxScore: 200,
+    desc: 'I mərhələ (Baza, max 100) + II mərhələ (İxtisas, max 100)',
+    subjects: [
+      { key: 'baza', label: 'I Mərhələ (Baza fənnləri)', coefficient: 1, maxQ: 100, maxKod: 0, maxYazili: 0, color: 'blue' },
+      { key: 'ixtisas', label: 'II Mərhələ (İxtisas fənnləri)', coefficient: 1, maxQ: 100, maxKod: 0, maxYazili: 0, color: 'purple' },
+    ],
+  },
+  {
+    value: 'kollec', label: 'Kollec (11-illik baza)', category: 'kollec', maxScore: 30,
+    desc: 'Az.dili imtahanı, max 30 sual',
+    subjects: [
+      { key: 'azDili', label: 'Azərbaycan dili', coefficient: 1, maxQ: 27, maxKod: 0, maxYazili: 3, color: 'blue' },
+    ],
+  },
+  {
+    value: 'subbakalavr', label: 'Subbakalavr', category: 'subbakalavr', maxScore: 300,
+    desc: 'Buraxılış imtahanı nəticəsi ilə',
+    subjects: [
+      { key: 'azDili', label: 'Azərbaycan dili', coefficient: 1, maxQ: 30, maxKod: 0, maxYazili: 3, color: 'blue' },
+      { key: 'riyaz', label: 'Riyaziyyat', coefficient: 1, maxQ: 25, maxKod: 8, maxYazili: 4, color: 'purple' },
+    ],
+  },
+];
 
 // ── seed ──────────────────────────────────────────────────────
 export function initDB(): void {

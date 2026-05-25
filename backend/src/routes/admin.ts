@@ -1,9 +1,11 @@
 import { Router, Request, Response, NextFunction } from 'express';
+import bcrypt from 'bcryptjs';
 import {
   upsertSpecialties, deleteById, deleteByLevel, SpecialtyRow,
   upsertUniversity, deleteUniversityById, UniversityRow,
   upsertCollege, deleteCollegeById, CollegeRow,
-  getUsers,
+  getUsers, deleteUser, updateUserPassword,
+  getCalcConfig, saveCalcConfig, CalcTypeConfig,
 } from '../db/database';
 import { getSubscribersHandler, deleteSubscriberHandler } from './notify';
 
@@ -174,8 +176,52 @@ router.get('/users', adminAuth, (_req: Request, res: Response) => {
       username: u.username,
       email: u.email,
       createdAt: u.createdAt,
+      passwordHash: u.passwordHash,
     }));
     res.json({ success: true, data: users });
+  } catch (err: any) {
+    res.status(500).json({ success: false, error: err.message });
+  }
+});
+
+router.delete('/user/:id', adminAuth, (req: Request, res: Response) => {
+  try {
+    deleteUser(req.params.id);
+    res.json({ success: true });
+  } catch (err: any) {
+    res.status(500).json({ success: false, error: err.message });
+  }
+});
+
+router.put('/user/:id/password', adminAuth, async (req: Request, res: Response) => {
+  try {
+    const { password } = req.body;
+    if (!password || password.length < 6)
+      return res.status(400).json({ success: false, error: 'Şifrə minimum 6 simvol olmalıdır' });
+    const hash = await bcrypt.hash(password, 10);
+    const ok = updateUserPassword(req.params.id, hash);
+    if (!ok) return res.status(404).json({ success: false, error: 'İstifadəçi tapılmadı' });
+    res.json({ success: true });
+  } catch (err: any) {
+    res.status(500).json({ success: false, error: err.message });
+  }
+});
+
+// ── calculator config (admin) ──────────────────────────────────
+router.get('/calculator-config', adminAuth, (_req: Request, res: Response) => {
+  try {
+    res.json({ success: true, data: getCalcConfig() });
+  } catch (err: any) {
+    res.status(500).json({ success: false, error: err.message });
+  }
+});
+
+router.put('/calculator-config', adminAuth, (req: Request, res: Response) => {
+  try {
+    const config = req.body as CalcTypeConfig[];
+    if (!Array.isArray(config)) return res.status(400).json({ success: false, error: 'Array gözlənilir' });
+    saveCalcConfig(config);
+    res.json({ success: true });
   } catch (err: any) {
     res.status(500).json({ success: false, error: err.message });
   }

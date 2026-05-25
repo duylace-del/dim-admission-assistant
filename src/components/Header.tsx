@@ -1,6 +1,6 @@
 import { useState, useEffect } from 'react';
 import { Link, useLocation } from 'react-router-dom';
-import { GraduationCap, Menu, X, Calculator, BookOpen, Building2, School, Calendar, Settings, Heart, Search, Bell, LogOut, BarChart2 } from 'lucide-react';
+import { GraduationCap, Menu, X, Calculator, BookOpen, Building2, School, Calendar, Heart, Search, Bell, LogOut, BarChart2 } from 'lucide-react';
 import { useLang } from '../context/LanguageContext';
 import { useFavorites } from '../context/FavoritesContext';
 import { useComparison } from '../context/ComparisonContext';

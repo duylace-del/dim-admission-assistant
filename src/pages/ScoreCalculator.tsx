@@ -1,7 +1,8 @@
-import { useState } from 'react';
+import { useState, useEffect } from 'react';
 import { motion, AnimatePresence } from 'framer-motion';
 import { Calculator, ChevronDown, Info, RotateCcw } from 'lucide-react';
 import { useLang } from '../context/LanguageContext';
+import { fetchCalculatorConfig, CalcTypeConfig } from '../lib/api';
 
 type CalcType = 'attestat9' | 'attestat11' | 'blok1rk' | 'blok1ri' | 'blok2' | 'blok3dt' | 'blok3tc' | 'blok4' | 'magistr' | 'rezidentura' | 'kollec' | 'subbakalavr';
 
@@ -215,9 +216,24 @@ export default function ScoreCalculator() {
   const [esse, setEsse] = useState('');
   const [score, setScore] = useState<number | null>(null);
   const [showInfo, setShowInfo] = useState(false);
+  const [apiConfig, setApiConfig] = useState<CalcTypeConfig[] | null>(null);
 
-  const subjects = getSubjects(calcType);
-  const selected = calcTypes.find(c => c.value === calcType)!;
+  useEffect(() => {
+    fetchCalculatorConfig()
+      .then(cfg => setApiConfig(cfg))
+      .catch(() => {}); // fallback to hardcoded
+  }, []);
+
+  // Use API config if available, otherwise fall back to hardcoded
+  const activeCalcTypes = apiConfig
+    ? apiConfig.map(c => ({ value: c.value as CalcType, label: c.label, desc: c.desc }))
+    : calcTypes;
+
+  const subjects = apiConfig
+    ? (apiConfig.find(c => c.value === calcType)?.subjects || getSubjects(calcType))
+    : getSubjects(calcType);
+
+  const selected = activeCalcTypes.find(c => c.value === calcType) || activeCalcTypes[0];
 
   const isAttestat = calcType === 'attestat9' || calcType === 'attestat11' || calcType === 'subbakalavr';
   const isBlok = calcType.startsWith('blok');
@@ -253,7 +269,9 @@ export default function ScoreCalculator() {
     setScore(null);
   };
 
-  const maxScore = isAttestat ? 300 : isBlok ? 400 : isMagistr ? 100 : isRezidentura ? 200 : 30;
+  const maxScore = apiConfig
+    ? (apiConfig.find(c => c.value === calcType)?.maxScore ?? (isAttestat ? 300 : isBlok ? 400 : isMagistr ? 100 : isRezidentura ? 200 : 30))
+    : (isAttestat ? 300 : isBlok ? 400 : isMagistr ? 100 : isRezidentura ? 200 : 30);
   const scorePercent = score !== null ? (score / maxScore) * 100 : 0;
   const scoreColor = scorePercent >= 70 ? 'text-green-400' : scorePercent >= 40 ? 'text-amber-400' : 'text-red-400';
 
@@ -291,7 +309,7 @@ export default function ScoreCalculator() {
               onChange={e => { setCalcType(e.target.value as CalcType); handleReset(); }}
               className="dim-input pr-10 appearance-none cursor-pointer font-medium"
             >
-              {calcTypes.map(c => (
+              {activeCalcTypes.map(c => (
                 <option key={c.value} value={c.value}>{c.label}</option>
               ))}
             </select>
