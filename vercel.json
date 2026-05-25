@@ -1,10 +1,1 @@
-{
-  "functions": {
-    "api/[...path].ts": {
-      "includeFiles": "backend/dim-data.json"
-    }
-  },
-  "rewrites": [
-    { "source": "/((?!api/).*)", "destination": "/index.html" }
-  ]
-}
+{}
